@@ -1,16 +1,24 @@
-.. title: Lost.RE launched in private beta
-.. slug: lostre-private-beta
-.. date: 2016-08-24 18:22:43 UTC+02:00
-.. tags: lost.re, news
+.. title: Lancement de rendre.fr
+.. slug: lancement-rendre-fr
+.. date: 2017-02-01 12:22:43 UTC+01:00
+.. tags: news
 .. author: Mathieu Clabaut
-.. link: https://lost.re
-.. description: lost.re launched in private beta
-.. category: lost.re
+.. link: https://rendre.fr
+.. description: Lancement de rendre.fr
+.. category: 
+
+
+
+Certains objets nous sont précieux.
+Non pas que leur valeur soit élevée, mais ils sont peut-être porteurs d'un
+souvenir qui nous est cher, ou tout simplement, nous sont indispensables dans
+notre quotidien —  *jeu de clef, papiers, carte bleue, téléphone, sac à main*,
+mais aussi *doudou, manteau et valises*…
 
 .. image:: /images/lostre.png
-   :class: "thumbnail img-responsive"
-   :align: center
-   :alt: lost.re image
+     :class: "thumbnail img-responsive"
+     :align: center
+     :alt: lost.re image
 
-Our first new service is now being launched as a private beta.
-
+Comment
+=======

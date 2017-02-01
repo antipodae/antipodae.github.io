@@ -13,7 +13,11 @@ p, li {text-align:justify;
     -o-hyphens: auto;
     hyphens: auto;
    /* font-family: 'Slabo 27px', serif;*/
-   font-size:18px;*/
+   font-size:120%;
+}
+.post-text{
+   max-width: 56em;
+   margin: 6em 3em 0 3em;
 }
 .lead{
    font-weight:200;
@@ -28,7 +32,6 @@ h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h
 }
 
 
-/*
 p:first-child:first-line, 
 .ad:first-child + p:first-line
 {
@@ -37,7 +40,6 @@ p:first-child:first-line,
     font-size:0.95em;
     letter-spacing:1px;
 }
-*/
 
 p:first-child:first-letter, 
 .ad:first-child + p:first-letter
@@ -49,7 +51,7 @@ p:first-child:first-letter,
     font-weight:400;
     font-size:3em;
     float:left;
-    margin:0.13em 0.2em 0 0;
+    margin:0.13em 0 0 0;
     line-height:0.7;
 }
 

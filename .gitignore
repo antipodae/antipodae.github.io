@@ -4,3 +4,4 @@ _site/
 .doit.db
 cache/
 output/
+*.swp
