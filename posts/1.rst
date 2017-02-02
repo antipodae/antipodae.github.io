@@ -13,7 +13,7 @@ Certains objets nous sont précieux.
 Non pas que leur valeur soit élevée, mais ils sont peut-être porteurs d'un
 souvenir qui nous est cher, ou tout simplement, nous sont indispensables dans
 notre quotidien —  *jeu de clef, papiers, carte bleue, téléphone, sac à main*,
-mais aussi *doudou, manteau et valises*…
+mais aussi *doudou, manteau, valises*…
 
 .. image:: /images/lostre.png
      :class: "thumbnail img-responsive"
@@ -22,3 +22,5 @@ mais aussi *doudou, manteau et valises*…
 
 Comment
 =======
+
+
