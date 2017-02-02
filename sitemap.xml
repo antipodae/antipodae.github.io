@@ -14,16 +14,12 @@
   <lastmod>2017-02-01T14:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://antipodae.fr/2016/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
- </url>
- <url>
   <loc>https://antipodae.fr/2017/</loc>
   <lastmod>2017-02-01T13:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/archive.html</loc>
-  <lastmod>2017-02-02T22:10:00Z</lastmod>
+  <lastmod>2017-02-02T22:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/authors/</loc>
@@ -39,15 +35,7 @@
  </url>
  <url>
   <loc>https://antipodae.fr/categories/</loc>
-  <lastmod>2017-02-01T14:14:00Z</lastmod>
- </url>
- <url>
-  <loc>https://antipodae.fr/categories/cat_lostre/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
- </url>
- <url>
-  <loc>https://antipodae.fr/categories/lostre/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-02T22:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/categories/news/</loc>
@@ -70,16 +58,12 @@
   <lastmod>2017-02-01T14:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://antipodae.fr/fr/2016/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
- </url>
- <url>
   <loc>https://antipodae.fr/fr/2017/</loc>
   <lastmod>2017-02-01T13:34:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/fr/archive.html</loc>
-  <lastmod>2017-02-02T22:10:00Z</lastmod>
+  <lastmod>2017-02-02T22:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/fr/authors/</loc>
@@ -95,15 +79,7 @@
  </url>
  <url>
   <loc>https://antipodae.fr/fr/categories/</loc>
-  <lastmod>2017-02-01T14:14:00Z</lastmod>
- </url>
- <url>
-  <loc>https://antipodae.fr/fr/categories/cat_lostre/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
- </url>
- <url>
-  <loc>https://antipodae.fr/fr/categories/lostre/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-02T22:19:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/fr/categories/news/</loc>
@@ -131,13 +107,8 @@
   <xhtml:link rel="alternate" hreflang="en" href="https://antipodae.fr/posts/lancement-rendre-fr/" />
  </url>
  <url>
-  <loc>https://antipodae.fr/fr/posts/lostre-private-beta/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
- </url>
- <url>
   <loc>https://antipodae.fr/fr/posts/new-in-nikola-v6-typography/</loc>
   <lastmod>2017-02-01T14:14:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://antipodae.fr/posts/new-in-nikola-v6-typography/" />
  </url>
  <url>
   <loc>https://antipodae.fr/fr/stories/about-nikola/</loc>
@@ -232,15 +203,11 @@
  </url>
  <url>
   <loc>https://antipodae.fr/listings/hello.py.html</loc>
-  <lastmod>2017-02-02T22:10:00Z</lastmod>
+  <lastmod>2017-02-02T22:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/posts/lancement-rendre-fr/</loc>
   <lastmod>2017-02-01T13:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://antipodae.fr/posts/lostre-private-beta/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://antipodae.fr/posts/new-in-nikola-v6-typography/</loc>
