@@ -973,7 +973,7 @@ PRETTY_URLS = True
 # like this:
 # EXTRA_HEAD_DATA = """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">"""
 # USE_KATEX = False
-EXTRA_HEAD_DATA="""<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">"""
+EXTRA_HEAD_DATA="""<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:200,400,700" rel="stylesheet">"""
 
 # Do you want to customize the nbconversion of your IPython notebook?
 # IPYNB_CONFIG = {}
