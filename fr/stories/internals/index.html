@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="fr">
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nikola Internals | Antipodae</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#5670d4">
-<meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (fr)" href="../../rss.xml">
 <link rel="canonical" href="https://antipodae.fr/fr/stories/internals/">
-<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="The Nikola Team">
+<!--[if lt IE 9]>
+            <script src="../../../assets/js/html5shiv.min.js"></script>
+            <script src="../../../assets/js/respond.min.js"></script>
+        <![endif]--><link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CRaleway:200,400,700" rel="stylesheet">
+<meta name="author" content="The Nikola Team">
 <meta property="og:site_name" content="Antipodae">
 <meta property="og:title" content="Nikola Internals">
 <meta property="og:url" content="https://antipodae.fr/fr/stories/internals/">
 <meta property="og:description" content="Nikola Internals
-When trying to guide someone into adding a feature in Nikola, it hit me that
-while the way it's structured makes sense to me it is far from obvious.
-So, this is a short document expla">
+When trying to guide so­meone in­to ad­ding a fea­ture in Ni­ko­la, it hit me that
+w­hile the way it's struc­tu­red makes sense  to me  it is far from ob­vious. 
+ So, this is a short ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2012-03-30T23:00:00-03:00">
 <link rel="alternate" hreflang="en" href="../../../stories/internals/">
@@ -27,196 +32,231 @@ So, this is a short document expla">
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-default navbar-static-top"><div class="container">
-<!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://antipodae.fr/fr/">
-                <img src="images/logo150.png" alt="Antipodae" id="logo"></a>
+<nav class="navbar  header-panel shadow-z-3" role="navigation"><div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-3">
+            <h1 class="title-blog">
+                <a href="https://antipodae.fr/fr/">
+                        <img src="images/logo150.png" alt="Antipodae" id="logo"></a>
+            </h1>
+          </div>
         </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li>
-<a href="../../archive.html">Archives</a>
-                </li>
-<li>
-<a href="../../categories/">Étiquettes</a>
-                </li>
-<li>
-<a href="../../rss.xml">Flux RSS</a>
+      </div>
+<!-- /.container-fluid -->
+</nav><div class="container-fluid main" id="content" role="main">
+        <div class="row">
+            <nav class="col-xs-3 menu"><ul>
+<li class="withripple"><a href="../../archive.html">Archives</a></li>
+                <li class="withripple"><a href="../../categories/">Étiquettes</a></li>
+                <li class="withripple"><a href="../../rss.xml">Flux&nbsp;RSS</a></li>
 
-                
-            </li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-            </li>
+                    
+                </ul>
+<ul class="nav navbar-nav">
+<li>            </li>
 <li><a href="https://antipodae.fr/" rel="alternate" hreflang="en">English</a></li>
 
-                
                     
-    <li>
-    <a href="index.txt" id="sourcelink">Source</a>
-    </li>
-
-                
-            </ul>
-</div>
-<!-- /.navbar-collapse -->
-    </div>
-<!-- /.container -->
-</nav><!-- End of Menubar --><div class="container" id="content" role="main">
-    <div class="body-content">
-        <!--Body content-->
-        <div class="row">
-            
-            
-<article class="post- storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Nikola Internals</a></h1>
-
-        
-
-    </header><div class="e-content entry-content" itemprop="articleBody text">
+                </ul></nav><div class="posts-material col-xs-9">
+                <div class="col-xs-12 col-md-11 content-material">
+<article class="post- storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Nikola&nbsp;Internals</a></h1>
+<hr></header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <div class="section" id="nikola-internals">
-<h2>Nikola Internals</h2>
-<p class="lead">When trying to guide someone into adding a feature in Nikola, it hit me that
-while the way it's structured makes sense <strong>to me</strong> it is far from obvious.</p>
-<p>So, this is a short document explaining what each piece of Nikola does and
-how it all fits together.</p>
-<dl class="docutils">
-<dt>Nikola is a Pile of Plugins</dt>
+<h2>Nikola&nbsp;Internals</h2>
+<p class="lead">When trying to guide so­meone in­to ad­ding a fea­ture in Ni­ko­la, it hit me that
+w­hile the way it&#8217;s struc­tu­red makes sense  <strong>to me</strong>  it is far from&nbsp;ob­vious.</p> 
+ <p>So, this is a short do­cu­ment ex­plai­ning what each piece of Ni­ko­la does and
+­how it all fits&nbsp;to­ge­ther.</p> 
+ <dl class="docutils">
+<dt>Nikola is a Pile of&nbsp;Plugins</dt>
 <dd>
-<p class="first">Most of Nikola is implemented as plugins using <a class="reference external" href="http://yapsy.sourceforge.net/">Yapsy</a>.
-You can ignore that they are plugins and just think of them as regular python
-modules and packages with a funny little <tt class="docutils literal">.plugin</tt> file next to them.</p>
-<p>So, 90% of the time, what you want to do is either write a new plugin or extend
-an existing one.</p>
-<p>There are several kinds of plugins, all implementing interfaces defined in
-<tt class="docutils literal">nikola/plugin_categories.py</tt> and documented in
-<a class="reference external" href="https://getnikola.com/extending.html">Extending Nikola</a></p>
-<p class="last">If your plugin has a dependency, please make sure it doesn't make Nikola
-throw an exception when the dependency is missing. Try to fail gracefully
-with an informative message.</p>
-</dd>
-<dt>Commands are plugins</dt>
+<p class="first">Most of Ni­ko­la is im­ple­men­ted as plu­gins using  <a class="reference external" href="http://yapsy.sourceforge.net/">Yap­sy</a>.
+You can ignore that they are plu­gins and just think of them as re­gu­lar py­thon
+­mo­dules and pa­ckages with a fun­ny lit­tle  <tt class="docutils literal">.plu­gin</tt>  file next to&nbsp;them.</p> 
+ <p>So, 90% of the ti­me, what you want to do is ei­ther write a new plu­gin or ex­tend
+an exis­ting&nbsp;one.</p> 
+ <p>There are se­ve­ral kinds of plu­gins, all im­ple­men­ting in­ter­faces de­fi­ned in
+ <tt class="docutils literal">ni­ko­la/­plu­gin_­ca­te­go­ries.­py</tt>  and do­cu­men­ted in
+ <a class="reference external" href="https://getnikola.com/extending.html">Ex­ten­ding&nbsp;Ni­ko­la</a></p> 
+ <p class="last">If your plu­gin has a de­pen­den­cy, please make sure it doesn&#8217;t make Ni­ko­la
+­throw an ex­cep­tion when the de­pen­den­cy is mis­sing. Try to fail gra­ce­ful­ly
+­with an in­for­ma­tive&nbsp;mes­sage.</p> 
+ </dd>
+<dt>Commands are&nbsp;plugins</dt>
 <dd>When you use <tt class="docutils literal">nikola foo</tt> you are using the plugin <tt class="docutils literal">command/foo</tt>. Those are
-used to extend Nikola's command line. Their interface is defined in the <tt class="docutils literal">Command</tt>
-class. They take options and arguments and do whatever you want, so go wild.</dd>
-<dt>The <tt class="docutils literal">build</tt> command is special</dt>
+used to extend Nikola&#8217;s command line. Their interface is defined in the <tt class="docutils literal">Command</tt>
+class. They take options and arguments and do whatever you want, so go&nbsp;wild.</dd>
+<dt>The <tt class="docutils literal">build</tt> command is&nbsp;special</dt>
 <dd>The <tt class="docutils literal">build</tt> command triggers a whole lot of things, and is the core of Nikola
-because it's the one that you use to build sites. So it deserves its own section.</dd>
+because it&#8217;s the one that you use to build sites. So it deserves its own&nbsp;section.</dd>
 </dl>
 <div class="section" id="the-build-command">
-<h3>The Build Command</h3>
-<p>Nikola's goal is similar, deep at heart, to a Makefile. Take sources, compile them
-into something, in this case a website. Instead of a Makefile, Nikola uses
-<a class="reference external" href="http://pydoit.org">doit</a></p>
-<p>Doit has the concept of "tasks". The 1 minute summary of tasks is that they have:</p>
-<dl class="docutils">
+<h3>The Build&nbsp;Command</h3>
+<p>Ni­ko­la&#8217;s goal is si­mi­lar, deep at heart, to a Ma­ke­file. Take sour­ces, com­pile them
+in­to so­me­thing, in this case a web­site. Ins­tead of a Ma­ke­fi­le, Ni­ko­la uses
+ <a class="reference external" href="http://pydoit.org">doit</a></p> 
+ <p>Doit has the concept of &#8220;tasks&#8221;. The 1 mi­nute sum­ma­ry of tasks is that they&nbsp;ha­ve:</p> 
+ <dl class="docutils">
 <dt>actions</dt>
-<dd>What the task <strong>does</strong>. For example, convert a markdown document into HTML.</dd>
+<dd>What the task <strong>does</strong>. For example, convert a markdown document into&nbsp;HTML.</dd>
 <dt>dependencies</dt>
 <dd>If this file changes, then we need to redo the actions. If this configuration
-option changes, redo it, etc.</dd>
+option changes, redo it,&nbsp;etc.</dd>
 <dt>targets</dt>
-<dd>Files that the action generates. No two actions can have the same targets.</dd>
+<dd>Files that the action generates. No two actions can have the same&nbsp;targets.</dd>
 <dt>basename:name</dt>
-<dd>Each task is identified by either a name or a basename:name pair.</dd>
+<dd>Each task is identified by either a name or a basename:name&nbsp;pair.</dd>
 </dl>
 <div class="sidebar">
-<p class="first sidebar-title">More about tasks</p>
-<p class="last">If you ever want to do your own tasks, you really should read the doit
-<a class="reference external" href="http://pydoit.org/tasks.html">documentation on tasks</a></p>
-</div>
-<p>So, what Nikola does, when you use the build command, is to read the
-configuration <tt class="docutils literal">conf.py</tt> from the current folder, instantiate
-the <tt class="docutils literal">Nikola</tt> class, and have it generate a whole list of tasks for doit
-to process. Then doit will decide which tasks need doing, and do them, in
-the right order.</p>
-<p>The place where the tasks are generated is in <tt class="docutils literal">Nikola.gen_tasks</tt>, which collects tasks
-from all the plugins inheriting <tt class="docutils literal">BaseTask</tt>, massages them a bit, then passes them
-to doit.</p>
-<p>So, if you want things to happen on <tt class="docutils literal">build</tt> you want to create a Task plugin, or extend
-one of the existing ones.</p>
-<div class="sidebar">
-<p class="first sidebar-title">Tests</p>
-<p class="last">While Nikola is not a hardcore TDD project, we like tests. So, please add them if you can.
-You can do doctests, you can do unit tests, you can do integration tests. There is support
-for all of them.</p>
-</div>
+<p class="first sidebar-title">More about&nbsp;tasks</p> 
+ <p class="last">If you ever want to do your own tasks, you real­ly should read the doit
+ <a class="reference external" href="http://pydoit.org/tasks.html">do­cu­men­ta­tion on&nbsp;tasks</a></p> 
+ </div>
+<p>So, what Ni­ko­la does, when you use the build com­mand, is to read the
+­con­fi­gu­ra­tion  <tt class="docutils literal">conf.­py</tt>  from the cur­rent fol­der, ins­tan­tia­te
+the  <tt class="docutils literal">Ni­ko­la</tt>  class, and have it ge­ne­rate a whole list of tasks for doit
+­to pro­cess. Then doit will de­cide which tasks need doing, and do them, in
+the right&nbsp;or­der.</p> 
+ <p>The place where the tasks are ge­ne­ra­ted is in  <tt class="docutils literal">Ni­ko­la.­gen_­tasks</tt>, which col­lects tasks
+­from all the plu­gins in­he­ri­ting  <tt class="docutils literal">Ba­se­Task</tt>, mas­sages them a bit, then passes them
+­to&nbsp;doit.</p> 
+ <p>So, if you want things to hap­pen on  <tt class="docutils literal">build</tt>  you want to create a Task plu­gin, or ex­tend
+one of the exis­ting&nbsp;ones.</p> 
+ <div class="sidebar">
+<p class="first sidebar-title">Tests</p> 
+ <p class="last">While Ni­ko­la is not a hard­core TDD pro­ject, we like tests. So, please add them if you can.
+You can do doc­tests, you can do unit tests, you can do in­te­gra­tion tests. There is sup­port
+­for all of&nbsp;them.</p> 
+ </div>
 </div>
 <div class="section" id="posts-and-stories">
-<h3>Posts and Stories</h3>
-<p>Nikola has a concept of posts and stories. Both are more or less the same thing, except
-posts are added into RSS feeds and stories are not. All of them are in a list called
-"the timeline" formed by objects of class <tt class="docutils literal">Post</tt>.</p>
-<p>When you are creating a task that needs the list of posts and/or stories (for example,
-the RSS creation plugin) on task execution time, your plugin should call <tt class="docutils literal">self.site.scan_posts()</tt>
-in <tt class="docutils literal">gen_tasks</tt> to ensure the timeline is created and available in
-<tt class="docutils literal">self.site.timeline</tt>. You should not modify the timeline, because it will cause consistency issues.</p>
-<div class="sidebar">
-<p class="first sidebar-title">scan_posts</p>
-<p class="last">The <tt class="docutils literal">Nikola.scan_posts</tt> function can be used in plugins to force the
-timeline creation, for example, while creating the tasks.</p>
-</div>
-<p>Your plugin can use the timeline to generate "stuff" (technical term). For example,
-Nikola comes with plugins that use the timeline to create a website (surprised?).</p>
-<p>The workflow included with nikola is as follows (incomplete!):</p>
-<ol class="arabic simple">
-<li>The post is assigned a compiler based on its extension and the <tt class="docutils literal">COMPILERS</tt> option.</li>
-<li>The compiler is applied to the post data and a "HTML fragment" is produced. That
-fragment is stored in a cache (the <tt class="docutils literal">posts</tt> plugin).</li>
-<li>The configured theme has templates (and a template engine), which are applied to the post's
-HTML fragment and metadata (the <tt class="docutils literal">pages</tt> plugin).</li>
-<li>The original sources for the post are copied to some accessible place (the <tt class="docutils literal">sources</tt> plugin).</li>
-<li>If the post is tagged, some pages and RSS feeds for each tag are updated (the <tt class="docutils literal">tags</tt> plugin).</li>
-<li>If the post is new, it's included in the blog's RSS feed (the <tt class="docutils literal">rss</tt> plugin).</li>
-<li>The post is added in the right place in the index pages for the blog (the <tt class="docutils literal">indexes</tt> plugin).</li>
-<li>CSS/JS/Images for the theme are put in the right places (the <tt class="docutils literal">copy_assets</tt> and <tt class="docutils literal">bundles</tt> plugins).</li>
-<li>A File describing the whole site is created (the <tt class="docutils literal">sitemap</tt> plugin).</li>
-</ol>
-<p>You can add whatever you want to that list: just create a plugin for it.</p>
-<p>You can also expand Nikola's capabilities at several points:</p>
-<dl class="docutils">
+<h3>Posts and&nbsp;Stories</h3>
+<p>Ni­ko­la has a concept of posts and sto­ries. Both are more or less the same thing, ex­cept
+­posts are ad­ded in­to RSS feeds and sto­ries are not. All of them are in a list cal­led
+&#8220;the ti­me­li­ne&#8221; for­med by ob­jects of class  <tt class="docutils literal">Post</tt>.</p> 
+ <p>When you are crea­ting a task that needs the list of posts and/or sto­ries (for exam­ple,
+the RSS crea­tion plu­gin) on task exe­cu­tion ti­me, your plu­gin should call  <tt class="docutils literal">self.­site.scan_­posts()</tt> 
+in  <tt class="docutils literal">gen_­tasks</tt>  to en­sure the ti­me­line is crea­ted and avai­lable in
+ <tt class="docutils literal">self.­site.­ti­me­line</tt>. You should not mo­di­fy the ti­me­li­ne, be­cause it will cause consis­ten­cy&nbsp;is­sues.</p> 
+ <div class="sidebar">
+<p class="first sidebar-title">scan_­posts</p> 
+ <p class="last">The  <tt class="docutils literal">Ni­ko­la.scan_­posts</tt>  func­tion can be used in plu­gins to force the
+­ti­me­line crea­tion, for exam­ple, while crea­ting the&nbsp;tasks.</p> 
+ </div>
+<p>Your plu­gin can use the ti­me­line to ge­ne­rate &#8220;s­tuff&#8221; (tech­ni­cal term). For exam­ple,
+­Ni­ko­la comes with plu­gins that use the ti­me­line to create a web­site&nbsp;(sur­pri­sed?).</p> 
+ <p>The work­flow in­clu­ded with ni­ko­la is as fol­lows&nbsp;(in­com­ple­te!):</p> 
+ <ol class="arabic simple">
+<li>The post is as­si­gned a com­pi­ler ba­sed on its ex­ten­sion and the  <tt class="docutils literal">COM­PI­LERS</tt>  op­tion.</li> 
+ <li>The com­pi­ler is ap­plied to the post da­ta and a &#8220;HTML frag­ment&#8221; is pro­du­ced. That
+­frag­ment is sto­red in a cache (the  <tt class="docutils literal">posts</tt>  plu­gin).</li> 
+ <li>The confi­gu­red theme has tem­plates (and a tem­plate en­gi­ne), which are ap­plied to the post&#8217;s
+HTML frag­ment and me­ta­da­ta (the  <tt class="docutils literal">pages</tt>  plu­gin).</li> 
+ <li>The ori­gi­nal sources for the post are co­pied to some ac­ces­sible place (the  <tt class="docutils literal">sources</tt>  plu­gin).</li> 
+ <li>If the post is tag­ged, some pages and RSS feeds for each tag are up­da­ted (the  <tt class="docutils literal">tags</tt>  plu­gin).</li> 
+ <li>If the post is new, it&#8217;s in­clu­ded in the blog&#8217;s RSS feed (the  <tt class="docutils literal">rss</tt>  plu­gin).</li> 
+ <li>The post is ad­ded in the right place in the in­dex pages for the blog (the  <tt class="docutils literal">in­dexes</tt>  plu­gin).</li> 
+ <li>CSS/­JS/I­mages for the theme are put in the right places (the  <tt class="docutils literal">co­py_as­sets</tt>  and  <tt class="docutils literal">bundles</tt>  plu­gins).</li> 
+ <li>A File des­cri­bing the whole site is crea­ted (the  <tt class="docutils literal">si­te­map</tt>  plu­gin).</li> 
+ </ol>
+<p>You can add wha­te­ver you want to that list: just create a plu­gin for&nbsp;it.</p> 
+ <p>You can al­so ex­pand Ni­ko­la&#8217;s ca­pa­bi­li­ties at se­ve­ral&nbsp;points:</p> 
+ <dl class="docutils">
 <dt>compilers</dt>
 <dd>Nikola supports a variety of markups. If you want to add another one, you need to create
 a <tt class="docutils literal">Compiler</tt> plugin.</dd>
 <dt>templates</dt>
-<dd>Nikola's themes can use Jinja2 or Mako templates. If you prefer another template system,
+<dd>Nikola&#8217;s themes can use Jinja2 or Mako templates. If you prefer another template system,
 you have to create a <tt class="docutils literal">TemplateSystem</tt> plugin.</dd>
 <dt>themes</dt>
-<dd>To change how the generated site looks, you can create custom themes.</dd>
+<dd>To change how the generated site looks, you can create custom&nbsp;themes.</dd>
 </dl>
-<p>And of course, you can also replace or extend each of the existing plugins.</p>
-</div>
+<p>And of cour­se, you can al­so re­place or ex­tend each of the exis­ting&nbsp;plu­gins.</p> 
+ </div>
 </div>
 <div class="section" id="nikola-architecture">
-<h2>Nikola Architecture</h2>
+<h2>Nikola&nbsp;Architecture</h2>
 <a class="reference external image-reference" href="https://getnikola.com/images/architecture.png"><img alt="https://getnikola.com/images/architecture.thumbnail.png" src="https://getnikola.com/images/architecture.thumbnail.png"></a>
 </div>
 </div>
     </div>
     
-
 </article>
 </div>
-        <!--End of body content-->
+            </div>
+        </div>
+        <button class="btn btn-fab btn-raised btn-material-green btn-footer" data-toggle="modal" data-target="#footer-dialog">
+            <i class="mdi-communication-message"></i>
+        </button>
+        <div id="footer-dialog" class="modal fade" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Antipodae&nbsp;credits</h4>
+ 
+              </div>
+              <div class="modal-body">
+                    Contents © 2017         <a href="mailto:mathieu@antipodae.fr">Mathieu Clabaut</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-dismiss="modal">Ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="source-button">
+    <a class="btn btn-fab btn-raised btn-material-indigo" target="_blank" href="index.txt" title="Source">
+        <i class="mdi-file-cloud-download"></i>
+    </a>
 
-        <footer id="footer">
-            Contents © 2017         <a href="mailto:mathieu@antipodae.fr">Mathieu Clabaut</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-            
-        </footer>
+        </div>
+        <div class="kc_fab_wrapper"></div>
 </div>
-</div>
 
+            <script src="../../../assets/js/all-nocdn.js"></script><script src="../../../assets/js/colorbox-i18n/jquery.colorbox-fr.js"></script><script>
+                var links = [
+                        {
+                            "bgcolor": "#F44336",
+                            "icon": "<i class='fa fa-share-square-o'></i>",
+                        },
+                        {
+                            "url": "https://twitter.com/",
+                            "bgcolor": "#55ACEE",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-twitter'></i>",
+                            "target": "_blank",
+                        },
+                        {
+                            "url": "https://github.com/",
+                            "bgcolor": "#666666",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-github-square'></i>",
+                            "target": "_blank",
+                        },
+                        {
+                            "url": "https://www.facebook.com",
+                            "bgcolor": "#3B5998",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-facebook'></i>",
+                            "target": "_blank",
+                        },
+                ];
 
-            <script src="../../../assets/js/all-nocdn.js"></script><script src="../../../assets/js/colorbox-i18n/jquery.colorbox-fr.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
+            });
+
+            $(window).on("resize", function() {
+                $("html, body").height($(window).height());
+                $(".main, .menu").height($(window).height() - $(".header-panel").outerHeight() - 76 ); // footer margin: $("footer.footer").outerHeight()
+                $(".posts-material").height($(window).height());
+            }).trigger("resize");
+        </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("fr");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->

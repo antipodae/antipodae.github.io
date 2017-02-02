@@ -1,0 +1,74 @@
+.. link:
+.. description: Improvements in Nikola's support for good typography coming in v6.
+.. tags: python, nikola
+.. date: 2013/08/27 19:09:59
+.. title: New in Nikola v6 part I: Typography
+.. slug: new-in-nikola-v6-typography
+
+I am planning to do a major release (version 6!) of `Nikola <http://nikola.ralsina.me>`_
+my static blog and site generator the next weekend. It's a major version because there
+has been *a ton* of feature work done. So, I will do a quick series highlighting some of
+those improvements this week.
+
+Today's Topic: Typography.
+--------------------------
+
+Nikola used to suck at this. It produced sites like most websites: absolute garbage
+when it came to typography. So, we fixed it.
+
+Here is what a certain section of `A Study in Scarlet <http://www.gutenberg.org/cache/epub/244/pg244.txt>`_
+looked like when built using Nikola 5.5.1 (the current release):
+
+.. TEASER_END
+
+.. admonition:: Looks like a webpage, right?
+
+    .. figure:: /galleries/random/sherlock1.png
+       :target: /galleries/random/sherlock1.png
+
+
+The first things that suck in that image are the quotes and dashes. They are ASCII quotes, straight and
+dull, and dashes rendered as ``--``. A solution for this has existed for a long time in the form of
+`smartypants by Jon Gruber. <http://daringfireball.net/projects/smartypants/>`_ There is a
+project called `typogrify <https://github.com/mintchaos/typogrify>`_ which integrates that
+and more to help improve HTML output. So, it is now (optionally) integrated into Nikola.
+
+This change in your ``conf.py`` enables it::
+
+    from nikola import filters
+    FILTERS = {
+    ".html": [filters.typogrify],
+    }
+
+.. admonition:: Nice typographical quotes and dashes.
+
+    .. figure:: /galleries/random/sherlock2.png
+       :target: /galleries/random/sherlock2.png
+
+The final thing that needs improving is that ragged right edge. That's a CSS fix, and easy to do.
+Just put this in ``files/assets/css/custom.css``::
+
+    div.section>p {
+        text-align: justify;
+    }
+
+.. admonition:: Not so ragged. But not right.
+
+    .. figure:: /galleries/random/sherlock3.png
+       :target: /galleries/random/sherlock3.png
+
+If you care about typography, you will know what's wrong in that image. See how every line breaks
+right between words, and the right edge is not exactly aligned? That's because the words are not
+hyphenated. And that sucks! Hyphenation algorithms have existed for 40 years, why are we not using
+them? Well, let's use them then! Thanks to `Pyphen <http://pyphen.org>`_ and some HTML manipulation
+now Nikola can do it, if you set ``HYPHENATE = True`` in your ``conf.py``:
+
+.. admonition:: Finally, decent looking text.
+
+   .. figure:: /galleries/random/sherlock4.png
+      :target: /galleries/random/sherlock4.png
+
+By the way, if you click on the figure and use the arrows, you can see how it changes on each iteration.
+You can see the whole page with all this applied (and/or read A Study in Scarlet) at 
+http://hyphenated.ralsina.me/stories/a-study-in-scarlet.html
+

@@ -1,0 +1,77 @@
+h1, h2, h3, h4, div, form {
+   /*font-family: 'Sanchez', serif;*/
+   font-family: 'Raleway', sans-serif;
+    font-weight:400;
+}
+h1 {font-weight:700;}
+.post-text h2,h3 {font-weight:200;}
+body .well p, .container .well p, .container-fluid .well p, body .jumbotron p, .container .jumbotron p, .container-fluid .jumbotron p {font-weight:400;}
+p, li {text-align:justify;
+    font-weight:400;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+   /* font-family: 'Slabo 27px', serif;*/
+   font-size:120%;
+}
+.post-text{
+   max-width: 52em;
+   margin: 6em 3em 0 3em;
+}
+.lead{
+   font-weight:200;
+}
+
+h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .s
+    font-size: 100%;
+    font-weight:200;
+}
+.light {
+    font-weight:200;
+}
+
+
+p:first-child:first-line, 
+p.ad:first-line
+{
+    /*text-transform:uppercase;*/
+    font-variant: small-caps;
+    position:relative;
+    /*font-size:0.95em;*/
+    letter-spacing:1px;
+}
+
+p:first-child:first-letter, 
+p.ad:first-letter
+{
+    letter-spacing:0;
+    text-transform:uppercase;
+    font-family: 'Playfair Display', serif;
+    /* color:#628fbe;*/
+    font-weight:400;
+    font-size:3em;
+    float:left;
+    margin:0.13em 0.1em 0 0;
+    line-height:0.7;
+}
+
+div.section>p {
+    text-align: justify;
+}
+
+.noborder {
+   border: 0px;
+}
+
+.post-text ul {
+   padding-left: 2em;
+}
+
+.post-text ul > li {
+   text-indent: -1.5em;
+}
+.post-text ul > li:before {
+   content: "—  ";
+}

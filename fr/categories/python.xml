@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae (Articles sur python)</title><link>https://antipodae.fr/</link><description></description><atom:link href="https://antipodae.fr/fr/categories/python.xml" rel="self" type="application/rss+xml"></atom:link><language>fr</language><lastBuildDate>Wed, 01 Feb 2017 14:22:56 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New in Nikola v6 part I: Typography</title><link>https://antipodae.fr/fr/posts/new-in-nikola-v6-typography/</link><dc:creator>Mathieu Clabaut</dc:creator><description>&lt;div&gt;&lt;p&gt;I am plan­ning to do a ma­jor re­lease (ver­sion 6!) of  &lt;a class="reference external" href="http://nikola.ralsina.me"&gt;Ni­ko­la&lt;/a&gt; 
+my sta­tic blog and site ge­ne­ra­tor the next wee­kend. It's a ma­jor ver­sion be­cause the­re
+­has been  &lt;em&gt;a ton&lt;/em&gt;  of fea­ture work done. So, I will do a quick se­ries high­ligh­ting some of
+­those im­pro­ve­ments this week.&lt;/p&gt; 
+ &lt;div class="section" id="today-s-topic-typography"&gt;
+&lt;h2&gt;Today's Topic: Typography.&lt;/h2&gt;
+&lt;p&gt;Ni­ko­la used to suck at this. It pro­du­ced sites like most web­si­tes: ab­so­lute gar­ba­ge
+w­hen it came to ty­po­gra­phy. So, we fixed it.&lt;/p&gt; 
+ &lt;p&gt;Here is what a cer­tain sec­tion of  &lt;a class="reference external" href="http://www.gutenberg.org/cache/epub/244/pg244.txt"&gt;A Stu­dy in Scar­let&lt;/a&gt; 
+loo­ked like when built using Ni­ko­la 5.5.1 (the cur­rent re­lea­se):&lt;/p&gt; 
+ &lt;p&gt;&lt;a href="https://antipodae.fr/fr/posts/new-in-nikola-v6-typography/"&gt;Lire la suite…&lt;/a&gt; (Il reste encore 2 min. de lecture)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>https://antipodae.fr/fr/posts/new-in-nikola-v6-typography/</guid><pubDate>Tue, 27 Aug 2013 17:09:59 GMT</pubDate></item></channel></rss>

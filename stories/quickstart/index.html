@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A reStructuredText Primer | Antipodae</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#5670d4">
-<meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (fr)" href="../../fr/rss.xml">
 <link rel="canonical" href="https://antipodae.fr/stories/quickstart/">
-<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Mathieu Clabaut">
+<!--[if lt IE 9]>
+            <script src="../../assets/js/html5shiv.min.js"></script>
+            <script src="../../assets/js/respond.min.js"></script>
+        <![endif]--><link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CRaleway:200,400,700" rel="stylesheet">
+<meta name="author" content="Mathieu Clabaut">
 <meta property="og:site_name" content="Antipodae">
 <meta property="og:title" content="A reStructuredText Primer">
 <meta property="og:url" content="https://antipodae.fr/stories/quickstart/">
@@ -23,78 +28,51 @@ This document has been placed in the public domain.
 
 
 
-Contents
-
-Structure
-Text styles
-Lists
-Preformatting (code samples)
-Sections
-Document Title / Subti">
+Con­tents 
+ 
+Struc­ture 
+ Text styles 
+ Lists 
+ Pre­for­mat­ting (code sam­ples) 
+ Sec­tions 
+ Doc">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2012-03-30T23:00:00-03:00">
-<link rel="alternate" hreflang="fr" href="../../fr/stories/quickstart/">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-default navbar-static-top"><div class="container">
-<!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://antipodae.fr/">
-                <img src="images/logo150.png" alt="Antipodae" id="logo"></a>
+<nav class="navbar  header-panel shadow-z-3" role="navigation"><div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-3">
+            <h1 class="title-blog">
+                <a href="https://antipodae.fr/">
+                        <img src="images/logo150.png" alt="Antipodae" id="logo"></a>
+            </h1>
+          </div>
         </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li>
-<a href="../../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../../categories/">Tags</a>
-                </li>
-<li>
-<a href="../../rss.xml">RSS feed</a>
+      </div>
+<!-- /.container-fluid -->
+</nav><div class="container-fluid main" id="content" role="main">
+        <div class="row">
+            <nav class="col-xs-3 menu"><ul>
+<li class="withripple"><a href="../../archive.html">Archive</a></li>
+                <li class="withripple"><a href="../../categories/">Tags</a></li>
+                <li class="withripple"><a href="../../rss.xml">RSS&nbsp;feed</a></li>
 
-                
-            </li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-            </li>
+                    
+                </ul>
+<ul class="nav navbar-nav">
+<li>            </li>
 <li><a href="https://antipodae.fr/fr/" rel="alternate" hreflang="fr">Français</a></li>
 
-                
                     
-    <li>
-    <a href="index.rst" id="sourcelink">Source</a>
-    </li>
-
-                
-            </ul>
-</div>
-<!-- /.navbar-collapse -->
-    </div>
-<!-- /.container -->
-</nav><!-- End of Menubar --><div class="container" id="content" role="main">
-    <div class="body-content">
-        <!--Body content-->
-        <div class="row">
-            
-            
-<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">A reStructuredText Primer</a></h1>
-
-        
-
-    </header><div class="e-content entry-content" itemprop="articleBody text">
+                </ul></nav><div class="posts-material col-xs-9">
+                <div class="col-xs-12 col-md-11 content-material">
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">A reStructuredText&nbsp;Primer</a></h1>
+<hr></header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <table class="docinfo" frame="void" rules="none">
 <col class="docinfo-name">
@@ -115,44 +93,43 @@ Document Title / Subti">
 </tbody>
 </table>
 <div class="contents alert alert-info pull-left topic" id="contents">
-<p class="topic-title first">Contents</p>
-<ul class="simple">
-<li><a class="reference internal" href="#structure" id="id16">Structure</a></li>
-<li><a class="reference internal" href="#text-styles" id="id17">Text styles</a></li>
-<li><a class="reference internal" href="#lists" id="id18">Lists</a></li>
-<li><a class="reference internal" href="#preformatting-code-samples" id="id19">Preformatting (code samples)</a></li>
-<li>
-<a class="reference internal" href="#sections" id="id20">Sections</a><ul>
-<li><a class="reference internal" href="#document-title-subtitle" id="id21">Document Title / Subtitle</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#images" id="id22">Images</a></li>
-<li><a class="reference internal" href="#what-next" id="id23">What Next?</a></li>
-</ul>
+<p class="topic-title first">Con­tents</p> 
+ <ul class="simple">
+<li><a class="reference internal" href="#structure" id="id16">Struc­ture</a></li> 
+ <li><a class="reference internal" href="#text-styles" id="id17">Text&nbsp;styles</a></li> 
+ <li><a class="reference internal" href="#lists" id="id18">Lists</a></li> 
+ <li><a class="reference internal" href="#preformatting-code-samples" id="id19">Pre­for­mat­ting (code&nbsp;sam­ples)</a></li> 
+ <li>
+<a class="reference internal" href="#sections" id="id20">Sec­tions</a><ul>
+<li><a class="reference internal" href="#document-title-subtitle" id="id21">Doc­u­­ment Ti­­tle /&nbsp;Sub­­ti­­tle</a></li>  
+  </ul>
+</li> 
+ <li><a class="reference internal" href="#images" id="id22">Im­ages</a></li> 
+ <li><a class="reference internal" href="#what-next" id="id23">What&nbsp;Nex­t?</a></li> 
+ </ul>
 </div>
-<p>The text below contains links that look like "(<a class="reference external" href="quickref.html">quickref</a>)".  These
-are relative links that point to the <a class="reference external" href="quickref.html">Quick reStructuredText</a> user
-reference.  If these links don't work, please refer to the <a class="reference external" href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">master
-quick reference</a> document.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">This document is an informal introduction to
-reStructuredText.  The <a class="reference internal" href="#what-next">What Next?</a> section below has links to
-further resources, including a formal reference.</p>
-</div>
+<p>The text be­low con­tains links that look like &#8220;(<a class="reference external" href="quickref.html">quick­ref</a>)&#8221;.  The­se
+are rel­a­tive links that point to the  <a class="reference external" href="quickref.html">Quick re­Struc­tured­Text</a>  user
+ref­er­ence.  If these links don&#8217;t work, please re­fer to the  <a class="reference external" href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">mas­ter
+quick ref­er­ence</a>&nbsp;doc­u­men­t.</p> 
+ <div class="admonition note">
+<p class="first admonition-title">Note</p> 
+ <p class="last">This doc­u­ment is an in­for­mal in­tro­duc­tion to
+re­Struc­tured­Tex­t.  The  <a class="reference internal" href="#what-next">What Nex­t?</a>  sec­tion be­low has links to
+­fur­ther re­sources, in­clud­ing a for­mal&nbsp;ref­er­ence.</p> 
+ </div>
 <div class="section" id="structure">
 <h2><a class="toc-backref" href="#id16">Structure</a></h2>
-<p>From the outset, let me say that "Structured Text" is probably a bit
-of a misnomer.  It's more like "Relaxed Text" that uses certain
-consistent patterns.  These patterns are interpreted by a HTML
-converter to produce "Very Structured Text" that can be used by a web
-browser.</p>
-<p>The most basic pattern recognised is a <strong>paragraph</strong> (<a class="reference external" href="quickref.html#paragraphs">quickref</a>).
-That's a chunk of text that is separated by blank lines (one is
-enough).  Paragraphs must have the same indentation -- that is, line
-up at their left edge.  Paragraphs that start indented will result in
-indented quote paragraphs. For example:</p>
-<pre class="literal-block">
+<p>From the out­set, let me say that &#8220;Struc­tured Tex­t&#8221; is prob­a­bly a bit
+of a mis­nomer.  It&#8217;s more like &#8220;Re­laxed Tex­t&#8221; that us­es cer­tain
+­con­sis­tent pat­tern­s.  These pat­terns are in­ter­pret­ed by a HTM­L
+­con­vert­er to pro­duce &#8220;Very Struc­tured Tex­t&#8221; that can be used by a we­b&nbsp;brows­er.</p> 
+ <p>The most ba­sic pat­tern recog­nised is a  <strong>para­graph</strong>  (<a class="reference external" href="quickref.html#paragraphs">quick­ref</a>).
+That&#8217;s a chunk of text that is sep­a­rat­ed by blank lines (one is
+e­nough).  Para­graphs must have the same in­den­ta­tion &#8212; that is, line
+up at their left edge.  Para­graphs that start in­dent­ed will re­sult in­
+in­dent­ed quote para­graph­s. For&nbsp;ex­am­ple:</p> 
+ <pre class="literal-block">
 This is a paragraph.  It's quite
 short.
 
@@ -161,63 +138,61 @@ short.
 
 This is another one.
 </pre>
-<p>Results in:</p>
-<blockquote>
-<p>This is a paragraph.  It's quite
-short.</p>
-<blockquote>
+<p>Re­sults&nbsp;in:</p> 
+ <blockquote>
+<p>This is a para­graph.  It&#8217;s quite&nbsp;short.</p> 
+ <blockquote>
 This paragraph will result in an indented block of
 text, typically used for quoting other text.</blockquote>
-<p>This is another one.</p>
-</blockquote>
+<p>This is an­oth­er&nbsp;one.</p> 
+ </blockquote>
 </div>
 <div class="section" id="text-styles">
-<h2><a class="toc-backref" href="#id17">Text styles</a></h2>
-<p>(<a class="reference external" href="quickref.html#inline-markup">quickref</a>)</p>
-<p>Inside paragraphs and other bodies of text, you may additionally mark
-text for <em>italics</em> with "<tt class="docutils literal">*italics*</tt>" or <strong>bold</strong> with
-"<tt class="docutils literal">**bold**</tt>".  This is called "inline markup".</p>
-<p>If you want something to appear as a fixed-space literal, use
-"<tt class="docutils literal">``double <span class="pre">back-quotes``</span></tt>".  Note that no further fiddling is done
-inside the double back-quotes -- so asterisks "<tt class="docutils literal">*</tt>" etc. are left
-alone.</p>
-<p>If you find that you want to use one of the "special" characters in
-text, it will generally be OK -- reStructuredText is pretty smart.
-For example, this lone asterisk * is handled just fine, as is the
-asterisk in this equation: 5*6=30.  If you actually
-want text *surrounded by asterisks* to <strong>not</strong> be italicised, then
-you need to indicate that the asterisk is not special.  You do this by
-placing a backslash just before it, like so "<tt class="docutils literal">\*</tt>" (<a class="reference external" href="quickref.html#escaping">quickref</a>), or
-by enclosing it in double back-quotes (inline literals), like this:</p>
-<pre class="literal-block">
+<h2><a class="toc-backref" href="#id17">Text&nbsp;styles</a></h2>
+<p>(<a class="reference external" href="quickref.html#inline-markup">quick­ref</a>)</p> 
+ <p>In­side para­graphs and oth­er bod­ies of tex­t, you may ad­di­tion­al­ly mark
+­text for  <em>ital­ics</em>  with &#8220;<tt class="docutils literal">*i­tal­ic­s*</tt>&#8221; or  <strong>bold</strong>  with­
+&#8220;<tt class="docutils literal">**bold**</tt>&#8220;.  This is called &#8220;in­line&nbsp;markup&#8221;.</p> 
+ <p>If you want some­thing to ap­pear as a fixed-s­pace lit­er­al, use
+&#8220;<tt class="docutils literal">``­dou­ble  <span class="pre">back­­-quotes``</span></tt>&#8220;.  Note that no fur­ther fid­dling is done
+in­side the dou­ble back­-quotes &#8212; so as­ter­isks &#8220;<tt class="docutils literal">*</tt>&#8221; etc. are left­&nbsp;alone.</p> 
+ <p>If you find that you want to use one of the &#8220;spe­cial&#8221; char­ac­ters in­
+­tex­t, it will gen­er­al­ly be OK &#8212; re­Struc­tured­Text is pret­ty smart.
+­For ex­am­ple, this lone as­ter­isk * is han­dled just fine, as is the
+as­terisk in this equa­tion: 5*6=30.  If you ac­tu­al­ly
+want text *sur­round­ed by as­ter­isks* to  <strong>not</strong>  be ital­i­cised, then
+y­ou need to in­di­cate that the as­ter­isk is not spe­cial.  You do this by
+­plac­ing a back­slash just be­fore it, like so &#8220;<tt class="docutils literal">\*</tt>&#8221; (<a class="reference external" href="quickref.html#escaping">quick­ref</a>), or
+­by en­clos­ing it in dou­ble back­-quotes (in­line lit­er­al­s), like&nbsp;this:</p> 
+ <pre class="literal-block">
 ``*``
 </pre>
 <div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last">Think of inline markup as a form of (parentheses) and use it
-the same way: immediately before and after the text being marked
-up.  Inline markup by itself (surrounded by whitespace) or in the
-middle of a word won't be recognized.  See the <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#inline-markup">markup spec</a> for
-full details.</p>
-</div>
+<p class="first admonition-title">Tip</p> 
+ <p class="last">Think of in­line markup as a form of (paren­the­ses) and use it
+the same way: im­me­di­ate­ly be­fore and af­ter the text be­ing marked
+up.  In­line markup by it­self (sur­round­ed by whites­pace) or in the
+mid­dle of a word won&#8217;t be rec­og­nized.  See the  <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#inline-markup">markup spec</a>  for
+­full&nbsp;de­tail­s.</p> 
+ </div>
 </div>
 <div class="section" id="lists">
 <h2><a class="toc-backref" href="#id18">Lists</a></h2>
-<p>Lists of items come in three main flavours: <strong>enumerated</strong>,
-<strong>bulleted</strong> and <strong>definitions</strong>.  In all list cases, you may have as
-many paragraphs, sublists, etc. as you want, as long as the left-hand
-side of the paragraph or whatever aligns with the first line of text
-in the list item.</p>
-<p>Lists must always start a new paragraph -- that is, they must appear
-after a blank line.</p>
-<dl class="docutils">
+<p>Lists of items come in three main flavours:  <strong>enu­mer­at­ed</strong>,
+ <strong>bul­let­ed</strong>  and  <strong>def­i­ni­tions</strong>.  In all list cas­es, you may have as
+­many para­graph­s, sub­list­s, etc. as you wan­t, as long as the left­-hand
+­side of the para­graph or what­ev­er aligns with the first line of tex­t
+in the list&nbsp;item.</p> 
+ <p>Lists must al­ways start a new para­graph &#8212; that is, they must ap­pear
+after a blank&nbsp;line.</p> 
+ <dl class="docutils">
 <dt>
 <strong>enumerated</strong> lists (numbers, letters or roman numerals; <a class="reference external" href="quickref.html#enumerated-lists">quickref</a>)</dt>
 <dd>
-<p class="first">Start a line off with a number or letter followed by a period ".",
-right bracket ")" or surrounded by brackets "( )" -- whatever you're
-comfortable with.  All of the following forms are recognised:</p>
-<pre class="literal-block">
+<p class="first">Start a line off with a num­ber or let­ter fol­lowed by a pe­ri­od &#8220;.&#8221;,
+right brack­et &#8220;)&#8221; or sur­round­ed by brack­ets &#8220;( )&#8221; &#8212; what­ev­er you&#8217;re
+­com­fort­able with.  All of the fol­low­ing forms are&nbsp;recog­nised:</p> 
+ <pre class="literal-block">
 1. numbers
 
 A. upper-case letters
@@ -238,45 +213,45 @@ i. lower-case roman numerals
 
 1) and again
 </pre>
-<p>Results in (note: the different enumerated list styles are not
-always supported by every web browser, so you may not get the full
-effect here):</p>
-<ol class="arabic simple">
-<li>numbers</li>
-</ol>
+<p>Re­sults in (note: the dif­fer­ent enu­mer­at­ed list styles are not
+al­ways sup­port­ed by ev­ery web browser, so you may not get the ful­l
+­ef­fect&nbsp;here):</p> 
+ <ol class="arabic simple">
+<li>num­bers</li> 
+ </ol>
 <ol class="upperalpha">
 <li>
-<p class="first">upper-case letters
-and it goes over many lines</p>
-<p>with two paragraphs and all!</p>
-</li>
-</ol>
+<p class="first">up­­per-­­case let­ter­s
+and it goes over many&nbsp;lines</p>  
+  <p>with two para­­graphs and&nbsp;al­l!</p>  
+  </li> 
+ </ol>
 <ol class="loweralpha simple">
-<li>lower-case letters<ol class="arabic" start="3">
-<li>with a sub-list starting at a different number</li>
-<li>make sure the numbers are in the correct sequence though!</li>
-</ol>
-</li>
-</ol>
+<li>low­er-­case let­ters<ol class="arabic" start="3">
+<li>with a sub­­-list start­ing at a dif­fer­­ent&nbsp;num­ber</li>  
+  <li>make sure the num­bers are in the cor­rect se­quence&nbsp;though!</li>  
+  </ol>
+</li> 
+ </ol>
 <ol class="upperroman simple">
-<li>upper-case roman numerals</li>
-</ol>
+<li>up­per-­case ro­man&nbsp;nu­mer­als</li> 
+ </ol>
 <ol class="lowerroman simple">
-<li>lower-case roman numerals</li>
-</ol>
+<li>low­er-­case ro­man&nbsp;nu­mer­als</li> 
+ </ol>
 <ol class="arabic simple">
-<li>numbers again</li>
-</ol>
+<li>num­bers&nbsp;again</li> 
+ </ol>
 <ol class="last arabic simple">
-<li>and again</li>
-</ol>
+<li>and&nbsp;again</li> 
+ </ol>
 </dd>
 <dt>
 <strong>bulleted</strong> lists (<a class="reference external" href="quickref.html#bullet-lists">quickref</a>)</dt>
 <dd>
-<p class="first">Just like enumerated lists, start the line off with a bullet point
-character - either "-", "+" or "*":</p>
-<pre class="literal-block">
+<p class="first">Just like enu­mer­at­ed list­s, start the line off with a bul­let point
+char­ac­ter - ei­ther &#8220;-&#8220;, &#8220;+&#8221; or&nbsp;&#8221;*&#8221;:</p> 
+ <pre class="literal-block">
 * a bullet point using "*"
 
   - a sub-list using "-"
@@ -285,24 +260,24 @@ character - either "-", "+" or "*":</p>
 
   - another item
 </pre>
-<p>Results in:</p>
-<ul class="last simple">
-<li>a bullet point using "*"<ul>
-<li>a sub-list using "-"<ul>
-<li>yet another sub-list</li>
-</ul>
-</li>
-<li>another item</li>
-</ul>
-</li>
-</ul>
+<p>Re­sults&nbsp;in:</p> 
+ <ul class="last simple">
+<li>a bul­let point us­ing &#8220;*&#8221;<ul>
+<li>a sub­­-list us­ing &#8220;-&#8220;<ul>
+<li>yet an­oth­er&nbsp;sub­­­-list</li>   
+   </ul>
+</li>  
+  <li>an­oth­er&nbsp;item</li>  
+  </ul>
+</li> 
+ </ul>
 </dd>
 <dt>
 <strong>definition</strong> lists (<a class="reference external" href="quickref.html#definition-lists">quickref</a>)</dt>
 <dd>
-<p class="first">Unlike the other two, the definition lists consist of a term, and
-the definition of that term.  The format of a definition list is:</p>
-<pre class="literal-block">
+<p class="first">Un­like the oth­er two, the def­i­ni­tion lists con­sist of a ter­m, and
+the def­i­ni­tion of that ter­m.  The for­mat of a def­i­ni­tion list&nbsp;is:</p> 
+ <pre class="literal-block">
 what
   Definition lists associate a term with a definition.
 
@@ -311,26 +286,26 @@ what
   paragraphs or body elements, indented relative to the term.
   Blank lines are not allowed between term and definition.
 </pre>
-<p>Results in:</p>
-<dl class="last docutils">
+<p>Re­sults&nbsp;in:</p> 
+ <dl class="last docutils">
 <dt>what</dt>
-<dd>Definition lists associate a term with a definition.</dd>
+<dd>Definition lists associate a term with a&nbsp;definition.</dd>
 <dt><em>how</em></dt>
 <dd>The term is a one-line phrase, and the definition is one or more
 paragraphs or body elements, indented relative to the term.
-Blank lines are not allowed between term and definition.</dd>
+Blank lines are not allowed between term and&nbsp;definition.</dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="preformatting-code-samples">
-<h2><a class="toc-backref" href="#id19">Preformatting (code samples)</a></h2>
-<p>(<a class="reference external" href="quickref.html#literal-blocks">quickref</a>)</p>
-<p>To just include a chunk of preformatted, never-to-be-fiddled-with
-text, finish the prior paragraph with "<tt class="docutils literal">::</tt>".  The preformatted
-block is finished when the text falls back to the same indentation
-level as a paragraph prior to the preformatted block.  For example:</p>
-<pre class="literal-block">
+<h2><a class="toc-backref" href="#id19">Preformatting (code&nbsp;samples)</a></h2>
+<p>(<a class="reference external" href="quickref.html#literal-blocks">quick­ref</a>)</p> 
+ <p>To just in­clude a chunk of pre­for­mat­ted, nev­er-­to-be-­fid­dled-with­
+­tex­t, fin­ish the pri­or para­graph with &#8220;<tt class="docutils literal">::</tt>&#8220;.  The pre­for­mat­ted
+block is fin­ished when the text falls back to the same in­den­ta­tion
+lev­el as a para­graph pri­or to the pre­for­mat­ted block.  For&nbsp;ex­am­ple:</p> 
+ <pre class="literal-block">
 An example::
 
     Whitespace, newlines, blank lines, and all kinds of markup
@@ -340,45 +315,45 @@ An example::
 
 no more example
 </pre>
-<p>Results in:</p>
-<blockquote>
-<p>An example:</p>
-<pre class="literal-block">
+<p>Re­sults&nbsp;in:</p> 
+ <blockquote>
+<p>An&nbsp;ex­am­ple:</p> 
+ <pre class="literal-block">
   Whitespace, newlines, blank lines, and all kinds of markup
     (like *this* or \this) is preserved by literal blocks.
 Lookie here, I've dropped an indentation level
 (but not far enough)
 </pre>
-<p>no more example</p>
-</blockquote>
-<p>Note that if a paragraph consists only of "<tt class="docutils literal">::</tt>", then it's removed
-from the output:</p>
-<pre class="literal-block">
+<p>no more&nbsp;ex­am­ple</p> 
+ </blockquote>
+<p>Note that if a para­graph con­sists on­ly of &#8220;<tt class="docutils literal">::</tt>&#8220;, then it&#8217;s re­moved
+from the&nbsp;out­put:</p> 
+ <pre class="literal-block">
 ::
 
     This is preformatted text, and the
     last "::" paragraph is removed
 </pre>
-<p>Results in:</p>
-<pre class="literal-block">
+<p>Re­sults&nbsp;in:</p> 
+ <pre class="literal-block">
 This is preformatted text, and the
 last "::" paragraph is removed
 </pre>
 </div>
 <div class="section" id="sections">
 <h2><a class="toc-backref" href="#id20">Sections</a></h2>
-<p>(<a class="reference external" href="quickref.html#section-structure">quickref</a>)</p>
-<p>To break longer text up into sections, you use <strong>section headers</strong>.
-These are a single line of text (one or more words) with adornment: an
-underline alone, or an underline and an overline together, in dashes
-"<tt class="docutils literal"><span class="pre">-----</span></tt>", equals "<tt class="docutils literal"><span class="pre">======</span></tt>", tildes "<tt class="docutils literal"><span class="pre">~~~~~~</span></tt>" or any of the
-non-alphanumeric characters <tt class="docutils literal">= - ` : ' " ~ ^ _ * + # &lt; &gt;</tt> that you
-feel comfortable with.  An underline-only adornment is distinct from
-an overline-and-underline adornment using the same character.  The
-underline/overline must be at least as long as the title text.  Be
-consistent, since all sections marked with the same adornment style
-are deemed to be at the same level:</p>
-<pre class="literal-block">
+<p>(<a class="reference external" href="quickref.html#section-structure">quick­ref</a>)</p> 
+ <p>To break longer text up in­to sec­tion­s, you use  <strong>sec­tion head­ers</strong>.
+These are a sin­gle line of text (one or more word­s) with adorn­men­t: an
+un­der­line alone, or an un­der­line and an over­line to­geth­er, in dash­es
+&#8220;<tt class="docutils literal"><span class="pre">-----</span></tt>&#8220;, equals &#8220;<tt class="docutils literal"><span class="pre">======</span></tt>&#8220;, tildes &#8220;<tt class="docutils literal"><span class="pre">~~~~~~</span></tt>&#8221; or any of the
+non-al­phanu­mer­ic char­ac­ters  <tt class="docutils literal">= - ` : ' " ~ ^ _ * + # &lt; &gt;</tt>  that you
+feel com­fort­able with.  An un­der­line-on­ly adorn­ment is dis­tinct from
+an over­line-and-un­der­line adorn­ment us­ing the same char­ac­ter.  The
+un­der­line/over­line must be at least as long as the ti­tle tex­t.  Be
+­con­sis­ten­t, since all sec­tions marked with the same adorn­ment style
+are deemed to be at the same&nbsp;lev­el:</p> 
+ <pre class="literal-block">
 Chapter 1 Title
 ===============
 
@@ -394,9 +369,8 @@ Section 1.2 Title
 Chapter 2 Title
 ===============
 </pre>
-<p>This results in the following structure, illustrated by simplified
-pseudo-XML:</p>
-<pre class="literal-block">
+<p>This re­sults in the fol­low­ing struc­ture, il­lus­trat­ed by sim­pli­fied&nbsp;pseu­do-XM­L:</p> 
+ <pre class="literal-block">
 &lt;section&gt;
     &lt;title&gt;
         Chapter 1 Title
@@ -413,25 +387,24 @@ pseudo-XML:</p>
     &lt;title&gt;
         Chapter 2 Title
 </pre>
-<p>(Pseudo-XML uses indentation for nesting and has no end-tags.  It's
-not possible to show actual processed output, as in the other
-examples, because sections cannot exist inside block quotes.  For a
-concrete example, compare the section structure of this document's
-source text and processed output.)</p>
-<p>Note that section headers are available as link targets, just using
-their name.  To link to the <a class="reference internal" href="#lists">Lists</a> heading, I write "<tt class="docutils literal">Lists_</tt>".  If
-the heading has a space in it like <a class="reference internal" href="#text-styles">text styles</a>, we need to quote
-the heading "<tt class="docutils literal">`text styles`_</tt>".</p>
-<div class="section" id="document-title-subtitle">
-<h3><a class="toc-backref" href="#id21">Document Title / Subtitle</a></h3>
-<p>The title of the whole document is distinct from section titles and
-may be formatted somewhat differently (e.g. the HTML writer by default
-shows it as a centered heading).</p>
-<p>To indicate the document title in reStructuredText, use a unique adornment
-style at the beginning of the document.  To indicate the document subtitle,
-use another unique adornment style immediately after the document title.  For
-example:</p>
-<pre class="literal-block">
+<p>(Pseu­do-XML us­es in­den­ta­tion for nest­ing and has no end-­tags.  It&#8217;s
+not pos­si­ble to show ac­tu­al pro­cessed out­put, as in the oth­er
+ex­am­ples, be­cause sec­tions can­not ex­ist in­side block quotes.  For a
+­con­crete ex­am­ple, com­pare the sec­tion struc­ture of this doc­u­men­t&#8217;s
+­source text and pro­cessed&nbsp;out­put.)</p> 
+ <p>Note that sec­tion head­ers are avail­able as link tar­get­s, just us­ing
+their name.  To link to the  <a class="reference internal" href="#lists">Lists</a>  head­ing, I write &#8220;<tt class="docutils literal">List­s_</tt>&#8220;.  If
+the head­ing has a space in it like  <a class="reference internal" href="#text-styles">text styles</a>, we need to quote
+the head­ing &#8220;<tt class="docutils literal">`text styles`_</tt>&#8220;.</p> 
+ <div class="section" id="document-title-subtitle">
+<h3><a class="toc-backref" href="#id21">Document Title /&nbsp;Subtitle</a></h3>
+<p>The ti­tle of the whole doc­u­ment is dis­tinct from sec­tion ti­tles and
+­may be for­mat­ted some­what dif­fer­ent­ly (e.g. the HTML writ­er by de­fault­
+shows it as a cen­tered&nbsp;head­ing).</p> 
+ <p>To in­di­cate the doc­u­ment ti­tle in re­Struc­tured­Tex­t, use a unique adorn­men­t
+style at the be­gin­ning of the doc­u­men­t.  To in­di­cate the doc­u­ment sub­ti­tle,
+use an­oth­er unique adorn­ment style im­me­di­ate­ly af­ter the doc­u­ment ti­tle.  For&nbsp;ex­am­ple:</p> 
+ <pre class="literal-block">
 ================
  Document Title
 ================
@@ -444,51 +417,50 @@ Section Title
 
 ...
 </pre>
-<p>Note that "Document Title" and "Section Title" above both use equals
-signs, but are distinct and unrelated styles.  The text of
-overline-and-underlined titles (but not underlined-only) may be inset
-for aesthetics.</p>
-</div>
+<p>Note that &#8220;Doc­u­ment Ti­tle&#8221; and &#8220;Sec­tion Ti­tle&#8221; above both use equal­s
+sign­s, but are dis­tinct and un­re­lat­ed styles.  The text of
+over­line-and-un­der­lined ti­tles (but not un­der­lined-on­ly) may be in­set
+­for&nbsp;aes­thet­ic­s.</p> 
+ </div>
 </div>
 <div class="section" id="images">
 <h2><a class="toc-backref" href="#id22">Images</a></h2>
-<p>(<a class="reference external" href="quickref.html#directives">quickref</a>)</p>
-<p>To include an image in your document, you use the the <tt class="docutils literal">image</tt> <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/directives.html">directive</a>.
-For example:</p>
-<pre class="literal-block">
+<p>(<a class="reference external" href="quickref.html#directives">quick­ref</a>)</p> 
+ <p>To in­clude an im­age in your doc­u­men­t, you use the the  <tt class="docutils literal">im­age</tt>   <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/directives.html">di­rec­tive</a>.
+­For&nbsp;ex­am­ple:</p> 
+ <pre class="literal-block">
 .. image:: /images/nikola.png
 </pre>
-<p>results in:</p>
-<img alt="/images/nikola.png" src="../../images/nikola.png"><p>The <tt class="docutils literal">/images/nikola.png</tt> part indicates the filename of the image
-you wish to appear in the document. There's no restriction placed on
-the image (format, size etc).  If the image is to appear in HTML and
-you wish to supply additional information, you may:</p>
-<pre class="literal-block">
+<p>re­sults&nbsp;in:</p> 
+ <img alt="/images/nikola.png" src="../../images/nikola.png"><p>The  <tt class="docutils literal">/im­ages/niko­la.p­ng</tt>  part in­di­cates the file­name of the im­age
+y­ou wish to ap­pear in the doc­u­men­t. There&#8217;s no re­stric­tion placed on
+the im­age (for­mat, size etc).  If the im­age is to ap­pear in HTML and
+y­ou wish to sup­ply ad­di­tion­al in­for­ma­tion, you&nbsp;may:</p> 
+ <pre class="literal-block">
 .. image:: /images/nikola.png
    :height: 100
    :width: 200
    :scale: 50
    :alt: alternate text
 </pre>
-<p>See the full <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/directives.html#images">image directive documentation</a> for more info.</p>
-</div>
+<p>See the full  <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/directives.html#images">im­age di­rec­tive doc­u­men­ta­tion</a>  for more&nbsp;in­fo.</p> 
+ </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id23">What Next?</a></h2>
-<p>This primer introduces the most common features of reStructuredText,
-but there are a lot more to explore.  The <a class="reference external" href="quickref.html">Quick reStructuredText</a>
-user reference is a good place to go next.  For complete details, the
-<a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">reStructuredText Markup Specification</a> is the place to go <a class="footnote-reference" href="#id15" id="id14">[1]</a>.</p>
-<p>Users who have questions or need assistance with Docutils or
-reStructuredText should post a message to the <a class="reference external" href="http://docutils.sourceforge.net/docs/user/mailing-lists.html#docutils-users">Docutils-users</a> mailing
-list.</p>
-<table class="docutils footnote" frame="void" id="id15" rules="none">
+<h2><a class="toc-backref" href="#id23">What&nbsp;Next?</a></h2>
+<p>This primer in­tro­duces the most com­mon fea­tures of re­Struc­tured­Tex­t,
+but there are a lot more to ex­plore.  The  <a class="reference external" href="quickref.html">Quick re­Struc­tured­Text</a> 
+us­er ref­er­ence is a good place to go nex­t.  For com­plete de­tail­s, the
+ <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">re­Struc­tured­Text Markup Spec­i­fi­ca­tion</a>  is the place to go  <a class="footnote-reference" href="#id15" id="id14">[1]</a>.</p> 
+ <p>Users who have ques­tions or need as­sis­tance with Do­cu­tils or
+re­Struc­tured­Text should post a mes­sage to the  <a class="reference external" href="http://docutils.sourceforge.net/docs/user/mailing-lists.html#docutils-users">Do­cu­til­s-users</a>  mail­ing&nbsp;list.</p> 
+ <table class="docutils footnote" frame="void" id="id15" rules="none">
 <colgroup>
 <col class="label">
 <col>
 </colgroup>
 <tbody valign="top"><tr>
 <td class="label"><a class="fn-backref" href="#id14">[1]</a></td>
-<td>If that relative link doesn't work, try the master document:
+<td>If that relative link doesn&#8217;t work, try the master document:
 <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html</a>.</td>
 </tr></tbody>
 </table>
@@ -496,20 +468,81 @@ list.</p>
 </div>
     </div>
     
-
 </article>
 </div>
-        <!--End of body content-->
+            </div>
+        </div>
+        <button class="btn btn-fab btn-raised btn-material-green btn-footer" data-toggle="modal" data-target="#footer-dialog">
+            <i class="mdi-communication-message"></i>
+        </button>
+        <div id="footer-dialog" class="modal fade" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Antipodae&nbsp;credits</h4>
+ 
+              </div>
+              <div class="modal-body">
+                    Contents © 2017         <a href="mailto:mathieu@antipodae.fr">Mathieu Clabaut</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-dismiss="modal">Ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="source-button">
+    <a class="btn btn-fab btn-raised btn-material-indigo" target="_blank" href="index.rst" title="Source">
+        <i class="mdi-file-cloud-download"></i>
+    </a>
 
-        <footer id="footer">
-            Contents © 2017         <a href="mailto:mathieu@antipodae.fr">Mathieu Clabaut</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-            
-        </footer>
+        </div>
+        <div class="kc_fab_wrapper"></div>
 </div>
-</div>
 
+            <script src="../../assets/js/all-nocdn.js"></script><script>
+                var links = [
+                        {
+                            "bgcolor": "#F44336",
+                            "icon": "<i class='fa fa-share-square-o'></i>",
+                        },
+                        {
+                            "url": "https://twitter.com/",
+                            "bgcolor": "#55ACEE",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-twitter'></i>",
+                            "target": "_blank",
+                        },
+                        {
+                            "url": "https://github.com/",
+                            "bgcolor": "#666666",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-github-square'></i>",
+                            "target": "_blank",
+                        },
+                        {
+                            "url": "https://www.facebook.com",
+                            "bgcolor": "#3B5998",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-facebook'></i>",
+                            "target": "_blank",
+                        },
+                ];
 
-            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
+            });
+
+            $(window).on("resize", function() {
+                $("html, body").height($(window).height());
+                $(".main, .menu").height($(window).height() - $(".header-panel").outerHeight() - 76 ); // footer margin: $("footer.footer").outerHeight()
+                $(".posts-material").height($(window).height());
+            }).trigger("resize");
+        </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->

@@ -1,3 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae (Articles sur news)</title><link>https://antipodae.fr/</link><description></description><atom:link href="https://antipodae.fr/fr/categories/news.xml" rel="self" type="application/rss+xml"></atom:link><language>fr</language><lastBuildDate>Tue, 31 Jan 2017 20:35:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Lost.RE launched in private beta</title><link>https://antipodae.fr/fr/posts/lostre-private-beta/</link><dc:creator>Mathieu Clabaut</dc:creator><description>&lt;div&gt;&lt;img alt="lost.re image" class="thumbnail img-responsive align-center" src="https://antipodae.fr/images/lostre.png"&gt;
-&lt;p&gt;Our first new service is now being launched as a private beta.&lt;/p&gt;&lt;/div&gt;</description><guid>https://antipodae.fr/fr/posts/lostre-private-beta/</guid><pubDate>Wed, 24 Aug 2016 16:22:43 GMT</pubDate></item></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae (Articles sur news)</title><link>https://antipodae.fr/</link><description></description><atom:link href="https://antipodae.fr/fr/categories/news.xml" rel="self" type="application/rss+xml"></atom:link><language>fr</language><lastBuildDate>Thu, 02 Feb 2017 22:17:12 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Lancement de rendre.fr</title><link>https://antipodae.fr/fr/posts/lancement-rendre-fr/</link><dc:creator>matclab</dc:creator><description>&lt;div&gt;&lt;p&gt;Cer­tains ob­jets nous sont pré­cieux.
+­Non pas que leur va­leur soit éle­vée, mais ils sont peut-­être por­teurs d'un
+­sou­ve­nir qui nous est cher, ou tout sim­ple­ment, nous sont in­dis­pen­sables dans
+­notre quo­ti­dien —   &lt;em&gt;jeu de clef, pa­piers, carte bleue, té­lé­pho­ne, sac à main&lt;/em&gt;,
+­mais aus­si  &lt;em&gt;dou­dou, man­teau, va­li­ses…&lt;/em&gt;&lt;/p&gt; 
+ &lt;p&gt;Il nous est tous ar­ri­vé d'être gê­né par la perte d'un ob­jet et de re­gret­ter
+les frais ou dé­marches in­duits.&lt;/p&gt; 
+ &lt;p&gt;Mais il nous est aus­si ar­ri­ver de trou­ver un dou­dou, un vê­te­ment, voir un
+­trous­seau de clefs ou un or­di­na­teur por­table ou­blié dans le mé­tro, sans pou­voir
+­rien faire d'autre que de le lais­ser en évi­dence ou au mieux, le rap­por­ter au
+­com­mis­sa­riat le plus pro­che ; deux ac­tions dé­nuées d'ef­fi­ca­ci­té.&lt;/p&gt; 
+ &lt;p class="ad"&gt;Fort de ces re­tours d'ex­pé­rience et du constat que l'homme est bon par
+­na­tu­re, nous avons mis en place un sys­tème qui per­met aux per­sonnes trou­vant
+un ob­jet, de ren­trer fa­ci­le­ment en contact avec son pro­prié­taire.&lt;/p&gt; 
+ &lt;!-- TODO: Lien vers article scientifique sur la bonté naturelle de l'homme. --&gt;
+&lt;object class="pull-right" data="https://antipodae.fr/images/logolostre.svg" style="width: 200px;" type="image/svg+xml"&gt;
+logo de rendre.fr&lt;/object&gt;
+&lt;p&gt;L'idée prin­ci­pale — ­qui en soi n'est pas nou­vel­le — est de mar­quer les ob­jets
+a­vec un iden­ti­fiant qui per­met à la per­sonne qui trouve l'ob­jet, d'en­trer en
+­con­tact avec son pro­prié­taire. La nou­veau­té est de mar­quer les ob­jets avec des
+a­dresses in­ter­net (URL), re­con­nais­sables comme telles.&lt;/p&gt; 
+ &lt;div class="section" id="http-rendre-fr"&gt;
+&lt;h2&gt;&lt;a class="reference external" href="http://rendre.fr"&gt;http://rendre.fr&lt;/a&gt;&lt;/h2&gt;
+&lt;p class="ad"&gt;C'est ain­si que nous avons créé le site  &lt;a class="reference external" href="http://rendre.fr"&gt;http://­rendre.­fr&lt;/a&gt;.  La  &lt;a class="reference external" href="http://rendre.fr"&gt;pa­ge
+­d'ac­cueil&lt;/a&gt;  et la  &lt;a class="reference external" href="http://rendre.fr"&gt;FAQ&lt;/a&gt;  de­vrait être
+as­sez ex­pli­cite sur le ser­vice ren­du.&lt;/p&gt; 
+ &lt;p&gt;Les points dif­fé­ren­ciant sont les sui­vants :&lt;/p&gt; 
+ &lt;ul class="simple"&gt;
+&lt;li&gt;nous ne four­nis­sons pas d'éti­quet­te, car il est dif­fi­cile de four­nir des
+­for­mats ap­pro­priés aux dif­fé­rents usages. Vous pou­vez uti­li­ser tout moyen à
+­votre dis­po­si­tion pour mar­quez vos ob­jets.
+­Nous uti­li­sons fré­quem­ment des éti­quettes pro­duites à l'aide d'une
+ &lt;a class="reference external" href="https://rendre.fr/manage_/faq#comment-marquer-mes-objets"&gt;im­pri­mante adé­quate&lt;/a&gt;  (20 € en
+­li­gne), ou bien des éti­quettes tex­tiles  &lt;a class="reference external" href="https://rendre.fr/manage_/faq#vendez-vous-des-tiquettes"&gt;ache­tées en ligne&lt;/a&gt;.&lt;/li&gt; 
+ &lt;li&gt;le ser­vice est éco­no­mi­que, avec un abon­ne­ment an­nuel de 5 €. L'idée est là
+aus­si de pou­voir ren­trer dans les frais d'hé­ber­ge­ment et de dé­ve­lop­pe­ment,
+­mais guère plus.&lt;/li&gt; 
+ &lt;/ul&gt;
+&lt;p class="ad"&gt;Cô­té tech­ni­que, la so­lu­tion est dé­ve­lop­pée en Py­thon sur le  &lt;a class="reference external" href="https://antipodae.fr/fr/posts/lancement-rendre-fr/web2py.org"&gt;fra­me­work
+­Web2­py&lt;/a&gt;. Elle est hé­ber­gée par la so­lu­tion  &lt;em&gt;Google App
+En­gine&lt;/em&gt;.&lt;/p&gt; 
+ &lt;/div&gt;&lt;/div&gt;</description><guid>https://antipodae.fr/fr/posts/lancement-rendre-fr/</guid><pubDate>Wed, 01 Feb 2017 11:22:43 GMT</pubDate></item></channel></rss>

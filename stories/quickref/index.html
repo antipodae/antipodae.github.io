@@ -1,137 +1,113 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A reStructuredText Reference | Antipodae</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#5670d4">
-<meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (fr)" href="../../fr/rss.xml">
 <link rel="canonical" href="https://antipodae.fr/stories/quickref/">
-<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="docutils contributors">
+<!--[if lt IE 9]>
+            <script src="../../assets/js/html5shiv.min.js"></script>
+            <script src="../../assets/js/respond.min.js"></script>
+        <![endif]--><link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CRaleway:200,400,700" rel="stylesheet">
+<meta name="author" content="docutils contributors">
 <meta property="og:site_name" content="Antipodae">
 <meta property="og:title" content="A reStructuredText Reference">
 <meta property="og:url" content="https://antipodae.fr/stories/quickref/">
 <meta property="og:description" content="Contents
 
     
-    Inline Markup
-    Escaping with Backslashes
-    Section Structure
-    Paragraphs
-    Bullet Lists
-    Enumerated Lists
-    Definition Lists
-    Field Lists
-    Option Lists
-    Lite">
+    In­line Markup 
+     Es­cap­ing with Back­slash­es 
+     Sec­tion Struc­ture 
+     Para­graphs 
+     Bul­let Lists 
+     Enu­mer­at­ed Lists 
+     Def­i­ni­tion Lists 
+     Field Li">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2012-03-30T23:00:00-03:00">
-<link rel="alternate" hreflang="fr" href="../../fr/stories/quickref/">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-default navbar-static-top"><div class="container">
-<!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://antipodae.fr/">
-                <img src="images/logo150.png" alt="Antipodae" id="logo"></a>
+<nav class="navbar  header-panel shadow-z-3" role="navigation"><div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-3">
+            <h1 class="title-blog">
+                <a href="https://antipodae.fr/">
+                        <img src="images/logo150.png" alt="Antipodae" id="logo"></a>
+            </h1>
+          </div>
         </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li>
-<a href="../../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../../categories/">Tags</a>
-                </li>
-<li>
-<a href="../../rss.xml">RSS feed</a>
+      </div>
+<!-- /.container-fluid -->
+</nav><div class="container-fluid main" id="content" role="main">
+        <div class="row">
+            <nav class="col-xs-3 menu"><ul>
+<li class="withripple"><a href="../../archive.html">Archive</a></li>
+                <li class="withripple"><a href="../../categories/">Tags</a></li>
+                <li class="withripple"><a href="../../rss.xml">RSS&nbsp;feed</a></li>
 
-                
-            </li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-            </li>
+                    
+                </ul>
+<ul class="nav navbar-nav">
+<li>            </li>
 <li><a href="https://antipodae.fr/fr/" rel="alternate" hreflang="fr">Français</a></li>
 
-                
                     
-    <li>
-    <a href="index.rst" id="sourcelink">Source</a>
-    </li>
-
-                
-            </ul>
-</div>
-<!-- /.navbar-collapse -->
-    </div>
-<!-- /.container -->
-</nav><!-- End of Menubar --><div class="container" id="content" role="main">
-    <div class="body-content">
-        <!--Body content-->
-        <div class="row">
-            
-            
-<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">A reStructuredText Reference</a></h1>
-
-        
-
-    </header><div class="e-content entry-content" itemprop="articleBody text">
+                </ul></nav><div class="posts-material col-xs-9">
+                <div class="col-xs-12 col-md-11 content-material">
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">A reStructuredText&nbsp;Reference</a></h1>
+<hr></header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <div class="alert alert-info pull-right" style="margin-left: 2em;">
     <h3><a name="contents">Contents</a></h3>
 
     <ul>
-<li><a href="#inline-markup">Inline Markup</a></li>
-    <li><a href="#escaping">Escaping with Backslashes</a></li>
-    <li><a href="#section-structure">Section Structure</a></li>
-    <li><a href="#paragraphs">Paragraphs</a></li>
-    <li><a href="#bullet-lists">Bullet Lists</a></li>
-    <li><a href="#enumerated-lists">Enumerated Lists</a></li>
-    <li><a href="#definition-lists">Definition Lists</a></li>
-    <li><a href="#field-lists">Field Lists</a></li>
-    <li><a href="#option-lists">Option Lists</a></li>
-    <li><a href="#literal-blocks">Literal Blocks</a></li>
-    <li><a href="#line-blocks">Line Blocks</a></li>
-    <li><a href="#block-quotes">Block Quotes</a></li>
-    <li><a href="#doctest-blocks">Doctest Blocks</a></li>
-    <li><a href="#tables">Tables</a></li>
-    <li><a href="#transitions">Transitions</a></li>
-    <li>
-<a href="#explicit-markup">Explicit Markup</a>
-    <ul>
-<li><a href="#footnotes">Footnotes</a></li>
-    <li><a href="#citations">Citations</a></li>
-    <li>
-<a href="#hyperlink-targets">Hyperlink Targets</a>
-    <ul>
-<li><a href="#external-hyperlink-targets">External Hyperlink Targets</a></li>
-    <li><a href="#internal-hyperlink-targets">Internal Hyperlink Targets</a></li>
-    <li><a href="#indirect-hyperlink-targets">Indirect Hyperlink Targets</a></li>
-    <li><a href="#implicit-hyperlink-targets">Implicit Hyperlink Targets</a></li>
-    </ul>
-</li>
-    <li><a href="#directives">Directives</a></li>
-    <li><a href="#substitution-references-and-definitions">Substitution References and Definitions</a></li>
-    <li><a href="#comments">Comments</a></li>
-    </ul>
-</li>
-    <li><a href="#getting-help">Getting Help</a></li>
-    </ul>
+<li><a href="#inline-markup">In­line&nbsp;Markup</a></li> 
+     <li><a href="#escaping">Es­cap­ing with&nbsp;Back­slash­es</a></li> 
+     <li><a href="#section-structure">Sec­tion&nbsp;Struc­ture</a></li> 
+     <li><a href="#paragraphs">Para­graphs</a></li> 
+     <li><a href="#bullet-lists">Bul­let&nbsp;Lists</a></li> 
+     <li><a href="#enumerated-lists">Enu­mer­at­ed&nbsp;Lists</a></li> 
+     <li><a href="#definition-lists">Def­i­ni­tion&nbsp;Lists</a></li> 
+     <li><a href="#field-lists">Field&nbsp;Lists</a></li> 
+     <li><a href="#option-lists">Op­tion&nbsp;Lists</a></li> 
+     <li><a href="#literal-blocks">Lit­er­al&nbsp;Blocks</a></li> 
+     <li><a href="#line-blocks">Line&nbsp;Blocks</a></li> 
+     <li><a href="#block-quotes">Block&nbsp;Quotes</a></li> 
+     <li><a href="#doctest-blocks">Doctest&nbsp;Blocks</a></li> 
+     <li><a href="#tables">Ta­bles</a></li> 
+     <li><a href="#transitions">Tran­si­tions</a></li> 
+     <li>
+<a href="#explicit-markup">Ex­plic­it Markup</a> 
+     <ul>
+<li><a href="#footnotes">Foot­notes</a></li>  
+      <li><a href="#citations">Ci­­ta­­tions</a></li>  
+      <li>
+<a href="#hyperlink-targets">Hy­per­link Tar­gets</a>  
+      <ul>
+<li><a href="#external-hyperlink-targets">Ex­ter­­­nal Hy­per­link&nbsp;Tar­gets</a></li>   
+       <li><a href="#internal-hyperlink-targets">In­­­ter­­­nal Hy­per­link&nbsp;Tar­gets</a></li>   
+       <li><a href="#indirect-hyperlink-targets">In­­­di­rect Hy­per­link&nbsp;Tar­gets</a></li>   
+       <li><a href="#implicit-hyperlink-targets">Im­­­plic­it Hy­per­link&nbsp;Tar­gets</a></li>   
+       </ul>
+</li>  
+      <li><a href="#directives">Di­rec­­tives</a></li>  
+      <li><a href="#substitution-references-and-definitions">Sub­­sti­­tu­­tion Re­f­er­ences and&nbsp;De­f­i­ni­­tions</a></li>  
+      <li><a href="#comments">Com­­ments</a></li>  
+      </ul>
+</li> 
+     <li><a href="#getting-help">Get­ting&nbsp;Help</a></li> 
+     </ul>
 </div>
 
 
@@ -142,33 +118,33 @@
     <!-- beware that it was hand-generated, not by Docutils/ReST.  -->
 
     <blockquote>
-    <p>Copyright: This document has been placed in the public domain.
-    </p>
+    <p>Copy­right: This doc­u­ment has been placed in the pub­lic&nbsp;do­main.
+     </p>
 </blockquote>
 
 
-    <p>The full details of the markup may be found on the
-    <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>
-    page. This document is just intended as a reminder.
+    <p>The full de­tails of the markup may be found on the
+     <a href="http://docutils.sourceforge.net/rst.html">re­Struc­tured­Text</a> 
+    page. This doc­u­ment is just in­tend­ed as a&nbsp;re­minder.
 
-    </p>
-<p>Links that look like "(<a href="#details">details</a>)" point
-    into the HTML version of the full <a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">reStructuredText
-    specification</a> document.  These are relative links; if they
-    don't work, please use the <a href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">master "Quick reStructuredText"</a> document.
+     </p>
+<p>Links that look like &#8220;(<a href="#details">de­tails</a>)&#8221; point
+    in­to the HTML ver­sion of the full  <a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">re­Struc­tured­Tex­t
+    spec­i­fi­ca­tion</a>  doc­u­men­t.  These are rel­a­tive links; if they
+    don&#8217;t work, please use the  <a href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">mas­ter &#8220;Quick re­Struc­tured­Tex­t&#8221;</a>&nbsp;doc­u­men­t.
 
 
-    </p>
-<h3><a href="#contents" name="inline-markup" class="backref">Inline Markup</a></h3>
+     </p>
+<h3><a href="#contents" name="inline-markup" class="backref">Inline&nbsp;Markup</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#inline-markup">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#inline-markup">de­tails</a>)
 
-    </p>
-<p>Inline markup allows words and phrases within text to have
-    character styles (like italics and boldface) and functionality
-    (like hyperlinks).
+     </p>
+<p>In­line markup al­lows words and phras­es with­in text to have
+    char­ac­ter styles (like ital­ics and bold­face) and func­tion­al­i­ty
+    (like&nbsp;hy­per­links).
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -320,30 +296,30 @@
 </tr>
 </tbody>
 </table>
-<p>Asterisk, backquote, vertical bar, and underscore are inline
-    delimiter characters. Asterisk, backquote, and vertical bar act
-    like quote marks; matching characters surround the marked-up word
-    or phrase, whitespace or other quoting is required outside them,
-    and there can't be whitespace just inside them. If you want to use
-    inline delimiter characters literally, <a href="#escaping">escape
-    (with backslash)</a> or quote them (with double backquotes; i.e.
-    use inline literals).
+<p>As­ter­isk, back­quote, ver­ti­cal bar, and un­der­score are in­line
+    de­lim­iter char­ac­ter­s. As­ter­isk, back­quote, and ver­ti­cal bar ac­t
+    like quote mark­s; match­ing char­ac­ters sur­round the marked-up word
+    or phrase, white­space or oth­er quot­ing is re­quired out­side them,
+    and there can&#8217;t be white­space just in­side them. If you want to use
+    in­line de­lim­iter char­ac­ters lit­er­al­ly,  <a href="#escaping">es­cape
+    (with back­slash)</a>  or quote them (with dou­ble back­quotes; i.e.
+    use in­line&nbsp;lit­er­al­s).
 
-    </p>
-<p>In detail, the reStructuredText specification says that in
-    inline markup, the following rules apply to start-strings and
-    end-strings (inline markup delimiters):
+     </p>
+<p>In de­tail, the re­Struc­tured­Text spec­i­fi­ca­tion says that in
+    in­line markup, the fol­low­ing rules ap­ply to start-strings and
+    end-strings (in­line markup&nbsp;de­lim­iter­s):
 
-    </p>
+     </p>
 <ol>
 <li>The start-string must start a text block or be
     immediately preceded by whitespace or any of 
     <samp>' " ( [ {</samp> or <samp>&lt;</samp>.
     </li>
-<li>The start-string must be immediately followed by non-whitespace.
-    </li>
-<li>The end-string must be immediately preceded by non-whitespace.
-    </li>
+<li>The start-string must be im­me­di­ate­ly fol­lowed by&nbsp;non-whites­pace.
+     </li>
+<li>The end-string must be im­me­di­ate­ly pre­ced­ed by&nbsp;non-whites­pace.
+     </li>
 <li>The end-string must end a text block (end of document or
     followed by a blank line) or be immediately followed by whitespace
     or any of <samp>' " . , : ; ! ? - ) ] } / \</samp>
@@ -354,31 +330,31 @@
     immediately followed by the corresponding character from 
     <samp>' " ) ] }</samp> or <samp>&gt;</samp>.
     </li>
-<li>An end-string must be separated by at least one
-    character from the start-string.
-    </li>
-<li>An <a href="#escaping">unescaped</a> backslash preceding a
-    start-string or end-string will disable markup recognition, except
-    for the end-string of inline literals.
-    </li>
+<li>An end-string must be sep­a­rat­ed by at least one
+    char­ac­ter from the&nbsp;start-string.
+     </li>
+<li>An  <a href="#escaping">un­escaped</a>  back­slash pre­ced­ing a
+    start-string or end-string will dis­able markup recog­ni­tion, ex­cep­t
+    for the end-string of in­line&nbsp;lit­er­al­s.
+     </li>
 </ol>
-<p>Also remember that inline markup may not be nested (well,
-    except that inline literals can contain any of the other inline
-    markup delimiter characters, but that doesn't count because
-    nothing is processed).
+<p>Al­so re­mem­ber that in­line markup may not be nest­ed (well,
+    ex­cept that in­line lit­er­als can con­tain any of the oth­er in­line
+    markup de­lim­iter char­ac­ter­s, but that does­n&#8217;t count be­cause
+    noth­ing is&nbsp;pro­cessed).
 
-    </p>
-<h3><a href="#contents" name="escaping" class="backref">Escaping with Backslashes</a></h3>
+     </p>
+<h3><a href="#contents" name="escaping" class="backref">Escaping with&nbsp;Backslashes</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#escaping-mechanism">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#escaping-mechanism">de­tails</a>)
 
-    </p>
-<p>reStructuredText uses backslashes ("\") to override the special
-    meaning given to markup characters and get the literal characters
-    themselves. To get a literal backslash, use an escaped backslash
-    ("\\"). For example:
+     </p>
+<p>re­Struc­tured­Text us­es back­slash­es (&#8220;&#34;) to over­ride the spe­cial
+    mean­ing giv­en to markup char­ac­ters and get the lit­er­al char­ac­ter­s
+    them­selves. To get a lit­er­al back­slash, use an es­caped back­slash
+    (&#8220;&#92;&#8221;). For&nbsp;ex­am­ple:
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -393,24 +369,24 @@
         <samp>*escape* ``with`` "\"</samp>
     </td>
 <td>
-<em>escape</em> <samp>with</samp> ""
+<em>escape</em> <samp>with</samp> &#8220;&#8221;
     </td>
 </tr>
 <tr valign="top">
 <td>
         <samp>\*escape* \``with`` "\\"</samp>
     </td>
-<td>*escape* ``with`` "\"
+<td>*escape* &#8220;with&#8220; &#8220;&#34;
     </td>
 </tr>
 </tbody>
 </table>
-<p>In Python strings it will, of course, be necessary
-    to escape any backslash characters so that they actually
-    <em>reach</em> reStructuredText.
-    The simplest way to do this is to use raw strings:
+<p>In Python strings it will, of course, be nec­es­sary
+    to es­cape any back­slash char­ac­ters so that they ac­tu­al­ly
+     <em>reach</em>  re­Struc­tured­Tex­t.
+    The sim­plest way to do this is to use raw&nbsp;strings:
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -424,14 +400,14 @@
 <td>
         <samp>r"""\*escape* \`with` "\\""""</samp>
     </td>
-<td>*escape* `with` "\"
+<td>*escape* `with` &#8220;&#34;
     </td>
 </tr>
 <tr valign="top">
 <td>
         <samp> """\\*escape* \\`with` "\\\\""""</samp>
     </td>
-<td>*escape* `with` "\"
+<td>*escape* `with` &#8220;&#34;
     </td>
 </tr>
 <tr valign="top">
@@ -439,16 +415,16 @@
         <samp> """\*escape* \`with` "\\""""</samp>
     </td>
 <td>
-<em>escape</em> with ""
+<em>escape</em> with &#8220;&#8221;
     </td>
 </tr>
 </tbody>
 </table>
-<h3><a href="#contents" name="section-structure" class="backref">Section Structure</a></h3>
+<h3><a href="#contents" name="section-structure" class="backref">Section&nbsp;Structure</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#sections">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#sections">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -479,28 +455,27 @@
     </td>
 <td>
         <font size="+2"><strong>Title</strong></font>
-        <p><font size="+1"><strong>Subtitle</strong></font>
-        </p>
+        <p><font size="+1"><strong>Sub­ti­tle</strong></font> 
+         </p>
 <p>Titles are underlined (or over-
         and underlined) with a printing
         nonalphanumeric 7-bit ASCII
         character. Recommended choices
-        are "<samp>= - ` : ' " ~ ^ _ * + # &lt; &gt;</samp>".
+        are &#8220;<samp>= - ` : ' " ~ ^ _ * + # &lt; &gt;</samp>&#8220;.
         The underline/overline must be at
-        least as long as the title text.
+        least as long as the title&nbsp;text.
         </p>
-<p>A lone top-level (sub)section is
-        lifted up to be the document's
-        (sub)title.
-    </p>
+<p>A lone top-lev­el (sub­)­sec­tion is
+        lift­ed up to be the doc­u­men­t&#8217;s&nbsp;(sub­)ti­tle.
+     </p>
 </td>
 </tr></tbody>
 </table>
 <h3><a href="#contents" name="paragraphs" class="backref">Paragraphs</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#paragraphs">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#paragraphs">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -521,21 +496,21 @@
     </p>
 </td>
 <td>
-        <p>This is a paragraph.
+        <p>This is a&nbsp;para­graph.
 
-        </p>
-<p>Paragraphs line up at their left edges, and are normally
-        separated by blank lines.
+         </p>
+<p>Para­graphs line up at their left edges, and are nor­mal­ly
+        sep­a­rat­ed by blank&nbsp;lines.
 
-    </p>
+     </p>
 </td>
 </tr></tbody>
 </table>
-<h3><a href="#contents" name="bullet-lists" class="backref">Bullet Lists</a></h3>
+<h3><a href="#contents" name="bullet-lists" class="backref">Bullet&nbsp;Lists</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#bullet-lists">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#bullet-lists">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -564,26 +539,26 @@
 </td>
 <td>Bullet lists:
         <ul>
-<li>This is item 1
-        </li>
-<li>This is item 2
-        </li>
-<li>Bullets are "-", "*" or "+".
-        Continuing text must be aligned
-        after the bullet and whitespace.
-        </li>
+<li>This is item&nbsp;1
+         </li>
+<li>This is item&nbsp;2
+         </li>
+<li>Bul­lets are &#8220;-&#8220;, &#8220;*&#8221; or &#8220;+&#8221;.
+        Con­tin­u­ing text must be aligned
+        af­ter the bul­let and&nbsp;white­space.
+         </li>
 </ul>
-<p>Note that a blank line is required before the first
-        item and after the last, but is optional between items.
-    </p>
+<p>Note that a blank line is re­quired be­fore the first
+        item and af­ter the last, but is op­tion­al be­tween&nbsp;item­s.
+     </p>
 </td>
 </tr></tbody>
 </table>
-<h3><a href="#contents" name="enumerated-lists" class="backref">Enumerated Lists</a></h3>
+<h3><a href="#contents" name="enumerated-lists" class="backref">Enumerated&nbsp;Lists</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#enumerated-lists">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#enumerated-lists">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -609,28 +584,28 @@
 </td>
 <td>Enumerated lists:
         <ol type="1">
-<li value="3">This is the first item
-        </li>
-<li>This is the second item
-        </li>
-<li>Enumerators are arabic numbers, single letters,
-        or roman numerals
-        </li>
-<li>List items should be sequentially numbered,
-        but need not start at 1 (although not all
-        formatters will honour the first index).
-        </li>
-<li>This item is auto-enumerated
-        </li>
+<li value="3">This is the first&nbsp;item
+         </li>
+<li>This is the sec­ond&nbsp;item
+         </li>
+<li>Enu­mer­a­tors are ara­bic num­ber­s, sin­gle let­ter­s,
+        or ro­man&nbsp;nu­mer­al­s
+         </li>
+<li>List items should be se­quen­tial­ly num­bered,
+        but need not start at 1 (although not al­l
+        for­mat­ters will hon­our the first&nbsp;in­dex).
+         </li>
+<li>This item is&nbsp;au­to-enu­mer­at­ed
+         </li>
 </ol>
 </td>
 </tr></tbody>
 </table>
-<h3><a href="#contents" name="definition-lists" class="backref">Definition Lists</a></h3>
+<h3><a href="#contents" name="definition-lists" class="backref">Definition&nbsp;Lists</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#definition-lists">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#definition-lists">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -658,7 +633,7 @@
 <strong>what</strong>
         </dt>
 <dd>Definition lists associate a term with
-        a definition.
+        a&nbsp;definition.
 
         </dd>
 <dt>
@@ -668,17 +643,17 @@
         definition is one or more paragraphs or
         body elements, indented relative to the
         term.  Blank lines are not allowed
-        between term and definition.
+        between term and&nbsp;definition.
         </dd>
 </dl>
 </td>
 </tr></tbody>
 </table>
-<h3><a href="#contents" name="field-lists" class="backref">Field Lists</a></h3>
+<h3><a href="#contents" name="field-lists" class="backref">Field&nbsp;Lists</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#field-lists">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#field-lists">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -729,17 +704,17 @@
 </td>
 </tr></tbody>
 </table>
-<p>Field lists are used as part of an extension syntax, such as
-    options for <a href="#directives">directives</a>, or database-like
-    records meant for further processing.  Field lists may also be
-    used as generic two-column table constructs in documents.
+<p>Field lists are used as part of an ex­ten­sion syn­tax, such as
+    op­tions for  <a href="#directives">di­rec­tives</a>, or database-­like
+    records meant for fur­ther pro­cess­ing.  Field lists may al­so be
+    used as gener­ic two-­col­umn ta­ble con­structs in&nbsp;doc­u­ments.
 
-    </p>
-<h3><a href="#contents" name="option-lists" class="backref">Option Lists</a></h3>
+     </p>
+<h3><a href="#contents" name="option-lists" class="backref">Option&nbsp;Lists</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#option-lists">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#option-lists">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -768,7 +743,7 @@
 <td width="30%">
 <samp>-a</samp>
             </td>
-<td>command-line option "a"
+<td>command-line option &#8220;a&#8221;
             </td>
 </tr>
 <tr>
@@ -803,15 +778,14 @@
 </td>
 </tr></tbody>
 </table>
-<p>There must be at least two spaces between the option and the
-    description.
+<p>There must be at least two spa­ces be­tween the op­tion and the&nbsp;de­scrip­tion.
 
-    </p>
-<h3><a href="#contents" name="literal-blocks" class="backref">Literal Blocks</a></h3>
+     </p>
+<h3><a href="#contents" name="literal-blocks" class="backref">Literal&nbsp;Blocks</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#literal-blocks">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#literal-blocks">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -851,11 +825,11 @@
 
     </td>
 <td>
-        <p>A paragraph containing only two colons
-indicates that the following indented or quoted
-text is a literal block.
+        <p>A para­graph con­tain­ing on­ly two colon­s
+indi­cates that the fol­low­ing in­dent­ed or quot­ed
+­text is a lit­er­al&nbsp;block­.
 
-        </p>
+         </p>
 <pre>
 Whitespace, newlines, blank lines, and
 all kinds of markup (like *this* or
@@ -868,37 +842,37 @@ will be omitted from the result.</pre>
 end of any paragraph. The <samp>::</samp> will be
 omitted if it is preceded by whitespace.
 The <samp>::</samp> will be converted to a single
-colon if preceded by text, like this:
+colon if preceded by text, like&nbsp;this:
 
         </p>
 <pre>
 It's very convenient to use this form.</pre>
 
-        <p>Literal blocks end when text returns to
-the preceding paragraph's indentation.
-This means that something like this is possible:
+        <p>Lit­er­al blocks end when text re­turns to
+the pre­ced­ing para­graph&#8217;s in­den­ta­tion.
+This means that some­thing like this is&nbsp;pos­si­ble:
 
-        </p>
+         </p>
 <pre>
     We start here
     and continue here
 and end here.</pre>
 
-        <p>Per-line quoting can also be used on
-unindented literal blocks:
+        <p>Per-­line quot­ing can al­so be used on
+unin­dent­ed lit­er­al&nbsp;block­s:
 
-        </p>
+         </p>
 <pre>
 &gt; Useful for quotes from email and
 &gt; for Haskell literate programming.</pre>
     </td>
 </tr></tbody>
 </table>
-<h3><a href="#contents" name="line-blocks" class="backref">Line Blocks</a></h3>
+<h3><a href="#contents" name="line-blocks" class="backref">Line&nbsp;Blocks</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#line-blocks">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#line-blocks">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -927,7 +901,7 @@ unindented literal blocks:
         <div class="line">verse, and adornment-free lists.</div>
         <div class="line"><br></div>
         <div class="line">Each new line begins with a</div>
-        <div class="line">vertical bar ("|").</div>
+        <div class="line">vertical bar (&#8220;|&#8221;).</div>
         <div class="line-block">
             <div class="line">Line breaks and initial indents</div>
             <div class="line">are preserved.</div>
@@ -939,11 +913,11 @@ unindented literal blocks:
     </td>
 </tr></tbody>
 </table>
-<h3><a href="#contents" name="block-quotes" class="backref">Block Quotes</a></h3>
+<h3><a href="#contents" name="block-quotes" class="backref">Block&nbsp;Quotes</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#block-quotes">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#block-quotes">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -965,24 +939,24 @@ unindented literal blocks:
 <td>
         Block quotes are just:
         <blockquote>
-        <p>Indented paragraphs,
-        </p>
+        <p>In­dent­ed&nbsp;para­graph­s,
+         </p>
 <blockquote>
-        <p>and they may nest.
-        </p>
+        <p>and they may&nbsp;nest.
+         </p>
 </blockquote>
         </blockquote>
     </td>
 </tr></tbody>
 </table>
-<p>Use <a href="#comments">empty comments</a> to separate indentation
-    contexts, such as block quotes and directive contents.</p>
+<p>Use  <a href="#comments">emp­ty com­ments</a>  to sep­a­rate in­den­ta­tion
+    con­texts, such as block quotes and di­rec­tive&nbsp;con­tents.</p> 
 
-    <h3><a href="#contents" name="doctest-blocks" class="backref">Doctest Blocks</a></h3>
+     <h3><a href="#contents" name="doctest-blocks" class="backref">Doctest&nbsp;Blocks</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#doctest-blocks">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#doctest-blocks">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1006,7 +980,7 @@ unindented literal blocks:
 <td>
         <p>Doctest blocks are interactive
         Python sessions. They begin with
-        "<samp>&gt;&gt;&gt;</samp>" and end with a blank line.
+        &#8220;<samp>&gt;&gt;&gt;</samp>&#8221; and end with a blank&nbsp;line.
 
         </p>
 <p><samp>&gt;&gt;&gt; print "This is a doctest block."
@@ -1015,22 +989,22 @@ unindented literal blocks:
 </td>
 </tr></tbody>
 </table>
-<p>"The <a href="http://www.python.org/doc/current/lib/module-doctest.html">doctest</a>
-    module searches a module's docstrings for text that looks like an
-    interactive Python session, then executes all such sessions to
-    verify they still work exactly as shown." (From the doctest docs.)
+<p><span class="dquo">&#8220;</span>The  <a href="http://www.python.org/doc/current/lib/module-doctest.html">doctest</a> 
+    mod­ule search­es a mod­ule&#8217;s doc­strings for text that looks like an
+    in­ter­ac­tive Python ses­sion, then ex­e­cutes all such ses­sions to
+    ver­i­fy they still work ex­act­ly as shown.&#8221; (From the doctest&nbsp;doc­s.)
 
-    </p>
+     </p>
 <h3><a href="#contents" name="tables" class="backref">Tables</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#tables">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#tables">de­tails</a>)
 
-    </p>
-<p>There are two syntaxes for tables in reStructuredText.  Grid
-    tables are complete but cumbersome to create.  Simple tables are
-    easy to create but limited (no row spans, etc.).</p>
+     </p>
+<p>There are two syn­tax­es for ta­bles in re­Struc­tured­Tex­t.  Grid
+    ta­bles are com­plete but cum­ber­some to cre­ate.  Sim­ple ta­bles are
+    easy to cre­ate but lim­it­ed (no row span­s,&nbsp;etc.).</p> 
 
-    <p></p>
+     <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
 <th width="50%">Plain text
@@ -1056,8 +1030,8 @@ unindented literal blocks:
 <br><samp>+------------+------------+-----------+</samp></p>
     </td>
 <td>
-        <p>Grid table:</p>
-        <table class="table" border="1">
+        <p>Grid&nbsp;table:</p> 
+         <table class="table" border="1">
 <thead valign="bottom"><tr>
 <th>Header 1
             </th>
@@ -1088,12 +1062,12 @@ unindented literal blocks:
             </td>
 <td rowspan="2">
                 <ul>
-<li>Cells
-                </li>
-<li>contain
-                </li>
-<li>blocks.
-                </li>
+<li>Cell­s
+                 </li>
+<li>con­tain
+                 </li>
+<li>block­s.
+                 </li>
 </ul>
 </td>
 </tr>
@@ -1120,8 +1094,8 @@ unindented literal blocks:
 
     </td>
 <td>
-        <p>Simple table:</p>
-        <table class="table" border="1">
+        <p>Sim­ple&nbsp;table:</p> 
+         <table class="table" border="1">
 <colgroup>
 <col width="31%">
 <col width="31%">
@@ -1184,9 +1158,9 @@ unindented literal blocks:
 </table>
 <h3><a href="#contents" name="transitions" class="backref">Transitions</a></h3>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#transitions">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#transitions">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1213,37 +1187,36 @@ A transition marker is a horizontal line
     </p>
 </td>
 <td>
-        <p>A transition marker is a horizontal line
-        of 4 or more repeated punctuation
-        characters.</p>
+        <p>A tran­si­tion mark­er is a hor­i­zon­tal line
+        of 4 or more re­peat­ed punc­tu­a­tion&nbsp;char­ac­ter­s.</p> 
 
-        <hr>
-<p>A transition should not begin or end a
-        section or document, nor should two
-        transitions be immediately adjacent.
-    </p>
+         <hr>
+<p>A tran­si­tion should not be­gin or end a
+        sec­tion or doc­u­men­t, nor should two
+        tran­si­tions be im­me­di­ate­ly&nbsp;ad­ja­cen­t.
+     </p>
 </td>
 </tr></tbody>
 </table>
-<p>Transitions are commonly seen in novels and short fiction, as a
-    gap spanning one or more lines, marking text divisions or
-    signaling changes in subject, time, point of view, or emphasis.
+<p>Tran­si­tions are com­mon­ly seen in nov­els and short fic­tion, as a
+    gap span­ning one or more lines, mark­ing text di­vi­sions or
+    sig­nal­ing changes in sub­jec­t, time, point of view, or&nbsp;em­pha­sis.
 
-    </p>
-<h3><a href="#contents" name="explicit-markup" class="backref">Explicit Markup</a></h3>
+     </p>
+<h3><a href="#contents" name="explicit-markup" class="backref">Explicit&nbsp;Markup</a></h3>
 
-    <p>Explicit markup blocks are used for constructs which float
-    (footnotes), have no direct paper-document representation
-    (hyperlink targets, comments), or require specialized processing
-    (directives).  They all begin with two periods and whitespace, the
-    "explicit markup start".
+    <p>Ex­plic­it markup blocks are used for con­structs which float
+    (foot­notes), have no di­rect pa­per-­doc­u­ment rep­re­sen­ta­tion
+    (hy­per­link tar­get­s, com­ments), or re­quire spe­cial­ized pro­cess­ing
+    (di­rec­tives).  They all be­gin with two pe­ri­ods and whites­pace, the
+    &#8220;ex­plic­it markup&nbsp;start&#8221;.
 
-    </p>
+     </p>
 <h4><a href="#contents" name="footnotes" class="backref">Footnotes</a></h4>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#footnotes">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#footnotes">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1268,7 +1241,7 @@ A transition marker is a horizontal line
 <td>
         Footnote references, like <sup><a href="#5">5</a></sup>.
         Note that footnotes may get rearranged, e.g., to the bottom of
-        the "page".
+        the &#8220;page&#8221;.
 
         <p></p>
 <table class="table">
@@ -1279,7 +1252,7 @@ A transition marker is a horizontal line
 <tr>
 <td><a name="5"><strong>[5]</strong></a></td>
 <td> A numerical footnote.
-        Note there's no colon after the <samp>]</samp>.
+        Note there&#8217;s no colon after the <samp>]</samp>.
         </td>
 </tr>
 </table>
@@ -1306,10 +1279,10 @@ A transition marker is a horizontal line
 <td>
         Autonumbered footnotes are possible, like using <sup><a href="#auto1">1</a></sup> and <sup><a href="#auto2">2</a></sup>.
 
-        <p>They may be assigned 'autonumber labels' - for instance,
-        <sup><a href="#fourth">4</a></sup> and <sup><a href="#third">3</a></sup>.
+        <p>They may be as­signed &#8216;au­ton­um­ber la­bel­s&#8217; - for in­stance,
+         <sup><a href="#fourth">4</a></sup>  and  <sup><a href="#third">3</a></sup>.
 
-        </p>
+         </p>
 <p></p>
 <table class="table">
 <tr><td colspan="2">
@@ -1377,16 +1350,16 @@ A transition marker is a horizontal line
 <p>The numbering of auto-numbered footnotes is determined by the
     order of the footnotes, not of the references. For auto-numbered
     footnote references without autonumber labels
-    ("<samp>[#]_</samp>"), the references and footnotes must be in the
+    (&#8220;<samp>[#]_</samp>&#8220;), the references and footnotes must be in the
     same relative order. Similarly for auto-symbol footnotes
-    ("<samp>[*]_</samp>").
+    (&#8220;<samp>[*]_</samp>&#8220;).
 
     </p>
 <h4><a href="#contents" name="citations" class="backref">Citations</a></h4>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#citations">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#citations">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1422,16 +1395,16 @@ A transition marker is a horizontal line
 <td>
         Citation references, like <a href="#cit2002">[CIT2002]</a>.
         Note that citations may get rearranged, e.g., to the bottom of
-        the "page".
+        the &#8220;page&#8221;.
 
-        <p>Citation labels contain alphanumerics, underlines, hyphens
-        and fullstops.  Case is not significant.
+        <p>Ci­ta­tion la­bels con­tain al­phanu­mer­ic­s, un­der­li­nes, hy­phen­s
+        and full­stop­s.  Case is not&nbsp;sig­nif­i­can­t.
 
-        </p>
-<p>Given a citation like <a href="#this">[this]</a>, one
-        can also refer to it like <a href="#this">this</a>.
+         </p>
+<p>Giv­en a ci­ta­tion like  <a href="#this">[this]</a>, one
+        can al­so re­fer to it like  <a href="#this">this</a>.
 
-        </p>
+         </p>
 <p></p>
 <table class="table">
 <tr><td colspan="2">
@@ -1453,12 +1426,12 @@ A transition marker is a horizontal line
 </td>
 </tr></tbody>
 </table>
-<h4><a href="#contents" name="hyperlink-targets" class="backref">Hyperlink Targets</a></h4>
+<h4><a href="#contents" name="hyperlink-targets" class="backref">Hyperlink&nbsp;Targets</a></h4>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#hyperlink-targets">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#hyperlink-targets">de­tails</a>)
 
-    </p>
-<h5><a href="#contents" name="external-hyperlink-targets" class="backref">External Hyperlink Targets</a></h5>
+     </p>
+<h5><a href="#contents" name="external-hyperlink-targets" class="backref">External Hyperlink&nbsp;Targets</a></h5>
 
     <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
@@ -1511,22 +1484,21 @@ A transition marker is a horizontal line
 </td></tr>
 </tbody>
 </table>
-<p>"<em>Fold-in</em>" is the representation typically used in HTML
-    documents (think of the indirect hyperlink being "folded in" like
-    ingredients into a cake), and "<em>call-out</em>" is more suitable for
-    printed documents, where the link needs to be presented explicitly, for
-    example as a footnote.  You can force usage of the call-out form by
-    using the
-    "<a href="http://docutils.sourceforge.net/docs/ref/rst/directives.html#target-notes">target-notes</a>"
-    directive.
+<p><span class="dquo">&#8220;</span><em>Fold-in</em>&#8221; is the rep­re­sen­ta­tion typ­i­cal­ly used in HTM­L
+    doc­u­ments (think of the in­di­rect hy­per­link be­ing &#8220;fold­ed in&#8221; like
+    in­gre­di­ents in­to a cake), and &#8220;<em>cal­l-out</em>&#8221; is more suit­able for
+    print­ed doc­u­ments, where the link needs to be pre­sent­ed ex­plic­it­ly, for
+    ex­am­ple as a foot­note.  You can force us­age of the cal­l-out form by
+    us­ing the
+    &#8220;<a href="http://docutils.sourceforge.net/docs/ref/rst/directives.html#target-notes">tar­get-notes</a>&#8220;&nbsp;di­rec­tive.
 
-    </p>
-<p>reStructuredText also provides for <b>embedded URIs</b> (<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#embedded-uris">details</a>),
-    a convenience at the expense of readability.  A hyperlink
-    reference may directly embed a target URI inline, within angle
-    brackets.  The following is exactly equivalent to the example above:
+     </p>
+<p>re­Struc­tured­Text al­so pro­vides for  <b>em­bed­ded URIs</b>  (<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#embedded-uris">de­tails</a>),
+    a con­ve­nience at the ex­pense of read­abil­i­ty.  A hy­per­link
+    ref­er­ence may di­rect­ly em­bed a tar­get URI in­line, with­in an­gle
+    brack­et­s.  The fol­low­ing is ex­act­ly equiv­a­lent to the ex­am­ple&nbsp;above:
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1545,7 +1517,7 @@ A transition marker is a horizontal line
     </td>
 </tr></tbody>
 </table>
-<h5><a href="#contents" name="internal-hyperlink-targets" class="backref">Internal Hyperlink Targets</a></h5>
+<h5><a href="#contents" name="internal-hyperlink-targets" class="backref">Internal Hyperlink&nbsp;Targets</a></h5>
 
     <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
@@ -1576,9 +1548,9 @@ A transition marker is a horizontal line
         <!-- luck!                                                -->
         </td></tr>
 <tr><td>Internal crossreferences, like <a href="#example-foldin">example</a>
-        <p><a name="example-foldin">This</a> is an example
-            crossreference target.
-        </p>
+        <p><a name="example-foldin">This</a>  is an ex­am­ple
+            cross­ref­er­ence&nbsp;tar­get.
+         </p>
 </td></tr>
 </table>
 </td>
@@ -1590,19 +1562,19 @@ A transition marker is a horizontal line
         </td></tr>
 <tr><td>Internal crossreferences, like <a href="#example-callout">example</a>
 
-        <p><a name="example-callout"><i>example:</i></a>
-            <br>This is an example crossreference target.
-        </p>
+        <p><a name="example-callout"><i>ex­am­ple:</i></a> 
+             <br>This is an ex­am­ple cross­ref­er­ence&nbsp;tar­get.
+         </p>
 </td></tr>
 </table>
 </td></tr>
 </tbody>
 </table>
-<h5><a href="#contents" name="indirect-hyperlink-targets" class="backref">Indirect Hyperlink Targets</a></h5>
+<h5><a href="#contents" name="indirect-hyperlink-targets" class="backref">Indirect Hyperlink&nbsp;Targets</a></h5>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#indirect-hyperlink-targets">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#indirect-hyperlink-targets">de­tails</a>)
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1624,36 +1596,36 @@ A transition marker is a horizontal line
     </p>
 </td>
 <td>
-        <p><a href="http://www.python.org/">Python</a> is
-        <a href="http://www.python.org/">my favourite
-        programming language</a>.
+        <p><a href="http://www.python.org/">Python</a>  is
+         <a href="http://www.python.org/">my favourite
+        pro­gram­ming lan­guage</a>.
 
-    </p>
+     </p>
 </td>
 </tr></tbody>
 </table>
 <p>The second hyperlink target (the line beginning with
-    "<samp>__</samp>") is both an indirect hyperlink target
+    &#8220;<samp>__</samp>&#8220;) is both an indirect hyperlink target
     (<i>indirectly</i> pointing at the Python website via the
-    "<samp>Python_</samp>" reference) and an <b>anonymous hyperlink
+    &#8220;<samp>Python_</samp>&#8221; reference) and an <b>anonymous hyperlink
     target</b>. In the text, a double-underscore suffix is used to
     indicate an <b>anonymous hyperlink reference</b>.  In an anonymous
     hyperlink target, the reference text is not repeated.  This is
     useful for references with long text or throw-away references, but
     the target should be kept close to the reference to prevent them
-    going out of sync.
+    going out of&nbsp;sync.
 
     </p>
-<h5><a href="#contents" name="implicit-hyperlink-targets" class="backref">Implicit Hyperlink Targets</a></h5>
+<h5><a href="#contents" name="implicit-hyperlink-targets" class="backref">Implicit Hyperlink&nbsp;Targets</a></h5>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#implicit-hyperlink-targets">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#implicit-hyperlink-targets">de­tails</a>)
 
-    </p>
-<p>Section titles, footnotes, and citations automatically generate
-    hyperlink targets (the title text or footnote/citation label is
-    used as the hyperlink name).
+     </p>
+<p>Sec­tion ti­tles, foot­notes, and ci­ta­tions au­to­mat­i­cal­ly gen­er­ate
+    hy­per­link tar­gets (the ti­tle text or foot­note/c­i­ta­tion la­bel is
+    used as the hy­per­link&nbsp;name).
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1671,23 +1643,23 @@ A transition marker is a horizontal line
     </td>
 <td>
         <font size="+2"><strong><a name="title">Titles are targets, too</a></strong></font>
-        <p>Implict references, like <a href="#title">Titles are
-        targets, too</a>.
-    </p>
+        <p>Im­plict ref­er­ences, like  <a href="#title">Ti­tles are
+        tar­get­s, too</a>.
+     </p>
 </td>
 </tr></tbody>
 </table>
 <h4><a href="#contents" name="directives" class="backref">Directives</a></h4>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#directives">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#directives">de­tails</a>)
 
-    </p>
-<p>Directives are a general-purpose extension mechanism, a way of
-    adding support for new constructs without adding new syntax.  For
-    a description of all standard directives, see <a href="http://docutils.sourceforge.net/docs/ref/rst/directives.html">reStructuredText
-    Directives</a>.
+     </p>
+<p>Di­rec­tives are a gen­er­al-pur­pose ex­ten­sion mech­a­nis­m, a way of
+    adding sup­port for new con­structs with­out adding new syn­tax.  For
+    a de­scrip­tion of all stan­dard di­rec­tives, see  <a href="http://docutils.sourceforge.net/docs/ref/rst/directives.html">re­Struc­tured­Tex­t
+    Di­rec­tives</a>.
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1710,15 +1682,15 @@ A transition marker is a horizontal line
 </td>
 </tr></tbody>
 </table>
-<h4><a href="#contents" name="substitution-references-and-definitions" class="backref">Substitution References and Definitions</a></h4>
+<h4><a href="#contents" name="substitution-references-and-definitions" class="backref">Substitution References and&nbsp;Definitions</a></h4>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions">de­tails</a>)
 
-    </p>
-<p>Substitutions are like inline directives, allowing graphics and
-    arbitrary constructs within text.
+     </p>
+<p>Sub­sti­tu­tions are like in­line di­rec­tives, al­low­ing graph­ics and
+    ar­bi­trary con­structs with­in&nbsp;tex­t.
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1740,22 +1712,22 @@ is named after Nikola Tesla.</samp>
 </td>
 <td>
 
-        <p>The <img src="../../images/nikola.png" align="bottom" alt="Nikola"> static
-        site generator is named after Nikola Tesla.
+        <p>The  <img src="../../images/nikola.png" align="bottom" alt="Nikola">  stat­ic
+        site gen­er­a­tor is named af­ter Niko­la&nbsp;Tes­la.
 
-    </p>
+     </p>
 </td>
 </tr></tbody>
 </table>
 <h4><a href="#contents" name="comments" class="backref">Comments</a></h4>
 
-    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#comments">details</a>)
+    <p>(<a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#comments">de­tails</a>)
 
-    </p>
-<p>Any text which begins with an explicit markup start but doesn't
-    use the syntax of any of the constructs above, is a comment.
+     </p>
+<p>Any text which be­gins with an ex­plic­it markup start but does­n&#8217;t
+    use the syn­tax of any of the con­structs above, is a&nbsp;com­men­t.
 
-    </p>
+     </p>
 <p></p>
 <table class="table" border="1" width="100%" bgcolor="#ffffcc" cellpadding="3">
 <thead><tr align="left" bgcolor="#99CCFF">
@@ -1792,54 +1764,115 @@ is named after Nikola Tesla.</samp>
     </p>
 </td>
 <td>
-        An "empty comment" does not
+        An &#8220;empty comment&#8221; does not
         consume following blocks.
-        (An empty comment is ".." with
+        (An empty comment is &#8220;..&#8221; with
         blank lines before and after.)
         <blockquote>
-        So this block is not "lost",
+        So this block is not &#8220;lost&#8221;,
         despite its indentation.
         </blockquote>
     </td>
 </tr>
 </tbody>
 </table>
-<h3><a href="#contents" name="getting-help" class="backref">Getting Help</a></h3>
+<h3><a href="#contents" name="getting-help" class="backref">Getting&nbsp;Help</a></h3>
 
-    <p>Users who have questions or need assistance with Docutils or
-    reStructuredText should <a href="mailto:docutils-users@lists.sourceforge.net">post a
-    message</a> to the <a href="http://lists.sourceforge.net/lists/listinfo/docutils-users">Docutils-Users mailing list</a>.  The <a href="http://docutils.sourceforge.net/">Docutils project web
-    site</a> has more information.
+    <p>Users who have ques­tions or need as­sis­tance with Do­cu­tils or
+    re­Struc­tured­Text should  <a href="mailto:docutils-users@lists.sourceforge.net">post a
+    mes­sage</a>  to the  <a href="http://lists.sourceforge.net/lists/listinfo/docutils-users">Do­cu­til­s-Users mail­ing list</a>.  The  <a href="http://docutils.sourceforge.net/">Do­cu­tils project we­b
+    site</a>  has more&nbsp;in­for­ma­tion.
 
-    </p>
+     </p>
 <p></p>
 <hr>
 <address>
-    <p>Authors:
-    <a href="http://www.tibsnjoan.co.uk/">Tibs</a>
-    (<a href="mailto:tibs@tibsnjoan.co.uk"><tt>tibs@tibsnjoan.co.uk</tt></a>)
+    <p>Au­thors:
+     <a href="http://www.tibsnjoan.co.uk/">Tibs</a> 
+    (<a href="mailto:tibs@tibsnjoan.co.uk"><tt>tib­s@tib­snjoan.­co.uk</tt></a>)
     and David Goodger
     (<a href="mailto:goodger@python.org">goodger@python.org</a>)
-    </p>
+     </p>
 </address>
     <!-- Created: Fri Aug 03 09:11:57 GMT Daylight Time 2001 -->
 </div>
     </div>
     
-
 </article>
 </div>
-        <!--End of body content-->
+            </div>
+        </div>
+        <button class="btn btn-fab btn-raised btn-material-green btn-footer" data-toggle="modal" data-target="#footer-dialog">
+            <i class="mdi-communication-message"></i>
+        </button>
+        <div id="footer-dialog" class="modal fade" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Antipodae&nbsp;credits</h4>
+ 
+              </div>
+              <div class="modal-body">
+                    Contents © 2017         <a href="mailto:mathieu@antipodae.fr">Mathieu Clabaut</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-dismiss="modal">Ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="source-button">
+    <a class="btn btn-fab btn-raised btn-material-indigo" target="_blank" href="index.rst" title="Source">
+        <i class="mdi-file-cloud-download"></i>
+    </a>
 
-        <footer id="footer">
-            Contents © 2017         <a href="mailto:mathieu@antipodae.fr">Mathieu Clabaut</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-            
-        </footer>
+        </div>
+        <div class="kc_fab_wrapper"></div>
 </div>
-</div>
 
+            <script src="../../assets/js/all-nocdn.js"></script><script>
+                var links = [
+                        {
+                            "bgcolor": "#F44336",
+                            "icon": "<i class='fa fa-share-square-o'></i>",
+                        },
+                        {
+                            "url": "https://twitter.com/",
+                            "bgcolor": "#55ACEE",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-twitter'></i>",
+                            "target": "_blank",
+                        },
+                        {
+                            "url": "https://github.com/",
+                            "bgcolor": "#666666",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-github-square'></i>",
+                            "target": "_blank",
+                        },
+                        {
+                            "url": "https://www.facebook.com",
+                            "bgcolor": "#3B5998",
+                            "color": "#fffff",
+                            "icon": "<i class='fa fa-facebook'></i>",
+                            "target": "_blank",
+                        },
+                ];
 
-            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
+            });
+
+            $(window).on("resize", function() {
+                $("html, body").height($(window).height());
+                $(".main, .menu").height($(window).height() - $(".header-panel").outerHeight() - 76 ); // footer margin: $("footer.footer").outerHeight()
+                $(".posts-material").height($(window).height());
+            }).trigger("resize");
+        </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->
