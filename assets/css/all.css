@@ -9314,7 +9314,7 @@ p, li {text-align:justify;
 }
 .post-text{
    max-width: 52em;
-   margin: 6em 3em 0 3em;
+   padding: 6em 3em 0 3em !important;
 }
 .lead{
    font-weight:200;

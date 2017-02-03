@@ -7,214 +7,214 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://antipodae.fr/</loc>
-  <lastmod>2017-02-02T13:45:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/2017/</loc>
-  <lastmod>2017-02-01T13:33:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/archive.html</loc>
-  <lastmod>2017-02-03T22:23:00Z</lastmod>
+  <lastmod>2017-02-03T23:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/categories/</loc>
-  <lastmod>2017-02-02T22:23:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/categories/news/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/</loc>
-  <lastmod>2017-02-02T13:45:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/2017/</loc>
-  <lastmod>2017-02-01T13:34:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/archive.html</loc>
-  <lastmod>2017-02-03T22:23:00Z</lastmod>
+  <lastmod>2017-02-03T23:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/categories/</loc>
-  <lastmod>2017-02-02T22:23:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/categories/news/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/galleries/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/galleries/demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/posts/lancement-rendre-fr/</loc>
-  <lastmod>2017-02-01T08:34:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/posts/lancement-rendre-fr/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/about-nikola/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/about-nikola/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/bootstrap-demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/bootstrap-demo/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/charts/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/charts/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/creating-a-theme/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/creating-a-theme/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/dr-nikolas-vendetta/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/dr-nikolas-vendetta/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/extending/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/extending/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/handbook/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/handbook/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/internals/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/internals/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/listings-demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/listings-demo/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/path-handlers/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/path-handlers/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/quickref/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/quickref/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/quickstart/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/quickstart/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/slides-demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/slides-demo/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/social_buttons/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/social_buttons/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/theming/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/theming/" />
  </url>
  <url>
   <loc>http://antipodae.fr/galleries/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/galleries/demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/listings/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/listings/__pycache__/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/listings/hello.py.html</loc>
-  <lastmod>2017-02-03T22:23:00Z</lastmod>
+  <lastmod>2017-02-03T23:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/posts/lancement-rendre-fr/</loc>
-  <lastmod>2017-02-01T13:26:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/about-nikola/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/bootstrap-demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/charts/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/creating-a-theme/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/dr-nikolas-vendetta/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/extending/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/handbook/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/internals/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/listings-demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/path-handlers/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/quickref/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/quickstart/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/slides-demo/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/social_buttons/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/stories/theming/</loc>
-  <lastmod>2016-08-24T16:29:00Z</lastmod>
+  <lastmod>2017-02-03T22:55:00Z</lastmod>
  </url>
 </urlset>
