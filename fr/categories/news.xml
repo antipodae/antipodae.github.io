@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae (Articles sur news)</title><link>https://antipodae.fr/</link><description></description><atom:link href="https://antipodae.fr/fr/categories/news.xml" rel="self" type="application/rss+xml"></atom:link><language>fr</language><lastBuildDate>Thu, 02 Feb 2017 22:17:12 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Lancement de rendre.fr</title><link>https://antipodae.fr/fr/posts/lancement-rendre-fr/</link><dc:creator>matclab</dc:creator><description>&lt;div&gt;&lt;p&gt;Cer­tains ob­jets nous sont pré­cieux.
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae (Articles sur news)</title><link>http://antipodae.fr/</link><description></description><atom:link href="http://antipodae.fr/fr/categories/news.xml" rel="self" type="application/rss+xml"></atom:link><language>fr</language><lastBuildDate>Fri, 03 Feb 2017 22:23:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Lancement de rendre.fr</title><link>http://antipodae.fr/fr/posts/lancement-rendre-fr/</link><dc:creator>matclab</dc:creator><description>&lt;div&gt;&lt;p&gt;Cer­tains ob­jets nous sont pré­cieux.
 ­Non pas que leur va­leur soit éle­vée, mais ils sont peut-­être por­teurs d'un
 ­sou­ve­nir qui nous est cher, ou tout sim­ple­ment, nous sont in­dis­pen­sables dans
 ­notre quo­ti­dien —   &lt;em&gt;jeu de clef, pa­piers, carte bleue, té­lé­pho­ne, sac à main&lt;/em&gt;,
@@ -14,7 +14,7 @@ les frais ou dé­marches in­duits.&lt;/p&gt;
 ­na­tu­re, nous avons mis en place un sys­tème qui per­met aux per­sonnes trou­vant
 un ob­jet, de ren­trer fa­ci­le­ment en contact avec son pro­prié­taire.&lt;/p&gt; 
  &lt;!-- TODO: Lien vers article scientifique sur la bonté naturelle de l'homme. --&gt;
-&lt;object class="pull-right" data="https://antipodae.fr/images/logolostre.svg" style="width: 200px;" type="image/svg+xml"&gt;
+&lt;object class="pull-right" data="http://antipodae.fr/images/logolostre.svg" style="width: 200px;" type="image/svg+xml"&gt;
 logo de rendre.fr&lt;/object&gt;
 &lt;p&gt;L'idée prin­ci­pale — ­qui en soi n'est pas nou­vel­le — est de mar­quer les ob­jets
 a­vec un iden­ti­fiant qui per­met à la per­sonne qui trouve l'ob­jet, d'en­trer en
@@ -22,22 +22,30 @@ a­vec un iden­ti­fiant qui per­met à la per­sonne qui trouve l'ob­jet, d'
 a­dresses in­ter­net (URL), re­con­nais­sables comme telles.&lt;/p&gt; 
  &lt;div class="section" id="http-rendre-fr"&gt;
 &lt;h2&gt;&lt;a class="reference external" href="http://rendre.fr"&gt;http://rendre.fr&lt;/a&gt;&lt;/h2&gt;
-&lt;p class="ad"&gt;C'est ain­si que nous avons créé le site  &lt;a class="reference external" href="http://rendre.fr"&gt;http://­rendre.­fr&lt;/a&gt;.  La  &lt;a class="reference external" href="http://rendre.fr"&gt;pa­ge
-­d'ac­cueil&lt;/a&gt;  et la  &lt;a class="reference external" href="http://rendre.fr"&gt;FAQ&lt;/a&gt;  de­vrait être
-as­sez ex­pli­cite sur le ser­vice ren­du.&lt;/p&gt; 
- &lt;p&gt;Les points dif­fé­ren­ciant sont les sui­vants :&lt;/p&gt; 
- &lt;ul class="simple"&gt;
-&lt;li&gt;nous ne four­nis­sons pas d'éti­quet­te, car il est dif­fi­cile de four­nir des
-­for­mats ap­pro­priés aux dif­fé­rents usages. Vous pou­vez uti­li­ser tout moyen à
-­votre dis­po­si­tion pour mar­quez vos ob­jets.
-­Nous uti­li­sons fré­quem­ment des éti­quettes pro­duites à l'aide d'une
- &lt;a class="reference external" href="https://rendre.fr/manage_/faq#comment-marquer-mes-objets"&gt;im­pri­mante adé­quate&lt;/a&gt;  (20 € en
-­li­gne), ou bien des éti­quettes tex­tiles  &lt;a class="reference external" href="https://rendre.fr/manage_/faq#vendez-vous-des-tiquettes"&gt;ache­tées en ligne&lt;/a&gt;.&lt;/li&gt; 
- &lt;li&gt;le ser­vice est éco­no­mi­que, avec un abon­ne­ment an­nuel de 5 €. L'idée est là
-aus­si de pou­voir ren­trer dans les frais d'hé­ber­ge­ment et de dé­ve­lop­pe­ment,
-­mais guère plus.&lt;/li&gt; 
+&lt;p class="ad"&gt;C'est ain­si que nous avons créé le site  &lt;a class="reference external" href="http://rendre.fr"&gt;http://­rendre.­fr&lt;/a&gt;.  N'hé­si­tez pas à
+­con­sul­ter la  &lt;a class="reference external" href="http://rendre.fr"&gt;page d'ac­cueil&lt;/a&gt;  et la  &lt;a class="reference external" href="http://rendre.fr"&gt;FAQ&lt;/a&gt;  pour en sa­voir plus.&lt;/p&gt; 
+ &lt;p&gt;Dans les grandes li­gnes, les par­ti­cu­la­ri­tés du ser­vice sont les sui­van­tes :&lt;/p&gt; 
+ &lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;le ser­­vice est éco­­no­­mi­­que, avec un abon­­ne­­ment an­­nuel de 5 €. L'idée est là
+aus­­si de pou­­voir ren­­trer dans les frais d'hé­­ber­­ge­­ment et de dé­­ve­­lop­­pe­­ment,
+­­mais guère plus.&lt;/p&gt;  
+  &lt;/li&gt; 
+ &lt;li&gt;&lt;p class="first"&gt;cha­­cun peut choi­­sir le nom de do­­maine qu'il pense être le plus à même d'être
+­­re­­con­­nu ou com­­pris par la per­­sonne qui trouve l'ob­­jet.&lt;/p&gt;  
+  &lt;p&gt;Ain­­si en Fran­­ce, on pour­­ra uti­­li­­ser   &lt;tt class="docutils literal"&gt;cqi.­­fr&lt;/tt&gt;   ou   &lt;tt class="docutils literal"&gt;rendre.­­fr&lt;/tt&gt;. Dans des pays
+an­­glo-­­saxons,   &lt;tt class="docutils literal"&gt;bback.org&lt;/tt&gt;,   &lt;tt class="docutils literal"&gt;bback.me&lt;/tt&gt;   se­­ront plus adap­­tés. Pour les
+­­néer­­lan­­dais,   &lt;tt class="docutils literal"&gt;kwi­­jt.­­nu&lt;/tt&gt;   se­­ra plus ap­­pro­­prié. Plus glo­­ba­­le­­ment, les do­­mai­­nes
+  &lt;tt class="docutils literal"&gt;hooz.it&lt;/tt&gt;   et   &lt;tt class="docutils literal"&gt;lost.re&lt;/tt&gt;   sont aus­­si dis­­po­­nibles.&lt;/p&gt;  
+  &lt;/li&gt; 
+ &lt;li&gt;&lt;p class="first"&gt;nous ne four­­nis­­sons pas d'éti­­quet­­te, car il est dif­­fi­­cile de four­­nir des
+­­for­­mats ap­­pro­­priés aux dif­­fé­­rents usages. Vous pou­­vez uti­­li­­ser tout moyen à
+­­votre dis­­po­­si­­tion pour mar­­quez vos ob­­jets.&lt;/p&gt;  
+  &lt;p&gt;Nous uti­­li­­sons fré­­quem­­ment des éti­­quettes pro­­duites à l'aide d'une
+  &lt;a class="reference external" href="https://rendre.fr/manage_/faq#comment-marquer-mes-objets"&gt;im­­pri­­mante adé­­quate&lt;/a&gt;   (20 € en
+­­li­­gne), ou bien des éti­­quettes tex­­tiles   &lt;a class="reference external" href="https://rendre.fr/manage_/faq#vendez-vous-des-tiquettes"&gt;ache­­tées en ligne&lt;/a&gt;.&lt;/p&gt;  
+  &lt;/li&gt; 
  &lt;/ul&gt;
-&lt;p class="ad"&gt;Cô­té tech­ni­que, la so­lu­tion est dé­ve­lop­pée en Py­thon sur le  &lt;a class="reference external" href="https://antipodae.fr/fr/posts/lancement-rendre-fr/web2py.org"&gt;fra­me­work
-­Web2­py&lt;/a&gt;. Elle est hé­ber­gée par la so­lu­tion  &lt;em&gt;Google App
+&lt;p class="ad"&gt;Cô­té tech­ni­que, la site est dé­ve­lop­pé en Py­thon sur le  &lt;a class="reference external" href="http://antipodae.fr/fr/posts/lancement-rendre-fr/web2py.org"&gt;fra­me­work
+­Web2­py&lt;/a&gt;. Il est hé­ber­gé par la so­lu­tion  &lt;em&gt;Google App
 En­gine&lt;/em&gt;.&lt;/p&gt; 
- &lt;/div&gt;&lt;/div&gt;</description><guid>https://antipodae.fr/fr/posts/lancement-rendre-fr/</guid><pubDate>Wed, 01 Feb 2017 11:22:43 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;&lt;/div&gt;</description><guid>http://antipodae.fr/fr/posts/lancement-rendre-fr/</guid><pubDate>Wed, 01 Feb 2017 11:22:43 GMT</pubDate></item></channel></rss>

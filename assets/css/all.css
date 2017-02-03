@@ -9310,7 +9310,7 @@ p, li {text-align:justify;
     -o-hyphens: auto;
     hyphens: auto;
    /* font-family: 'Slabo 27px', serif;*/
-   font-size:120%;
+   font-size:16px;
 }
 .post-text{
    max-width: 52em;
@@ -9329,7 +9329,7 @@ h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h
 }
 
 
-p:first-child:first-line, 
+.e-content>div>p:first-child:first-line, 
 p.ad:first-line
 {
     /*text-transform:uppercase;*/
@@ -9339,7 +9339,7 @@ p.ad:first-line
     letter-spacing:1px;
 }
 
-p:first-child:first-letter, 
+.e-content>div>p:first-child:first-letter, 
 p.ad:first-letter
 {
     letter-spacing:0;
@@ -9365,9 +9365,9 @@ div.section>p {
    padding-left: 2em;
 }
 
-.post-text ul > li {
+.post-text ul > li:empty, .post-text ul>li>p.first {
    text-indent: -1.5em;
 }
-.post-text ul > li:before {
+.post-text ul > li:empty::before, .post-text ul>li>p.first::before {
    content: "—  ";
 }

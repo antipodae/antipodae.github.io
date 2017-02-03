@@ -46,29 +46,39 @@ http://rendre.fr
 
 .. class:: ad
 
-   C'est ainsi que nous avons créé le site http://rendre.fr.  La `page 
-   d'accueil <http://rendre.fr>`_ et la `FAQ <http://rendre.fr>`_ devrait être 
-   assez explicite sur le service rendu.
+   C'est ainsi que nous avons créé le site http://rendre.fr.  N'hésitez pas à
+   consulter la `page d'accueil <http://rendre.fr>`_ et la `FAQ
+   <http://rendre.fr>`_ pour en savoir plus.
    
-Les points différenciant sont les suivants :
+Dans les grandes lignes, les particularités du service sont les suivantes :
+
+- le service est économique, avec un abonnement annuel de 5 €. L'idée est là 
+  aussi de pouvoir rentrer dans les frais d'hébergement et de développement, 
+  mais guère plus.
+
+- chacun peut choisir le nom de domaine qu'il pense être le plus à même d'être
+  reconnu ou compris par la personne qui trouve l'objet.
+
+  Ainsi en France, on pourra utiliser ``cqi.fr`` ou ``rendre.fr``. Dans des pays
+  anglo-saxons, ``bback.org``, ``bback.me`` seront plus adaptés. Pour les
+  néerlandais, ``kwijt.nu`` sera plus approprié. Plus globalement, les domaines
+  ``hooz.it`` et ``lost.re`` sont aussi disponibles.
 
 - nous ne fournissons pas d'étiquette, car il est difficile de fournir des 
   formats appropriés aux différents usages. Vous pouvez utiliser tout moyen à 
   votre disposition pour marquez vos objets.
+
   Nous utilisons fréquemment des étiquettes produites à l'aide d'une 
   `imprimante adéquate 
   <https://rendre.fr/manage_/faq#comment-marquer-mes-objets>`_ (20 € en 
   ligne), ou bien des étiquettes textiles `achetées en ligne 
   <https://rendre.fr/manage_/faq#vendez-vous-des-tiquettes>`_.
-- le service est économique, avec un abonnement annuel de 5 €. L'idée est là 
-  aussi de pouvoir rentrer dans les frais d'hébergement et de développement, 
-  mais guère plus.
 
 .. class:: ad
 
-   Côté technique, la solution est développée en Python sur le `framework 
-   Web2py <web2py.org>`_. Elle est hébergée par la solution *Google App 
-   Engine*.
+   Côté technique, la site est développé en Python sur le `framework 
+   Web2py <web2py.org>`_. Il est hébergé par la solution *Google App 
+   Engine*. 
 
 
 

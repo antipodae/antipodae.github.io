@@ -1,4 +1,4 @@
-Sitemap: https://antipodae.fr/sitemapindex.xml
+Sitemap: http://antipodae.fr/sitemapindex.xml
 
 User-Agent: *
 Host: antipodae.fr
