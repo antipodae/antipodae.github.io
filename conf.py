@@ -17,11 +17,11 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Mathieu Clabaut"  # (translatable)
+BLOG_AUTHOR = "matclab"  # (translatable)
 BLOG_TITLE = "Antipodae"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://antipodae.fr/"
+SITE_URL = "http://antipodae.fr/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://antipodae.fr/"
@@ -1161,13 +1161,13 @@ UNSLUGIFY_TITLES = True
 # Uncomment and modify to following lines to match your accounts.
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
-# TWITTER_CARD = {
-#     # 'use_twitter_cards': True,  # enable Twitter Cards
-#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
-#                                   # see https://dev.twitter.com/cards/types
-#     # 'site': '@website',         # twitter nick for the website
-#     # 'creator': '@username',     # Username for the content creator / author.
-# }
+TWITTER_CARD = {
+      'use_twitter_cards': True,  # enable Twitter Cards
+      'card': 'summary',          # Card type, you can also use 'summary_large_image',
+                                  # see https://dev.twitter.com/cards/types
+      'site': '@antipodaefr',         # twitter nick for the website
+      'creator': '@antipodaefr',     # Username for the content creator / author.
+ }
 
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
