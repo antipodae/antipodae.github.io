@@ -131,14 +131,16 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/stories/antipodae.html", "Company"),
         ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
+        #("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
 
     "fr": (
+        ("fr//stories/antipodae.html", "Société"),
         ("/fr/archive.html", "Archives"),
-        ("/fr/categories/", "Étiquettes"),
+        #("/fr/categories/", "Étiquettes"),
         ("/fr/rss.xml", "Flux RSS"),
     ),
 }
