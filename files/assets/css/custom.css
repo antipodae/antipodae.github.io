@@ -33,7 +33,7 @@ h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h
 }
 
 
-.e-content>div>p:first-child:first-line, 
+/*.e-content>div>p:first-child:first-line, */
 p.ad:first-line
 {
     /*text-transform:uppercase;*/
@@ -43,7 +43,8 @@ p.ad:first-line
     letter-spacing:1px;
 }
 
-.e-content>div>p:first-child:first-letter, 
+
+/*.e-content>div>p:first-child:first-letter, */
 p.ad:first-letter
 {
     letter-spacing:0;
@@ -74,4 +75,40 @@ div.section>p {
 }
 .post-text ul > li:empty::before, .post-text ul>li>p.first::before {
    content: "—  ";
+}
+
+p.quote, p.quote-en  {
+   font-size:2em;
+   font-style:italic;
+   font-weight:400;
+   font-family: 'Playfair Display', serif;
+   position: relative;
+   margin: 0.5em;
+   padding:1em 0.5em 0.5em 3em;
+}
+p.quote::before, 
+p.quote-en::before {
+   position: absolute;
+   content: "“";
+    font-family: 'Playfair Display', serif;
+   font-weight:bold;
+   
+   font-size:6em;
+   line-height: 1;
+   color: #009688;
+   top:0;
+   left:0;
+}
+p.quote::after,
+p.quote-en::after {
+   position: absolute;
+   content: "”";
+    font-family: 'Playfair Display', serif;
+   font-weight:bold;
+   font-size:6em;
+   color: #009688;
+   line-height:1;
+   float:right;
+   top:0;
+   right:0;
 }

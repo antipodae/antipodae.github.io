@@ -1,26 +1,20 @@
-.. title: bback.me goes live
-.. slug: bback-me-goes-live
+.. title: Lancement de rendre.fr
+.. slug: lancement-rendre-fr
 .. date: 2017-02-01 12:22:43 UTC+01:00
 .. tags: news
 .. author: matclab
-.. link: https://bback.me
-.. description: bback.me goes live
+.. link: https://rendre.fr
+.. description: Lancement de rendre.fr
 .. category: 
 
 
-
-.. class:: "quote-en"
-
-   My precious…
-
 .. class:: ad
 
-   Some objects are precious to us.
-   Not that they cost a lot, but they may carry a
-   Non pas que leur valeur soit élevée, mais ils sont peut-être porteurs d'un
-   souvenir qui nous est cher, ou tout simplement, nous sont indispensables dans
-   notre quotidien —  *jeu de clef, papiers, carte bleue, téléphone, sac à main*,
-   mais aussi *doudou, manteau, valises…*
+   Certains objets nous sont précieux.  Non pas que leur valeur soit élevée,
+   mais ils sont peut-être porteurs d'un souvenir qui nous est cher, ou tout
+   simplement, nous sont indispensables dans notre quotidien —  *jeu de clef,
+   papiers, carte bleue, téléphone, sac à main*, mais aussi *doudou, manteau,
+   valises…*
 
 Il nous est tous arrivé d'être gêné par la perte d'un objet et de regretter
 les frais ou démarches induits.
