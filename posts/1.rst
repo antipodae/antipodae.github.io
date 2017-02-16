@@ -16,7 +16,7 @@
    Not that they cost a lot, but they may carry a good memory, have some
    sentimental value or more simply, be essential to our day to day
    life — *keychain, credit card, phone, handbag*, but also, *baby's
-   comforter, luggage, coat*.
+   comforter, luggage or coat*.
 
 We have all experienced the troubles of having lost one of our belonging and
 their impact on our day to day life, either because of the costs incurred or
@@ -28,7 +28,7 @@ touch with their owner.
 
 .. class:: ad
 
-  Having experience those situations, and being convinced that the human being
+  Having experienced those situations, and being convinced that the human being
   is good by nature and is willing to help, we set up a system which would
   allow people finding lost items to easily get in touch with their owner.
 
@@ -37,7 +37,7 @@ touch with their owner.
 .. image:: /images/logolostre.svg
      :class: "pull-right"
      :width: 200px
-     :alt: logo de rendre.fr
+     :alt: bback.me logo
 
 
 The main idea — which is not new in itself — is to mark the objects with an ID
