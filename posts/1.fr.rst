@@ -12,12 +12,12 @@
 
    Certains objets nous sont précieux.  Non pas que leur valeur soit élevée,
    mais ils sont peut-être porteurs d'un souvenir qui nous est cher, ou tout
-   simplement, nous sont indispensables dans notre quotidien —  *jeu de clef,
+   simplement, nous sont indispensables dans notre quotidien — *jeu de clef,
    papiers, carte bleue, téléphone, sac à main*, mais aussi *doudou, manteau,
    valises…*
 
 Il nous est tous arrivé d'être gêné par la perte d'un objet et de regretter
-les frais ou démarches induits.
+les frais occasionnés ou le fardeau administratif qui en découle.
 
 Mais il nous est aussi arriver de trouver un doudou, un vêtement, voir un
 trousseau de clefs ou un ordinateur portable oublié dans le métro, sans pouvoir
@@ -48,8 +48,8 @@ http://rendre.fr
 .. class:: ad
 
    C'est ainsi que nous avons créé le site http://rendre.fr.  N'hésitez pas à
-   consulter la `page d'accueil <http://rendre.fr>`_ et la `FAQ
-   <http://rendre.fr>`_ pour en savoir plus.
+   consulter la `page d'accueil <https://rendre.fr>`_ et la `FAQ
+   <https://rendre.fr/manage_/faq>`_ pour en savoir plus.
    
 Dans les grandes lignes, les particularités du service sont les suivantes :
 

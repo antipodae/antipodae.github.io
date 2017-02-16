@@ -9,32 +9,28 @@
 
 
 
-.. class:: "quote-en"
-
-   My precious…
 
 .. class:: ad
 
    Some objects are precious to us.
-   Not that they cost a lot, but they may carry a
-   Non pas que leur valeur soit élevée, mais ils sont peut-être porteurs d'un
-   souvenir qui nous est cher, ou tout simplement, nous sont indispensables dans
-   notre quotidien —  *jeu de clef, papiers, carte bleue, téléphone, sac à main*,
-   mais aussi *doudou, manteau, valises…*
+   Not that they cost a lot, but they may carry a good memory, have some
+   sentimental value or more simply, be essential to our day to day
+   life — *keychain, credit card, phone, handbag*, but also, *baby's
+   comforter, luggage, coat*.
 
-Il nous est tous arrivé d'être gêné par la perte d'un objet et de regretter
-les frais ou démarches induits.
-
-Mais il nous est aussi arriver de trouver un doudou, un vêtement, voir un
-trousseau de clefs ou un ordinateur portable oublié dans le métro, sans pouvoir
-rien faire d'autre que de le laisser en évidence ou au mieux, le rapporter au
-commissariat le plus proche ; deux actions dénuées d'efficacité.
+We have all experienced the troubles of having lost one of our belonging and
+their impact on our day to day life, either because of the costs incurred or
+the additional administrative burden.
+   
+Sometime, we also find a forgotten garment, a key or even a laptop 
+on public transportation. We would like to help, but have no way to get in
+touch with their owner. 
 
 .. class:: ad
 
-  Fort de ces retours d'expérience et du constat que l'homme est bon par
-  nature, nous avons mis en place un système qui permet aux personnes trouvant
-  un objet, de rentrer facilement en contact avec son propriétaire.
+  Having experience those situations, and being convinced that the human being
+  is good by nature and is willing to help, we set up a system which would
+  allow people finding lost items to easily get in touch with their owner.
 
   .. TODO: Lien vers article scientifique sur la bonté naturelle de l'homme.
 
@@ -43,48 +39,47 @@ commissariat le plus proche ; deux actions dénuées d'efficacité.
      :width: 200px
      :alt: logo de rendre.fr
 
-L'idée principale — qui en soi n'est pas nouvelle — est de marquer les objets
-avec un identifiant qui permet à la personne qui trouve l'objet, d'entrer en
-contact avec son propriétaire. La nouveauté est de marquer les objets avec des
-adresses internet (URL), reconnaissables comme telles.
 
-http://rendre.fr
-================
+The main idea — which is not new in itself — is to mark the objects with an ID
+which allows people finding them to get in touch with the owner. The novelty
+is to use an ID which is an internet address (URL), and which is easily
+recognizable as such.
+
+http://bback.me
+===============
 
 .. class:: ad
 
-   C'est ainsi que nous avons créé le site http://rendre.fr.  N'hésitez pas à
-   consulter la `page d'accueil <http://rendre.fr>`_ et la `FAQ
-   <http://rendre.fr>`_ pour en savoir plus.
+   We have thus designed the web site http://bback.me. You may browse and
+   read the `main page <https://bback.me>`_ and the `FAQ
+   <https://bback.me/manage_/faq>`_ to know more.
    
-Dans les grandes lignes, les particularités du service sont les suivantes :
+Outlined, the specificities of the service are:
 
-- le service est économique, avec un abonnement annuel de 5 €. L'idée est là 
-  aussi de pouvoir rentrer dans les frais d'hébergement et de développement, 
-  mais guère plus.
+- Cheap, with an annual registration fee of €5. The idea is to be able to pay
+  for hosting and development, but not more.
+  
+- Everybody can choose the URL they think will be easily reckoned or
+  understood by the person who will find the lost item.
+  
+  Thus in English spoken country, one would probably use ``bback.org``,
+  ``bback.me`` or ``lost.re``. In France, ``cqi.fr`` or ``rendre.fr`` would be
+  more appropriate whereas ``kwijt.nu`` would be used in Netherlands. 
+  The domain ``hooz.it`` is also available.
 
-- chacun peut choisir le nom de domaine qu'il pense être le plus à même d'être
-  reconnu ou compris par la personne qui trouve l'objet.
-
-  Ainsi en France, on pourra utiliser ``cqi.fr`` ou ``rendre.fr``. Dans des pays
-  anglo-saxons, ``bback.org``, ``bback.me`` seront plus adaptés. Pour les
-  néerlandais, ``kwijt.nu`` sera plus approprié. Plus globalement, les domaines
-  ``hooz.it`` et ``lost.re`` sont aussi disponibles.
-
-- nous ne fournissons pas d'étiquette, car il est difficile de fournir des 
-  formats appropriés aux différents usages. Vous pouvez utiliser tout moyen à 
-  votre disposition pour marquez vos objets.
-
-  Nous utilisons fréquemment des étiquettes produites à l'aide d'une 
-  `imprimante adéquate 
-  <https://rendre.fr/manage_/faq#comment-marquer-mes-objets>`_ (20 € en 
-  ligne), ou bien des étiquettes textiles `achetées en ligne 
-  <https://rendre.fr/manage_/faq#vendez-vous-des-tiquettes>`_.
+- We do not provide labels to put on your belongings. It is indeed difficult
+  to design label suitable for all possible use. You can use whatever mean to
+  mark your objects:
+  
+  We frequently use label printed with an `adequate printer 
+  <https://bback.me/manage_/faq#how-can-i-mark-my-objects>`_ (bought €20
+  online), or `textile labels
+  <https://bback.me/manage_/faq#do-you-sell-labels>`_.
 
 .. class:: ad
 
-   Côté technique, la site est développé en Python sur le `framework 
-   Web2py <web2py.org>`_. Il est hébergé par la solution *Google App 
+   On the technical side, the website is written in Python with the help of
+   the `Web2py framework <web2py.org>`_. It is hosted on *Google App 
    Engine*. 
 
 

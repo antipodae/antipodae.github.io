@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "matclab"  # (translatable)
+BLOG_AUTHOR = "webmaster"  # (translatable)
 BLOG_TITLE = "Antipodae"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -25,8 +25,9 @@ SITE_URL = "http://antipodae.fr/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://antipodae.fr/"
-BLOG_EMAIL = "mathieu@antipodae.fr"
-BLOG_DESCRIPTION = "Blog for Antipodae"  # (translatable)
+BLOG_EMAIL = "webmaster@antipodae.fr"
+BLOG_DESCRIPTION = {'en': "Antipodae Blog",
+                    'fr': "Blog d'Antipodae"} # (translatable)
 
 # Nikola is multilingual!
 #
@@ -131,14 +132,14 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/stories/antipodae.html", "Company"),
+        #("/stories/antipodae.html", "Company"),
         ("/archive.html", "Archive"),
         #("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
 
     "fr": (
-        ("fr//stories/antipodae.html", "Société"),
+        #("fr//stories/antipodae.html", "Société"),
         ("/fr/archive.html", "Archives"),
         #("/fr/categories/", "Étiquettes"),
         ("/fr/rss.xml", "Flux RSS"),
@@ -147,8 +148,9 @@ NAVIGATION_LINKS = {
 
 # Name of the theme to use.
 #THEME = "bootstrap3"
-THEME = "readable"
 THEME = "material-theme"
+THEME = "readable"
+THEME = "antipodae"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -224,7 +226,7 @@ TIMEZONE = "Europe/Paris"
 # 2 = using a string like “2 days ago”
 #
 # Your theme must support it, bootstrap and bootstrap3 already do.
-# DATE_FANCINESS = 0
+DATE_FANCINESS = 2
 
 # While Nikola can select a sensible locale for each language,
 # sometimes explicit control can come handy.
@@ -845,7 +847,10 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = {
+    'en': 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> — Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a> — <a href="/stories/legal/index.html">legal stuff</a>         {license}',
+    'fr': '&copy; {date}         <a href="mailto:{email}">{author}</a> — Propulsé par         <a href="https://getnikola.com" rel="nofollow">Nikola</a>  — <a href="/fr/stories/legal/index.html">mentions légales</a>        {license}',
+}
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
