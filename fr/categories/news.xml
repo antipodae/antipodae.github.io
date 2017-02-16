@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae (Articles sur news)</title><link>http://antipodae.fr/</link><description></description><atom:link href="http://antipodae.fr/fr/categories/news.xml" rel="self" type="application/rss+xml"></atom:link><language>fr</language><lastBuildDate>Fri, 03 Feb 2017 22:55:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Lancement de rendre.fr</title><link>http://antipodae.fr/fr/posts/lancement-rendre-fr/</link><dc:creator>matclab</dc:creator><description>&lt;div&gt;&lt;p&gt;Cer­tains ob­jets nous sont pré­cieux.
-­Non pas que leur va­leur soit éle­vée, mais ils sont peut-­être por­teurs d'un
-­sou­ve­nir qui nous est cher, ou tout sim­ple­ment, nous sont in­dis­pen­sables dans
-­notre quo­ti­dien —   &lt;em&gt;jeu de clef, pa­piers, carte bleue, té­lé­pho­ne, sac à main&lt;/em&gt;,
-­mais aus­si  &lt;em&gt;dou­dou, man­teau, va­li­ses…&lt;/em&gt;&lt;/p&gt; 
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae (Articles sur news)</title><link>http://antipodae.fr/</link><description></description><atom:link href="http://antipodae.fr/fr/categories/news.xml" rel="self" type="application/rss+xml"></atom:link><language>fr</language><lastBuildDate>Thu, 16 Feb 2017 18:00:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Lancement de rendre.fr</title><link>http://antipodae.fr/fr/posts/lancement-rendre-fr/</link><dc:creator>matclab</dc:creator><description>&lt;div&gt;&lt;p class="ad"&gt;Cer­tains ob­jets nous sont pré­cieux.  Non pas que leur va­leur soit éle­vée,
+­mais ils sont peut-­être por­teurs d'un sou­ve­nir qui nous est cher, ou tout
+­sim­ple­ment, nous sont in­dis­pen­sables dans notre quo­ti­dien —  &lt;em&gt;jeu de clef,
+­pa­piers, carte bleue, té­lé­pho­ne, sac à main&lt;/em&gt;, mais aus­si  &lt;em&gt;dou­dou, man­teau,
+­va­li­ses…&lt;/em&gt;&lt;/p&gt; 
  &lt;p&gt;Il nous est tous ar­ri­vé d'être gê­né par la perte d'un ob­jet et de re­gret­ter
-les frais ou dé­marches in­duits.&lt;/p&gt; 
+les frais oc­ca­sion­nés ou le far­deau ad­mi­nis­tra­tif qui en dé­coule.&lt;/p&gt; 
  &lt;p&gt;Mais il nous est aus­si ar­ri­ver de trou­ver un dou­dou, un vê­te­ment, voir un
 ­trous­seau de clefs ou un or­di­na­teur por­table ou­blié dans le mé­tro, sans pou­voir
 ­rien faire d'autre que de le lais­ser en évi­dence ou au mieux, le rap­por­ter au
@@ -23,7 +23,7 @@ a­dresses in­ter­net (URL), re­con­nais­sables comme telles.&lt;/p&gt;
  &lt;div class="section" id="http-rendre-fr"&gt;
 &lt;h2&gt;&lt;a class="reference external" href="http://rendre.fr"&gt;http://rendre.fr&lt;/a&gt;&lt;/h2&gt;
 &lt;p class="ad"&gt;C'est ain­si que nous avons créé le site  &lt;a class="reference external" href="http://rendre.fr"&gt;http://­rendre.­fr&lt;/a&gt;.  N'hé­si­tez pas à
-­con­sul­ter la  &lt;a class="reference external" href="http://rendre.fr"&gt;page d'ac­cueil&lt;/a&gt;  et la  &lt;a class="reference external" href="http://rendre.fr"&gt;FAQ&lt;/a&gt;  pour en sa­voir plus.&lt;/p&gt; 
+­con­sul­ter la  &lt;a class="reference external" href="https://rendre.fr"&gt;page d'ac­cueil&lt;/a&gt;  et la  &lt;a class="reference external" href="https://rendre.fr/manage_/faq"&gt;FAQ&lt;/a&gt;  pour en sa­voir plus.&lt;/p&gt; 
  &lt;p&gt;Dans les grandes li­gnes, les par­ti­cu­la­ri­tés du ser­vice sont les sui­van­tes :&lt;/p&gt; 
  &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;le ser­­vice est éco­­no­­mi­­que, avec un abon­­ne­­ment an­­nuel de 5 €. L'idée est là
@@ -48,4 +48,4 @@ an­­glo-­­saxons,   &lt;tt class="docutils literal"&gt;bback.org&lt;/tt&gt;,
 &lt;p class="ad"&gt;Cô­té tech­ni­que, la site est dé­ve­lop­pé en Py­thon sur le  &lt;a class="reference external" href="http://antipodae.fr/fr/posts/lancement-rendre-fr/web2py.org"&gt;fra­me­work
 ­Web2­py&lt;/a&gt;. Il est hé­ber­gé par la so­lu­tion  &lt;em&gt;Google App
 En­gine&lt;/em&gt;.&lt;/p&gt; 
- &lt;/div&gt;&lt;/div&gt;</description><guid>http://antipodae.fr/fr/posts/lancement-rendre-fr/</guid><pubDate>Wed, 01 Feb 2017 11:22:43 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;&lt;/div&gt;</description><category>news</category><guid>http://antipodae.fr/fr/posts/lancement-rendre-fr/</guid><pubDate>Wed, 01 Feb 2017 11:22:43 GMT</pubDate></item></channel></rss>

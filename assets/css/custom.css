@@ -24,16 +24,12 @@ p, li {text-align:justify;
    font-weight:200;
 }
 
-h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .s
-    font-size: 100%;
-    font-weight:200;
-}
 .light {
     font-weight:200;
 }
 
 
-.e-content>div>p:first-child:first-line, 
+/*.e-content>div>p:first-child:first-line, */
 p.ad:first-line
 {
     /*text-transform:uppercase;*/
@@ -43,7 +39,8 @@ p.ad:first-line
     letter-spacing:1px;
 }
 
-.e-content>div>p:first-child:first-letter, 
+
+/*.e-content>div>p:first-child:first-letter, */
 p.ad:first-letter
 {
     letter-spacing:0;
@@ -65,6 +62,10 @@ div.section>p {
    border: 0px;
 }
 
+ul > li {
+    list-style: none;
+}
+
 .post-text ul {
    padding-left: 2em;
 }
@@ -75,3 +76,89 @@ div.section>p {
 .post-text ul > li:empty::before, .post-text ul>li>p.first::before {
    content: "—  ";
 }
+
+p.quote, p.quote-en  {
+   font-size:2em;
+   font-style:italic;
+   font-weight:400;
+   font-family: 'Playfair Display', serif;
+   position: relative;
+   margin: 0.5em;
+   padding:1em 1em 0.5em 3em;
+   text-align: justify;
+}
+p.quote::before, 
+p.quote-en::before {
+   position: absolute;
+   content: "“";
+    font-family: 'Playfair Display', serif;
+   font-weight:bold;
+   
+   font-size:4em;
+   line-height: 1;
+   color: #009688;
+   top:0.05em;
+   left:0;
+
+}
+p.quote::after,
+p.quote-en::after {
+   position: absolute;
+   content: "”";
+    font-family: 'Playfair Display', serif;
+   font-weight:bold;
+   font-size:4em;
+   color: #009688;
+   line-height:1;
+   float:right;
+   bottom:0;
+   right:0;
+}
+
+#bs-navbar, nav.navbar {
+    background-color: #009688;
+    border: 0px;
+}
+
+a {
+    color: #009688;
+}
+h2 {
+    color: #333;
+}
+
+#bs-navbar ul li a {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    display: block;
+    outline: 0;
+    text-align: right;
+    margin-right: 1em;
+    padding: 5 0 5 0;
+    font-weight:400;
+}
+/* add indicator for external link */
+/*
+a.external:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e144"; 
+    margin: 0 0 0 .5em;
+    font-size:70%;
+ }
+ */
+.e-content a {
+    background: transparent none repeat scroll 0 0;
+    border-bottom: 3px solid #cbf8df;
+    box-shadow: 0 -4px 0 #bef9cb inset;
+    color: #333;
+    text-decoration: none;
+    transition: background 150ms ease 0s;
+    outline:  none;
+}
+
+.e-content  a:hover, .e-content a:focus {
+    background: #bef9cb none repeat scroll 0 0;
+    text-decoration: none;
+    color: inherit;
+}
+
