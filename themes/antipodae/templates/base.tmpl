@@ -1,6 +1,18 @@
 ## -*- coding: utf-8 -*-
 <%namespace name="base" file="base_helper.tmpl" import="*" />
 <%namespace name="notes" file="annotation_helper.tmpl" import="*" />
+<!-- language redirect -->
+<script>
+if (document.location.href.endsWith("antipodae.fr/") ||
+      document.location.href.endsWith("localhost:8000/")) {
+   var lang = navigator.language.substring(0,2);
+   var redirected = sessionStorage.getItem('redirected')
+   if (lang == 'fr' && !redirected){
+      sessionStorage.setItem('redirected', true)
+      document.location.href = document.location.href + "fr/"
+   }
+}
+</script>
 ${set_locale(lang)}
 ${base.html_headstart()}
 <%block name="extra_head">
@@ -97,18 +109,6 @@ ${base.late_load_js()}
         enableTracking: true,
         urlCurl: ""
         });
-    </script>
-    <!-- language redirect -->
-    <script>
-      if (document.location.href.endsWith("antipodae.fr/") ||
-	  document.location.href.endsWith("localhost:8000/")) {
-	 var lang = navigator.language.substring(0,2);
-	 var redirected = sessionStorage.getItem('redirected')
-	 if (lang == 'fr' && !redirected){
-	    sessionStorage.setItem('redirected', true)
-	    document.location.href = document.location.href + "fr/"
-	 }
-      }
     </script>
     <!-- fancy dates -->
     <script>

@@ -72,7 +72,7 @@ Outlined, the specificities of the service are:
 
 - We do not provide labels to put on your belongings. It is indeed difficult
   to design label suitable for all possible use. You can use whatever mean to
-  mark your objects:
+  mark your objects.
   
   We frequently use labels printed with an `adequate printer 
   <https://bback.me/manage_/faq#how-can-i-mark-my-objects>`_ (bought €20
