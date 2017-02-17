@@ -4,7 +4,7 @@ h1, h2, h3, h4, div, form {
     font-weight:400;
 }
 h1 {font-weight:700;}
-.post-text h2,h3 {font-weight:200;}
+.h-entry h2, .h-entry h3 {font-weight:200;}
 body .well p, .container .well p, .container-fluid .well p, body .jumbotron p, .container .jumbotron p, .container-fluid .jumbotron p {font-weight:400;}
 p, li {text-align:justify;
     font-weight:400;
@@ -16,10 +16,14 @@ p, li {text-align:justify;
    /* font-family: 'Slabo 27px', serif;*/
    font-size:16px;
 }
-.post-text{
+.h-entry{
    max-width: 52em;
+}
+
+.body-content {
    padding: 6em 3em 0 3em !important;
 }
+
 .lead{
    font-weight:200;
 }
@@ -66,14 +70,14 @@ ul > li {
     list-style: none;
 }
 
-.post-text ul {
+.h-entry ul {
    padding-left: 2em;
 }
 
-.post-text ul > li:empty, .post-text ul>li>p.first {
+.h-entry ul > li:empty, .h-entry ul>li>p.first {
    text-indent: -1.5em;
 }
-.post-text ul > li:empty::before, .post-text ul>li>p.first::before {
+.h-entry ul > li:empty::before, .h-entry ul>li>p.first::before {
    content: "—  ";
 }
 
@@ -170,3 +174,6 @@ a.external:after {
     color: inherit;
 }
 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+   background-color: #bef9cb;
+}
