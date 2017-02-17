@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="fr">
+<html>
 <head>
-<meta charset="utf-8">
+<script>
+if (document.location.href.endsWith("antipodae.fr/") ||
+      document.location.href.endsWith("localhost:8000/")) {
+   var lang = navigator.language.substring(0,2);
+   var redirected = sessionStorage.getItem('redirected')
+   if (lang == 'fr' && !redirected){
+      sessionStorage.setItem('redirected', true)
+      document.location.href = document.location.href + "fr/"
+   }
+}
+</script><meta charset="utf-8">
 <meta name="description" content="Blog d'Antipodae">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Antipodae</title>
@@ -125,16 +135,6 @@ les frais oc­ca­sion­nés ou le far­deau ad­mi­nis­tra­tif qui en&nbsp;d
         enableTracking: true,
         urlCurl: ""
         });
-    </script><!-- language redirect --><script>
-      if (document.location.href.endsWith("antipodae.fr/") ||
-	  document.location.href.endsWith("localhost:8000/")) {
-	 var lang = navigator.language.substring(0,2);
-	 var redirected = sessionStorage.getItem('redirected')
-	 if (lang == 'fr' && !redirected){
-	    sessionStorage.setItem('redirected', true)
-	    document.location.href = document.location.href + "fr/"
-	 }
-      }
     </script><!-- fancy dates --><script>
     moment.locale("fr");
     fancydates(2, "YYYY-MM-DD HH:mm");

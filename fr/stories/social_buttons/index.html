@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="fr">
+<html>
 <head>
-<meta charset="utf-8">
+<script>
+if (document.location.href.endsWith("antipodae.fr/") ||
+      document.location.href.endsWith("localhost:8000/")) {
+   var lang = navigator.language.substring(0,2);
+   var redirected = sessionStorage.getItem('redirected')
+   if (lang == 'fr' && !redirected){
+      sessionStorage.setItem('redirected', true)
+      document.location.href = document.location.href + "fr/"
+   }
+}
+</script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Alternative Social Buttons | Antipodae</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
@@ -313,16 +323,6 @@ you have&nbsp;one.</p>
         enableTracking: true,
         urlCurl: ""
         });
-    </script><!-- language redirect --><script>
-      if (document.location.href.endsWith("antipodae.fr/") ||
-	  document.location.href.endsWith("localhost:8000/")) {
-	 var lang = navigator.language.substring(0,2);
-	 var redirected = sessionStorage.getItem('redirected')
-	 if (lang == 'fr' && !redirected){
-	    sessionStorage.setItem('redirected', true)
-	    document.location.href = document.location.href + "fr/"
-	 }
-      }
     </script><!-- fancy dates --><script>
     moment.locale("fr");
     fancydates(2, "YYYY-MM-DD HH:mm");

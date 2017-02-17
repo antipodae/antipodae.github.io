@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html>
 <head>
-<meta charset="utf-8">
+<script>
+if (document.location.href.endsWith("antipodae.fr/") ||
+      document.location.href.endsWith("localhost:8000/")) {
+   var lang = navigator.language.substring(0,2);
+   var redirected = sessionStorage.getItem('redirected')
+   if (lang == 'fr' && !redirected){
+      sessionStorage.setItem('redirected', true)
+      document.location.href = document.location.href + "fr/"
+   }
+}
+</script><meta charset="utf-8">
 <meta name="description" content="Antipodae Blog">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Posts for year 2017 | Antipodae</title>
@@ -98,16 +108,6 @@
         enableTracking: true,
         urlCurl: ""
         });
-    </script><!-- language redirect --><script>
-      if (document.location.href.endsWith("antipodae.fr/") ||
-	  document.location.href.endsWith("localhost:8000/")) {
-	 var lang = navigator.language.substring(0,2);
-	 var redirected = sessionStorage.getItem('redirected')
-	 if (lang == 'fr' && !redirected){
-	    sessionStorage.setItem('redirected', true)
-	    document.location.href = document.location.href + "fr/"
-	 }
-      }
     </script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(2, "YYYY-MM-DD HH:mm");

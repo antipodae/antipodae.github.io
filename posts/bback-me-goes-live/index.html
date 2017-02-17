@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html>
 <head>
-<meta charset="utf-8">
+<script>
+if (document.location.href.endsWith("antipodae.fr/") ||
+      document.location.href.endsWith("localhost:8000/")) {
+   var lang = navigator.language.substring(0,2);
+   var redirected = sessionStorage.getItem('redirected')
+   if (lang == 'fr' && !redirected){
+      sessionStorage.setItem('redirected', true)
+      document.location.href = document.location.href + "fr/"
+   }
+}
+</script><meta charset="utf-8">
 <meta name="description" content="bback.me goes live">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>bback.me goes live | Antipodae</title>
@@ -136,7 +146,7 @@ The do­­main   <tt class="docutils literal">hooz.it</tt>   is al­­so&nbsp;av
  <li>
 <p class="first">We do not pro­­vide la­­bels to put on your be­­long­ings. It is in­­deed dif­­fi­cult
 ­­to de­sign la­­bel suit­­able for all pos­si­ble use. You can use what­ev­er mean to
-­­mark your&nbsp;ob­­jec­t­s:</p>  
+­­mark your&nbsp;ob­­jec­t­s.</p>  
   <p>We fre­quen­t­­ly use la­­bels print­­ed with an   <a class="reference external" href="https://bback.me/manage_/faq#how-can-i-mark-my-objects">ad­e­quate print­­er</a>   (bought €20
 on­­line), or   <a class="reference external" href="https://bback.me/manage_/faq#do-you-sell-labels">tex­tile la­­bels</a>.</p>  
   </li> 
@@ -191,16 +201,6 @@ Engine</em>.</p>
         enableTracking: true,
         urlCurl: ""
         });
-    </script><!-- language redirect --><script>
-      if (document.location.href.endsWith("antipodae.fr/") ||
-	  document.location.href.endsWith("localhost:8000/")) {
-	 var lang = navigator.language.substring(0,2);
-	 var redirected = sessionStorage.getItem('redirected')
-	 if (lang == 'fr' && !redirected){
-	    sessionStorage.setItem('redirected', true)
-	    document.location.href = document.location.href + "fr/"
-	 }
-      }
     </script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(2, "YYYY-MM-DD HH:mm");
