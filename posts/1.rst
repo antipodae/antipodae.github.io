@@ -26,6 +26,8 @@ Sometime, we also find a forgotten garment, a key or even a laptop
 on public transportation. We would like to help, but have no way to get in
 touch with their owner. 
 
+.. TEASER_END
+
 .. class:: ad
 
   Having experienced those situations, and being convinced that the human being
@@ -71,7 +73,7 @@ Outlined, the specificities of the service are:
   to design label suitable for all possible use. You can use whatever mean to
   mark your objects:
   
-  We frequently use label printed with an `adequate printer 
+  We frequently use labels printed with an `adequate printer 
   <https://bback.me/manage_/faq#how-can-i-mark-my-objects>`_ (bought €20
   online), or `textile labels
   <https://bback.me/manage_/faq#do-you-sell-labels>`_.

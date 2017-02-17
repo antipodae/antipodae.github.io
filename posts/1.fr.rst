@@ -24,6 +24,8 @@ trousseau de clefs ou un ordinateur portable oublié dans le métro, sans pouvoi
 rien faire d'autre que de le laisser en évidence ou au mieux, le rapporter au
 commissariat le plus proche ; deux actions dénuées d'efficacité.
 
+.. TEASER_END
+
 .. class:: ad
 
   Fort de ces retours d'expérience et du constat que l'homme est bon par
