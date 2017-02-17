@@ -74,7 +74,7 @@
         <div class="row">
             
             
-<article class="post- h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Lancement de&nbsp;rendre.fr</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Lancement de&nbsp;rendre.fr</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">&nbsp;matclab
@@ -192,6 +192,16 @@ En­gine</em>.</p>
         enableTracking: true,
         urlCurl: ""
         });
+    </script><!-- language redirect --><script>
+      if (document.location.href.endsWith("antipodae.fr/") ||
+	  document.location.href.endsWith("localhost:8000/")) {
+	 var lang = navigator.language.substring(0,2);
+	 var redirected = sessionStorage.getItem('redirected')
+	 if (lang == 'fr' && !redirected){
+	    sessionStorage.setItem('redirected', true)
+	    document.location.href = document.location.href + "fr/"
+	 }
+      }
     </script><!-- fancy dates --><script>
     moment.locale("fr");
     fancydates(2, "YYYY-MM-DD HH:mm");

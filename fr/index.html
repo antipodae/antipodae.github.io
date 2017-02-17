@@ -63,7 +63,7 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-"><header><h1 class="p-name entry-title"><a href="posts/lancement-rendre-fr/" class="u-url">Lancement de&nbsp;rendre.fr</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/lancement-rendre-fr/" class="u-url">Lancement de&nbsp;rendre.fr</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">&nbsp;matclab
             </span></p>
@@ -125,6 +125,16 @@ les frais oc­ca­sion­nés ou le far­deau ad­mi­nis­tra­tif qui en&nbsp;d
         enableTracking: true,
         urlCurl: ""
         });
+    </script><!-- language redirect --><script>
+      if (document.location.href.endsWith("antipodae.fr/") ||
+	  document.location.href.endsWith("localhost:8000/")) {
+	 var lang = navigator.language.substring(0,2);
+	 var redirected = sessionStorage.getItem('redirected')
+	 if (lang == 'fr' && !redirected){
+	    sessionStorage.setItem('redirected', true)
+	    document.location.href = document.location.href + "fr/"
+	 }
+      }
     </script><!-- fancy dates --><script>
     moment.locale("fr");
     fancydates(2, "YYYY-MM-DD HH:mm");

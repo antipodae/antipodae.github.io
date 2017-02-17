@@ -293,6 +293,16 @@ or with that path. For&nbsp;ex­am­ple:</p>
         enableTracking: true,
         urlCurl: ""
         });
+    </script><!-- language redirect --><script>
+      if (document.location.href.endsWith("antipodae.fr/") ||
+	  document.location.href.endsWith("localhost:8000/")) {
+	 var lang = navigator.language.substring(0,2);
+	 var redirected = sessionStorage.getItem('redirected')
+	 if (lang == 'fr' && !redirected){
+	    sessionStorage.setItem('redirected', true)
+	    document.location.href = document.location.href + "fr/"
+	 }
+      }
     </script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(2, "YYYY-MM-DD HH:mm");
