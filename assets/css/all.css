@@ -811,6 +811,7 @@ a.external:after {
     font-size:70%;
  }
  */
+
 .e-content a {
     background: transparent none repeat scroll 0 0;
     border-bottom: 3px solid #cbf8df;
@@ -819,6 +820,13 @@ a.external:after {
     text-decoration: none;
     transition: background 150ms ease 0s;
     outline:  none;
+}
+
+.e-content h2>a, .e-content h3>a, .e-content h4>a{
+   /* No decoration on hx titles */
+    text-decoration: none;
+    border-bottom: 0px;
+    box-shadow:0 0 0 0;
 }
 
 .e-content  a:hover, .e-content a:focus {

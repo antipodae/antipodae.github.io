@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://antipodae.fr/archive.html</loc>
-  <lastmod>2017-02-16T18:39:00Z</lastmod>
+  <lastmod>2017-02-17T09:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/categories/</loc>
@@ -35,7 +35,7 @@
  </url>
  <url>
   <loc>http://antipodae.fr/fr/archive.html</loc>
-  <lastmod>2017-02-16T18:39:00Z</lastmod>
+  <lastmod>2017-02-17T09:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/categories/</loc>
@@ -59,17 +59,9 @@
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/posts/bback-me-goes-live/" />
  </url>
  <url>
-  <loc>http://antipodae.fr/fr/stories/about-nikola/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/fr/stories/antipodae/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/antipodae/" />
- </url>
- <url>
-  <loc>http://antipodae.fr/fr/stories/bootstrap-demo/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/charts/</loc>
@@ -77,21 +69,9 @@
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/charts/" />
  </url>
  <url>
-  <loc>http://antipodae.fr/fr/stories/creating-a-theme/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/fr/stories/dr-nikolas-vendetta/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/fr/stories/extending/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/extending/" />
- </url>
- <url>
-  <loc>http://antipodae.fr/fr/stories/handbook/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/stories/internals/</loc>
@@ -104,34 +84,14 @@
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/legal/" />
  </url>
  <url>
-  <loc>http://antipodae.fr/fr/stories/listings-demo/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/fr/stories/path-handlers/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/path-handlers/" />
  </url>
  <url>
-  <loc>http://antipodae.fr/fr/stories/quickref/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/fr/stories/quickstart/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/fr/stories/slides-demo/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/fr/stories/social_buttons/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/stories/social_buttons/" />
- </url>
- <url>
-  <loc>http://antipodae.fr/fr/stories/theming/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/galleries/</loc>
@@ -151,7 +111,7 @@
  </url>
  <url>
   <loc>http://antipodae.fr/listings/hello.py.html</loc>
-  <lastmod>2017-02-16T18:39:00Z</lastmod>
+  <lastmod>2017-02-17T09:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/posts/bback-me-goes-live/</loc>
@@ -159,19 +119,7 @@
   <xhtml:link rel="alternate" hreflang="fr" href="http://antipodae.fr/fr/posts/lancement-rendre-fr/" />
  </url>
  <url>
-  <loc>http://antipodae.fr/posts/lancement-rendre-fr/</loc>
-  <lastmod>2017-02-03T23:10:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/stories/about-nikola/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/stories/antipodae/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/stories/bootstrap-demo/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
  <url>
@@ -179,19 +127,7 @@
   <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
  <url>
-  <loc>http://antipodae.fr/stories/creating-a-theme/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/stories/dr-nikolas-vendetta/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/stories/extending/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/stories/handbook/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
  <url>
@@ -204,31 +140,11 @@
   <xhtml:link rel="alternate" hreflang="fr" href="http://antipodae.fr/fr/stories/legal/" />
  </url>
  <url>
-  <loc>http://antipodae.fr/stories/listings-demo/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/stories/path-handlers/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
  <url>
-  <loc>http://antipodae.fr/stories/quickref/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/stories/quickstart/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/stories/slides-demo/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://antipodae.fr/stories/social_buttons/</loc>
-  <lastmod>2017-02-16T18:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://antipodae.fr/stories/theming/</loc>
   <lastmod>2017-02-16T18:00:00Z</lastmod>
  </url>
 </urlset>

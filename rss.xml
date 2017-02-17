@@ -1,49 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae</title><link>http://antipodae.fr/</link><description>Antipodae Blog</description><atom:link href="http://antipodae.fr/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 16 Feb 2017 18:00:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>bback.me goes live</title><link>http://antipodae.fr/posts/bback-me-goes-live/</link><dc:creator>matclab</dc:creator><description>&lt;div&gt;&lt;p class="ad"&gt;Some ob­jects are pre­cious to us.
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antipodae</title><link>http://antipodae.fr/</link><description>Antipodae Blog</description><atom:link href="http://antipodae.fr/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 17 Feb 2017 09:22:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>bback.me goes live</title><link>http://antipodae.fr/posts/bback-me-goes-live/</link><dc:creator>matclab</dc:creator><description>&lt;div&gt;&lt;p class="ad"&gt;Some ob­jects are pre­cious to us.
 Not that they cost a lot, but they may car­ry a good mem­o­ry, have some
 sen­ti­men­tal val­ue or more sim­ply, be es­sen­tial to our day to day
 life —  &lt;em&gt;key­chain, cred­it card, phone, hand­bag&lt;/em&gt;, but al­so,  &lt;em&gt;baby's
-­com­forter, lug­gage, coat&lt;/em&gt;.&lt;/p&gt; 
+­com­forter, lug­gage or coat&lt;/em&gt;.&lt;/p&gt; 
  &lt;p&gt;We have all ex­pe­ri­enced the trou­bles of hav­ing lost one of our be­long­ing and
 their im­pact on our day to day life, ei­ther be­cause of the costs in­curred or
 the ad­di­tion­al ad­min­is­tra­tive bur­den.&lt;/p&gt; 
  &lt;p&gt;Some­time, we al­so find a for­got­ten gar­men­t, a key or even a lap­top
 on pub­lic trans­porta­tion. We would like to help, but have no way to get in­
 ­touch with their own­er.&lt;/p&gt; 
- &lt;p class="ad"&gt;Hav­ing ex­pe­ri­ence those sit­u­a­tion­s, and be­ing con­vinced that the hu­man be­ing
-is good by na­ture and is will­ing to help, we set up a sys­tem which would
-al­low peo­ple find­ing lost items to eas­i­ly get in touch with their own­er.&lt;/p&gt; 
- &lt;!-- TODO: Lien vers article scientifique sur la bonté naturelle de l'homme. --&gt;
-&lt;object class="pull-right" data="http://antipodae.fr/images/logolostre.svg" style="width: 200px;" type="image/svg+xml"&gt;
-logo de rendre.fr&lt;/object&gt;
-&lt;p&gt;The main idea — which is not new in it­self — is to mark the ob­jects with an ID
-which al­lows peo­ple find­ing them to get in touch with the own­er. The nov­el­ty
-is to use an ID which is an in­ter­net ad­dress (URL), and which is eas­i­ly
-rec­og­niz­able as such.&lt;/p&gt; 
- &lt;div class="section" id="http-bback-me"&gt;
-&lt;h2&gt;&lt;a class="reference external" href="http://bback.me"&gt;http://bback.me&lt;/a&gt;&lt;/h2&gt;
-&lt;p class="ad"&gt;We have thus de­signed the web site  &lt;a class="reference external" href="http://bback.me"&gt;http://b­back­.me&lt;/a&gt;. You may browse and
-read the  &lt;a class="reference external" href="https://bback.me"&gt;main page&lt;/a&gt;  and the  &lt;a class="reference external" href="https://bback.me/manage_/faq"&gt;FAQ&lt;/a&gt;  to know more.&lt;/p&gt; 
- &lt;p&gt;Out­lined, the speci­fici­ties of the ser­vice are:&lt;/p&gt; 
- &lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;Cheap, with an an­nu­al reg­is­­tra­­tion fee of €5. The idea is to be able to pay
-­­for host­ing and de­vel­op­­men­t, but not more.&lt;/p&gt;  
-  &lt;/li&gt; 
- &lt;li&gt;&lt;p class="first"&gt;Ev­ery­­body can choose the URL they think will be eas­i­­ly reck­­oned or
-un­der­s­tood by the per­­son who will find the lost item.&lt;/p&gt;  
-  &lt;p&gt;Thus in En­g­lish spo­ken coun­try, one would prob­a­bly use   &lt;tt class="docutils literal"&gt;bback­­.org&lt;/tt&gt;,
-  &lt;tt class="docutils literal"&gt;bback­­.me&lt;/tt&gt;   or   &lt;tt class="docutils literal"&gt;lost.re&lt;/tt&gt;. In France,   &lt;tt class="docutils literal"&gt;cqi.fr&lt;/tt&gt;   or   &lt;tt class="docutils literal"&gt;ren­­dre.fr&lt;/tt&gt;   would be
-­­more ap­pro­pri­ate where­as   &lt;tt class="docutils literal"&gt;kwi­jt.nu&lt;/tt&gt;   would be used in Nether­­land­s.
-The do­­main   &lt;tt class="docutils literal"&gt;hooz.it&lt;/tt&gt;   is al­­so avail­able.&lt;/p&gt;  
-  &lt;/li&gt; 
- &lt;li&gt;&lt;p class="first"&gt;We do not pro­­vide la­­bels to put on your be­­long­ings. It is in­­deed dif­­fi­cult
-­­to de­sign la­­bel suit­­able for all pos­si­ble use. You can use what­ev­er mean to
-­­mark your ob­­jec­t­s:&lt;/p&gt;  
-  &lt;p&gt;We fre­quen­t­­ly use la­­bel print­­ed with an   &lt;a class="reference external" href="https://bback.me/manage_/faq#how-can-i-mark-my-objects"&gt;ad­e­quate print­­er&lt;/a&gt;   (bought €20
-on­­line), or   &lt;a class="reference external" href="https://bback.me/manage_/faq#do-you-sell-labels"&gt;tex­tile la­­bels&lt;/a&gt;.&lt;/p&gt;  
-  &lt;/li&gt; 
- &lt;/ul&gt;
-&lt;p class="ad"&gt;On the tech­ni­cal side, the web­site is writ­ten in Python with the help of
-the  &lt;a class="reference external" href="http://antipodae.fr/posts/bback-me-goes-live/web2py.org"&gt;We­b2py frame­work&lt;/a&gt;. It is host­ed on  &lt;em&gt;Google Ap­p
-Engine&lt;/em&gt;.&lt;/p&gt; 
- &lt;/div&gt;&lt;/div&gt;</description><category>news</category><guid>http://antipodae.fr/posts/bback-me-goes-live/</guid><pubDate>Wed, 01 Feb 2017 11:22:43 GMT</pubDate></item></channel></rss>
+ &lt;p&gt;&lt;a href="http://antipodae.fr/posts/bback-me-goes-live/"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>news</category><guid>http://antipodae.fr/posts/bback-me-goes-live/</guid><pubDate>Wed, 01 Feb 2017 11:22:43 GMT</pubDate></item></channel></rss>
