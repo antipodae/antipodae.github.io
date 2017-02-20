@@ -7423,7 +7423,7 @@ article.post-micro {
 
 h1, h2, h3, h4, div, form {
    /*font-family: 'Sanchez', serif;*/
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Raleway', sans-serif !important;
     font-weight:400;
 }
 h1 {font-weight:700;}
