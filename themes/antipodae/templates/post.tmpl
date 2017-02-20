@@ -51,6 +51,9 @@
     % if not post.meta('nocomments') and site_has_comments:
         <section class="comments hidden-print">
         <h2>${messages("Comments")}</h2>
+                <p
+		class="commentline">${comments.comment_link(post.permalink(),
+		post._base_path)}</p>
         ${comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path)}
         </section>
     % endif
