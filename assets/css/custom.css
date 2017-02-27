@@ -151,6 +151,12 @@ a.external:after {
  }
  */
 
+a:hover, a:focus {
+    background-color: #bef9cb;
+    color: #333;
+    text-decoration: none;
+}
+
 .e-content a {
     background: transparent none repeat scroll 0 0;
     border-bottom: 3px solid #cbf8df;
