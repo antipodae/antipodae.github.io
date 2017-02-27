@@ -1,4 +1,4 @@
-.. title: Legal Stuff
+.. title: Mentions légales
 .. slug: legal
 .. date: 2017-02-04 12:24:44 UTC+01:00
 .. tags: 
