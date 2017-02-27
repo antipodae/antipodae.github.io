@@ -20,7 +20,7 @@
 Il nous est tous arrivé d'être gêné par la perte d'un objet et de regretter
 les frais occasionnés ou le fardeau administratif qui en découle.
 
-Mais il nous est aussi arriver de trouver un doudou, un vêtement, voir un
+Mais il nous est aussi arrivé de trouver un doudou, un vêtement, voir un
 trousseau de clefs ou un ordinateur portable oublié dans le métro, sans pouvoir
 rien faire d'autre que de le laisser en évidence ou au mieux, le rapporter au
 commissariat le plus proche ; deux actions dénuées d'efficacité.
@@ -52,9 +52,8 @@ http://rendre.fr
 
    C'est ainsi que nous avons créé le site http://rendre.fr.  N'hésitez pas à
    consulter la `page d'accueil <https://rendre.fr>`_ et la `FAQ
-   <https://rendre.fr/manage_/faq>`_ pour en savoir plus.
-   
-Dans les grandes lignes, les particularités du service sont les suivantes :
+   <https://rendre.fr/manage_/faq>`_ pour en savoir plus, mais dans les
+   grandes lignes, les particularités du service sont les suivantes :
 
 - le service est économique, avec un abonnement annuel de 5 €. L'idée est là 
   aussi de pouvoir rentrer dans les frais d'hébergement et de développement, 
@@ -72,7 +71,7 @@ Dans les grandes lignes, les particularités du service sont les suivantes :
   formats appropriés aux différents usages. Vous pouvez utiliser tout moyen à 
   votre disposition pour marquez vos objets.
 
-  Nous utilisons fréquemment des étiquettes produites à l'aide d'une 
+  Par exemple, nous utilisons fréquemment des étiquettes produites à l'aide d'une 
   `imprimante adéquate 
   <https://rendre.fr/manage_/faq#comment-marquer-mes-objets>`_ (20 € en 
   ligne), ou bien des étiquettes textiles `achetées en ligne 
