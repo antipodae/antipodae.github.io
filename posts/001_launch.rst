@@ -9,6 +9,11 @@
 .. category: 
 
 
+.. image:: /images/title-bback.me.png
+     :alt: bback.me logo image
+     :class: "thumbnail img-responsive"
+     :align: center
+
 
 
 .. class:: ad

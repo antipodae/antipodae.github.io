@@ -8,6 +8,12 @@
 .. type: text
 .. category: 
 
+.. image:: /images/title-rendre.fr.png
+     :alt: image du logo de rendre.fr
+     :class: "thumbnail img-responsive"
+     :align: center
+
+
 
 .. class:: ad
 
