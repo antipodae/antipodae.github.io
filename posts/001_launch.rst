@@ -7,7 +7,7 @@
 .. description: bback.me goes live. A web site to allow you retrieving lost objects, previously marked with a short unique URL.
 .. type: text
 .. category: 
-.. previewimage: /images/title-bback.me.png
+.. previewimage: /images/title-bback.me.jpg
 
 
 

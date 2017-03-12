@@ -7,7 +7,7 @@
 .. description: Lancement de rendre.fr, un site pour marquer les objets avec une URL courte, permettant de les retrouver avec l'aide des gens.
 .. type: text
 .. category: 
-.. previewimage: /images/title-rendre.fr.png
+.. previewimage: /images/title-rendre.fr.jpg
 
 .. image:: /images/title-rendre.fr.png
      :alt: image du logo de rendre.fr
