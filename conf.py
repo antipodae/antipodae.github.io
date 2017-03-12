@@ -1170,7 +1170,7 @@ UNSLUGIFY_TITLES = True
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
 TWITTER_CARD = {
       'use_twitter_cards': True,  # enable Twitter Cards
-      'card': 'summary',          # Card type, you can also use 'summary_large_image',
+      'card': 'summary_large_image',          # Card type, you can also use 'summary_large_image',
                                   # see https://dev.twitter.com/cards/types
       'site': '@antipodaefr',         # twitter nick for the website
       'creator': '@antipodaefr',     # Username for the content creator / author.
@@ -1253,3 +1253,7 @@ GLOBAL_CONTEXT = {
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+NEW_POST_DATE_PATH = True
+
+NEW_POST_DATE_PATH_FORMAT = '%Y%m'
