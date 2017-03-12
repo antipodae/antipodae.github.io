@@ -4,9 +4,11 @@
 .. tags: news
 .. author: matclab
 .. link: https://bback.me
-.. description: bback.me goes live
+.. description: bback.me goes live. A web site to allow you retrieving lost objects, previously marked with a short unique URL.
 .. type: text
 .. category: 
+.. previewimage: /images/title-bback.me.png
+
 
 
 .. image:: /images/title-bback.me.png
