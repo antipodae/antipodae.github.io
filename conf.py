@@ -832,7 +832,7 @@ FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_re
 # {feedFormat}                  The name of the syndication format.
 # Example using replacement for use with Google Analytics:
 # "utm_source={feedRelUri}&utm_medium=nikola_feed&utm_campaign={feedFormat}_feed"
-FEED_LINKS_APPEND_QUERY = False
+FEED_LINKS_APPEND_QUERY =  "utm_source={feedRelUri}&utm_medium=nikola_feed&utm_campaign={feedFormat}_feed"
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
@@ -1127,7 +1127,16 @@ COPY_SOURCES = False
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-# BODY_END = ""
+BODY_END = """
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55431698-4', 'auto');
+  ga('send', 'pageview');
+</script>
+"""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
