@@ -10,16 +10,19 @@
 .. type: text
 
 
-The service provided by `bback.me <https://bback.me>`_ costs €5 a year, which accounts for
-hosting and development fees. Five euros a year is not much per se, but for
-some of you it is still to much for a service which does not fill a dire need.
-
-.. TEASER_END
-
 .. image:: /images/money.jpg
      :class: "pull-right"
      :width: 200px
      :alt: “Money” by Pictures of Money is licensed under CC BY 2.0 
+
+.. class:: ad
+
+   The service provided by `bback.me <https://bback.me>`_ costs €5 a year, which accounts for
+   hosting and development fees. Five euros a year is not much per se, but for
+   some of you it is still to much for a service which does not fill a dire need.
+
+.. TEASER_END
+
 
 Thus, in addition to the free test period of three months that allows you to
 test the service, we decided to offer a free service to students and to other in need.

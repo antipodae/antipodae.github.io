@@ -9,11 +9,12 @@
 .. previewimage: /images/money.jpg
 .. type: text
 
+.. class:: ad
 
-Le service fourni par `rendre.fr <https://rendre.fr>`_ coûte 5 € par an, ce
-qui permet d'assurer les frais de développement et d'hébergement. Cinq euros
-ce n'est pas beaucoup en soi, mais pour certain d'entre vous ça reste beaucoup
-pour un service qui ne correspond à aucun besoin vital.
+   Le service fourni par `rendre.fr <https://rendre.fr>`_ coûte 5 € par an, ce
+   qui permet d'assurer les frais de développement et d'hébergement. Cinq euros
+   ce n'est pas beaucoup en soi, mais pour certain d'entre vous ça reste beaucoup
+   pour un service qui ne correspond à aucun besoin vital.
 
 .. TEASER_END
 
