@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://antipodae.fr/archive.html</loc>
-  <lastmod>2017-03-16T12:22:00Z</lastmod>
+  <lastmod>2017-08-05T17:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/categories/</loc>
@@ -35,7 +35,7 @@
  </url>
  <url>
   <loc>http://antipodae.fr/fr/archive.html</loc>
-  <lastmod>2017-03-16T12:22:00Z</lastmod>
+  <lastmod>2017-08-05T17:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://antipodae.fr/fr/categories/</loc>
@@ -57,6 +57,11 @@
   <loc>http://antipodae.fr/fr/posts/201703/rendre-fr-gratuit-etudiants/</loc>
   <lastmod>2017-03-12T11:03:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/posts/201703/bbackme-gets-free-for-students/" />
+ </url>
+ <url>
+  <loc>http://antipodae.fr/fr/posts/201708/bbackme-is-now-free-for-all/</loc>
+  <lastmod>2017-08-05T17:43:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://antipodae.fr/posts/201708/bbackme-is-now-free-for-all/" />
  </url>
  <url>
   <loc>http://antipodae.fr/fr/posts/lancement-rendre-fr/</loc>
@@ -122,6 +127,11 @@
   <loc>http://antipodae.fr/posts/201703/bbackme-gets-free-for-students/</loc>
   <lastmod>2017-03-12T11:03:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="fr" href="http://antipodae.fr/fr/posts/201703/rendre-fr-gratuit-etudiants/" />
+ </url>
+ <url>
+  <loc>http://antipodae.fr/posts/201708/bbackme-is-now-free-for-all/</loc>
+  <lastmod>2017-08-05T17:43:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="http://antipodae.fr/fr/posts/201708/bbackme-is-now-free-for-all/" />
  </url>
  <url>
   <loc>http://antipodae.fr/posts/bback-me-goes-live/</loc>
