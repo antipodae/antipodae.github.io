@@ -9,6 +9,12 @@
 .. previewimage: /images/money.jpg
 .. type: text
 
+.. image:: /images/money.jpg
+     :class: "pull-right"
+     :width: 200px
+     :alt: “Money” by Pictures of Money is licensed under CC BY 2.0 
+
+
 .. class:: ad
 
    Le service fourni par `rendre.fr <https://rendre.fr>`_ coûte 5 € par an, ce
@@ -17,12 +23,6 @@
    pour un service qui ne correspond à aucun besoin vital.
 
 .. TEASER_END
-
-.. image:: /images/money.jpg
-     :class: "pull-right"
-     :width: 200px
-     :alt: “Money” by Pictures of Money is licensed under CC BY 2.0 
-
 
 C'est pourquoi, en plus de la période d'essai de trois mois qui vous permet de
 tester le service, nous avons décidé d'offrir l'abonnement aux étudiants et
