@@ -48,5 +48,8 @@ néerlandais, ``kwijt.nu`` sera plus approprié. Plus globalement, les domaines
    5 objets. Il est bien sûr possible d'acquérir plus d'identifiants pour
    marquer d'autres objets en faisant un don.
 
-N'hésitez pas à tester, à nous faire des retours et bien sûr, à partager sur vos
-réseaux.
+Et comme toujours, nous n'affichons pas de publicité ni ne vendons ou distribuons vos données personnelles.
+
+.. class:: ad
+
+   N'hésitez pas à tester, à nous faire des retours et bien sûr, à partager sur vos réseaux.

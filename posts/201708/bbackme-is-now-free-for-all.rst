@@ -45,5 +45,9 @@ The domain ``hooz.it`` is also available.
    starting with 5 objects. It is of course possible to acquire more
    IDs by making a donation.
 
-Do not hesitate to try it, make some feedbacks and of course share on your networks.
+And of course we still do not display ads nor sell or distribute your private data.
+
+.. class:: ad
+
+   Do not hesitate to try it, make some feedbacks and of course share on your networks.
 
