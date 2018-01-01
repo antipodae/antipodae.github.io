@@ -5,7 +5,7 @@
 .. category: 
 .. link: https://bback.me
 .. author: matclab
-.. previeimage: /images/keyring.jpg
+.. previewimage: /images/keyring.jpg
 .. description: bback.me is now free for everybody!
 .. type: text
 

@@ -5,7 +5,7 @@
 .. category: 
 .. link: https://rendre.fr
 .. author: matclab
-.. previeimage: /images/keyring.jpg
+.. previewimage: /images/keyring.jpg
 .. description: rendre.fr est maintenant gratuit pour tous !
 .. type: text
 

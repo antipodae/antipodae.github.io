@@ -76,7 +76,7 @@ http://rendre.fr
 
 - nous ne fournissons pas d'étiquette, car il est difficile de fournir des 
   formats appropriés aux différents usages. Vous pouvez utiliser tout moyen à 
-  votre disposition pour marquez vos objets.
+  votre disposition pour marquer vos objets.
 
   Par exemple, nous utilisons fréquemment des étiquettes produites à l'aide d'une 
   `imprimante adéquate 
@@ -86,7 +86,7 @@ http://rendre.fr
 
 .. class:: ad
 
-   Côté technique, la site est développé en Python sur le `framework 
+   Côté technique, le site est développé en Python sur le `framework 
    Web2py <web2py.org>`_. Il est hébergé par la solution *Google App 
    Engine*. 
 
