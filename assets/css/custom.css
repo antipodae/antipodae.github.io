@@ -1,3 +1,6 @@
+body {
+   font-size:16px;
+}
 h1, h2, h3, h4, div, form {
    /*font-family: 'Sanchez', serif;*/
    font-family: 'Raleway', sans-serif !important;
@@ -14,15 +17,16 @@ p, li {text-align:justify;
     -o-hyphens: auto;
     hyphens: auto;
    /* font-family: 'Slabo 27px', serif;*/
-   font-size:16px;
 }
 .body-content{
    max-width: 52em;
 }
 
+/*
 .body-content {
    padding: 6em 3em 0 3em !important;
 }
+*/
 
 .lead{
    font-weight:200;
@@ -183,3 +187,9 @@ a:hover, a:focus {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
    background-color: #bef9cb;
 }
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){
+body{font-size:18px;}}
+@media(min-width:1200px){
+body{font-size:18px;}}
